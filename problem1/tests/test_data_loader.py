@@ -32,7 +32,7 @@ def test_csv_loader(path='..\\..\\data\\01_input_history.csv'):
 def test_preprocessing(path='..\\..\\data\\01_input_history.csv'):
 
     loader = CSVLoader(path)
-    loader.load_data()
+    loader.load_data(time_years=2.)
 
     countries = loader.get_countries()
     products = loader.get_products()
@@ -53,7 +53,7 @@ def test_preprocessing(path='..\\..\\data\\01_input_history.csv'):
 
 def test_delete_pair(path='..\\..\\data\\01_input_history.csv',
                      product="MorningMint", country="Japan"):
-    loader = CSVLoader(path)
+    loader = CSVLoader(path, do_filter_zeros=False)
     loader.load_data()
     df = loader.get_dataframe()
     print(len(df))
@@ -62,8 +62,10 @@ def test_delete_pair(path='..\\..\\data\\01_input_history.csv',
     df = loader.get_dataframe()
     print(len(df))
 
+    print(loader.get_missing_combinations())
+
 
 if __name__ == '__main__':
     # test_csv_loader()
-    test_preprocessing()
-    # test_delete_pair()
+    # test_preprocessing()
+    test_delete_pair()
