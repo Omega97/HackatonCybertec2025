@@ -53,7 +53,19 @@ class CSVLoader:
         elif self.time_column:
             print("Warning: DataFrame not loaded or time column not found for preprocessing.")
 
-    def delete_rows_by_country(self, product, country, delete_set):
+    def delete_rows_by_product_and_country(self, product, country):
+        """
+        Deletes all rows with that (product, country) couple.
+        """
+        df = self.get_dataframe()
+
+        # Create a boolean mask where True indicates rows to KEEP
+        mask = ~((df['Country'] == country) & (df['Product'] == product))
+
+        # Apply the mask to select only the rows where the condition is True
+        self.dataframe = df[mask]
+
+    def _delete_product_country(self, product, country, delete_set):
         """
         Adds row indices with the given (product, country) to the delete_set.
         """
@@ -73,7 +85,7 @@ class CSVLoader:
                 if len(t) == 0:
                     continue
                 if sum(y) == 0:
-                    self.delete_rows_by_country(product, country, to_delete)
+                    self._delete_product_country(product, country, to_delete)
 
         if to_delete:
             self.dataframe = self.get_dataframe().drop(index=to_delete)
