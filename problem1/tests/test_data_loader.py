@@ -53,7 +53,7 @@ def test_preprocessing(path='..\\..\\data\\01_input_history.csv'):
 
 def test_delete_pair(path='..\\..\\data\\01_input_history.csv',
                      product="MorningMint", country="Japan"):
-    loader = CSVLoader(path, do_filter_zeros=False)
+    loader = CSVLoader(path, do_filter_zeros=True)
     loader.load_data()
     df = loader.get_dataframe()
     print(len(df))
@@ -67,5 +67,5 @@ def test_delete_pair(path='..\\..\\data\\01_input_history.csv',
 
 if __name__ == '__main__':
     # test_csv_loader()
-    # test_preprocessing()
-    test_delete_pair()
+    test_preprocessing()
+    # test_delete_pair()

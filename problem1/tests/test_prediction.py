@@ -15,15 +15,17 @@ def test_prediction(training_path='..\\..\\data\\01_input_history.csv',
 
     v = []
     for index, row in df_out.iterrows():
-        # print(f"{index} {row}")
+        if index % 100 == 0:
+            print(f'\r{(index+1)/len(df_out):.1%}', end='')
         product = row["Product"]
         country = row["Country"]
         x, y = training_df.get_time_series(product, country)
         prediction = 0
         v.append(prediction)
+    print()
 
     # df_out = df_out['col1'].apply(v)
-    print(df_out)
+    # print(df_out)
 
 
 if __name__ == '__main__':
