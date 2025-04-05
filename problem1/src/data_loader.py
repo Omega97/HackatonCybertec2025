@@ -7,7 +7,8 @@ class CSVLoader:
     A class to read data from a CSV file, load it into a Pandas DataFrame,
     perform one-hot encoding on specified columns, and convert it to a PyTorch tensor.
     """
-    def __init__(self, file_path, time_column='Month', time_format="%b%Y"):
+    def __init__(self, file_path, time_column='Month', time_format="%b%Y",
+                 do_filter_zeros=True):
         """
         Initializes the CSVLoader with the path to the CSV file.
 
@@ -17,6 +18,7 @@ class CSVLoader:
         self.file_path = file_path
         self.time_column = time_column
         self.time_format = time_format
+        self.do_filter_zeros = do_filter_zeros
         self.dataframe = None
         self.one_hot_dataframe = None
         self.tensor_data = None
@@ -51,11 +53,11 @@ class CSVLoader:
         elif self.time_column:
             print("Warning: DataFrame not loaded or time column not found for preprocessing.")
 
-    def delete_rows_by_country(self, product, country):
+    def delete_rows_by_product_and_country(self, product, country):
         """
         Deletes all rows with that (product, country) couple.
         """
-        df =  self.get_dataframe()
+        df = self.get_dataframe()
 
         # Create a boolean mask where True indicates rows to KEEP
         mask = ~((df['Country'] == country) & (df['Product'] == product))
@@ -63,9 +65,19 @@ class CSVLoader:
         # Apply the mask to select only the rows where the condition is True
         self.dataframe = df[mask]
 
+    def _delete_product_country(self, product, country, delete_set):
+        """
+        Adds row indices with the given (product, country) to the delete_set.
+        """
+        df = self.get_dataframe()
+        mask = (df['Country'] == country) & (df['Product'] == product)
+        indices = df.index[mask]
+        delete_set.update(indices)
+
     def _filter_zeros(self, time_years):
         countries = self.get_countries()
         products = self.get_products()
+        to_delete = set()
 
         for country in countries:
             for product in products:
@@ -73,7 +85,10 @@ class CSVLoader:
                 if len(t) == 0:
                     continue
                 if sum(y) == 0:
-                    self.delete_rows_by_country(product, country)
+                    self._delete_product_country(product, country, to_delete)
+
+        if to_delete:
+            self.dataframe = self.get_dataframe().drop(index=to_delete)
 
     def load_data(self, time_years=1., **kwargs):
         """
@@ -89,10 +104,11 @@ class CSVLoader:
             self.dataframe = pd.read_csv(self.file_path, **kwargs)
 
             # Preprocessing
-            print('Preprocessing time')
             self._preprocess_time()
-            print('Preprocessing zeros')
-            self._filter_zeros(time_years)
+
+            if self.do_filter_zeros:
+                print('Preprocessing zeros')
+                self._filter_zeros(time_years)
 
             self.tensor_data = None  # Reset tensor when data is reloaded
             return self.dataframe
@@ -116,17 +132,38 @@ class CSVLoader:
         df = self.get_dataframe()
         return df["Country"].unique().tolist()
 
+    def get_missing_combinations(self):
+        """Return a list of the couples of product-country that are not in the dataset"""
+        missing_couples = []
+        if self.dataframe is None or 'Country' not in self.dataframe.columns or 'Product' not in self.dataframe.columns:
+            print("Warning: DataFrame not loaded or 'Country' or 'Product' columns missing.")
+            return missing_couples
+
+        existing_couples = set(zip(self.dataframe['Product'], self.dataframe['Country']))
+        all_countries = self.get_countries()
+        all_products = self.get_products()
+
+        for country in all_countries:
+            for product in all_products:
+                if (product, country) not in existing_couples:
+                    missing_couples.append((product, country))
+
+        return missing_couples
+
+
     def get_products(self):
         df = self.get_dataframe()
         return df["Product"].unique().tolist()
 
     def get_time_series(self, product, country):
         df = self.get_dataframe()
-        df2 = df[df["Product"] == product]
-        df3 = df2[df2["Country"] == country]
-        x = df3["abs_time"].to_numpy()
-        y = df3["Quantity"].to_numpy()
-        return x, y
+        products = df["Product"].to_numpy()
+        countries = df["Country"].to_numpy()
+        mask = (products == product) & (countries == country)
+
+        abs_time = df["abs_time"].to_numpy()[mask]
+        quantity = df["Quantity"].to_numpy()[mask]
+        return abs_time, quantity
 
     def get_time_series_last_days(self, product, country, time_years):
         """get the last n days of the series"""
@@ -197,3 +234,19 @@ class CSVLoader:
         if self.tensor_data is None:
             self._to_tensor()
         return self.tensor_data
+
+    def save_data(self, output_file_path, columns_to_save=None, **kwargs):
+        """
+        Saves the current self.dataframe to a file, optionally selecting specific columns.
+
+        Args:
+            output_file_path (str): The path to the output file.
+            columns_to_save (list of str, optional): A list of column names to save.
+                                                    If None, all columns are saved. Defaults to None.
+            **kwargs: Additional keyword arguments to pass to the pandas saving function.
+        """
+        if self.dataframe is None:
+            print("Error: DataFrame not loaded. Call load_data() first.")
+            return
+
+        df_to_save = self.dataframe
