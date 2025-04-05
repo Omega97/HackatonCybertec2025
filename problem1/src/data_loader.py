@@ -7,7 +7,8 @@ class CSVLoader:
     A class to read data from a CSV file, load it into a Pandas DataFrame,
     perform one-hot encoding on specified columns, and convert it to a PyTorch tensor.
     """
-    def __init__(self, file_path, time_column='Month', time_format="%b%Y"):
+    def __init__(self, file_path, time_column='Month', time_format="%b%Y",
+                 do_filter_zeros=True):
         """
         Initializes the CSVLoader with the path to the CSV file.
 
@@ -17,6 +18,7 @@ class CSVLoader:
         self.file_path = file_path
         self.time_column = time_column
         self.time_format = time_format
+        self.do_filter_zeros = do_filter_zeros
         self.dataframe = None
         self.one_hot_dataframe = None
         self.tensor_data = None
@@ -89,10 +91,11 @@ class CSVLoader:
             self.dataframe = pd.read_csv(self.file_path, **kwargs)
 
             # Preprocessing
-            print('Preprocessing time')
             self._preprocess_time()
-            print('Preprocessing zeros')
-            self._filter_zeros(time_years)
+
+            if self.do_filter_zeros:
+                print('Preprocessing zeros')
+                self._filter_zeros(time_years)
 
             self.tensor_data = None  # Reset tensor when data is reloaded
             return self.dataframe
@@ -115,6 +118,25 @@ class CSVLoader:
     def get_countries(self):
         df = self.get_dataframe()
         return df["Country"].unique().tolist()
+
+    def get_missing_combinations(self):
+        """Return a list of the couples of product-country that are not in the dataset"""
+        missing_couples = []
+        if self.dataframe is None or 'Country' not in self.dataframe.columns or 'Product' not in self.dataframe.columns:
+            print("Warning: DataFrame not loaded or 'Country' or 'Product' columns missing.")
+            return missing_couples
+
+        existing_couples = set(zip(self.dataframe['Product'], self.dataframe['Country']))
+        all_countries = self.get_countries()
+        all_products = self.get_products()
+
+        for country in all_countries:
+            for product in all_products:
+                if (product, country) not in existing_couples:
+                    missing_couples.append((product, country))
+
+        return missing_couples
+
 
     def get_products(self):
         df = self.get_dataframe()
@@ -197,3 +219,19 @@ class CSVLoader:
         if self.tensor_data is None:
             self._to_tensor()
         return self.tensor_data
+
+    def save_data(self, output_file_path, columns_to_save=None, **kwargs):
+        """
+        Saves the current self.dataframe to a file, optionally selecting specific columns.
+
+        Args:
+            output_file_path (str): The path to the output file.
+            columns_to_save (list of str, optional): A list of column names to save.
+                                                    If None, all columns are saved. Defaults to None.
+            **kwargs: Additional keyword arguments to pass to the pandas saving function.
+        """
+        if self.dataframe is None:
+            print("Error: DataFrame not loaded. Call load_data() first.")
+            return
+
+        df_to_save = self.dataframe
