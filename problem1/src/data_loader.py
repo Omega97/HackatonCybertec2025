@@ -51,7 +51,31 @@ class CSVLoader:
         elif self.time_column:
             print("Warning: DataFrame not loaded or time column not found for preprocessing.")
 
-    def load_data(self, **kwargs):
+    def delete_rows_by_country(self, product, country):
+        """
+        Deletes all rows with that (product, country) couple.
+        """
+        df =  self.get_dataframe()
+
+        # Create a boolean mask where True indicates rows to KEEP
+        mask = ~((df['Country'] == country) & (df['Product'] == product))
+
+        # Apply the mask to select only the rows where the condition is True
+        self.dataframe = df[mask]
+
+    def _filter_zeros(self, time_years):
+        countries = self.get_countries()
+        products = self.get_products()
+
+        for country in countries:
+            for product in products:
+                t, y = self.get_time_series_last_days(product, country, time_years=time_years)
+                if len(t) == 0:
+                    continue
+                if sum(y) == 0:
+                    self.delete_rows_by_country(product, country)
+
+    def load_data(self, time_years=1., **kwargs):
         """
         Reads the CSV file into a Pandas DataFrame.
 
@@ -63,7 +87,13 @@ class CSVLoader:
         """
         try:
             self.dataframe = pd.read_csv(self.file_path, **kwargs)
+
+            # Preprocessing
+            print('Preprocessing time')
             self._preprocess_time()
+            print('Preprocessing zeros')
+            self._filter_zeros(time_years)
+
             self.tensor_data = None  # Reset tensor when data is reloaded
             return self.dataframe
         except FileNotFoundError:
@@ -81,6 +111,29 @@ class CSVLoader:
             pandas.DataFrame or None: The loaded DataFrame, or None if no data has been loaded.
         """
         return self.dataframe
+
+    def get_countries(self):
+        df = self.get_dataframe()
+        return df["Country"].unique().tolist()
+
+    def get_products(self):
+        df = self.get_dataframe()
+        return df["Product"].unique().tolist()
+
+    def get_time_series(self, product, country):
+        df = self.get_dataframe()
+        df2 = df[df["Product"] == product]
+        df3 = df2[df2["Country"] == country]
+        x = df3["abs_time"].to_numpy()
+        y = df3["Quantity"].to_numpy()
+        return x, y
+
+    def get_time_series_last_days(self, product, country, time_years):
+        """get the last n days of the series"""
+        t, y = self.get_time_series(product, country)
+        t_last = t[-1]
+        mask = t > t_last - time_years
+        return t[mask], y[mask]
 
     def _one_hot_encode(self, columns_to_encode):
         """
@@ -143,4 +196,4 @@ class CSVLoader:
         """
         if self.tensor_data is None:
             self._to_tensor()
-        return self.one_hot_dataframe
+        return self.tensor_data
