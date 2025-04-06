@@ -39,6 +39,8 @@ def main(demand_file, capacity_file):
     for _, row in df_demand.iterrows():
         key = (row["Country"], row["Product"], row["Month"])
         demand[key] = row["Quantity"]
+    # Remove rows with demand 0
+    demand = {k: v for k, v in demand.items() if v > 0}
 
     # Define shipment cost penalty: 0 if facility == market, 1 otherwise.
     cost = {}
@@ -67,10 +69,9 @@ def main(demand_file, capacity_file):
         for j in markets:
             for p in products:
                 for t in months:
-                    if i!=j:
-                        y[(i, j, p, t)] = pulp.LpVariable(
-                            f"y_{i}_{j}_{p}_{t}", lowBound=0, cat="Continuous"
-                        )
+                    y[(i, j, p, t)] = pulp.LpVariable(
+                        f"y_{i}_{j}_{p}_{t}", lowBound=0, cat="Continuous"
+                    )
 
     # -----------------------------
     # 4. Objective Function
@@ -141,12 +142,10 @@ def main(demand_file, capacity_file):
         for p in products:
             for t in months:
                 qty = x[(i, p, t)].varValue
-                # Optionally, round or convert to int if required.
-                if qty is None:
-                    qty = 0
-                prod_plan.append(
-                    {"Country": i, "Product": p, "Month": t, "Quantity": int(qty)}
-                )
+                if qty > 0:
+                    prod_plan.append(
+                        {"Country": i, "Product": p, "Month": t, "Quantity": int(qty)}
+                    )
     df_prod_plan = pd.DataFrame(prod_plan)
     # Write production plan to CSV.
     df_prod_plan.to_csv(
@@ -157,22 +156,20 @@ def main(demand_file, capacity_file):
     shipments = []
     for i in facilities:
         for j in markets:
-            for p in products:
-                for t in months:
-                    qty = y[(i, j, p, t)].varValue
-                    if qty is None:
-                        qty = 0
-                    # Only include positive shipments
-                    if qty > 0:
-                        shipments.append(
-                            {
-                                "Origin": i,
-                                "Destination": j,
-                                "Product": p,
-                                "Month": t,
-                                "Quantity": int(qty),
-                            }
-                        )
+            if i != j:
+                for p in products:
+                    for t in months:
+                        qty = y[(i, j, p, t)].varValue
+                        if qty > 0:
+                            shipments.append(
+                                {
+                                    "Origin": i,
+                                    "Destination": j,
+                                    "Product": p,
+                                    "Month": t,
+                                    "Quantity": int(qty),
+                                }
+                            )
     df_shipments = pd.DataFrame(shipments)
     # Write shipments to CSV.
     df_shipments.to_csv(

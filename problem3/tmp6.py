@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import pandas as pd
+import numpy as np
+import sys
+import os
 
 # -----------------------------
 # Data Loading Function
@@ -33,12 +36,13 @@ def load_data(demand_file, capacity_file, production_cost_file, shipment_cost_fi
 # Differentiable Optimization Model
 # -----------------------------
 class ProductionShipmentModel(nn.Module):
-    def __init__(self, facilities, markets, products, months):
+    def __init__(self, facilities, markets, products, months, device):
         super(ProductionShipmentModel, self).__init__()
         self.facilities = facilities
         self.markets = markets
         self.products = products
         self.months = months
+        self.device = device
 
         # Decision variables as free parameters (later transformed to be nonnegative)
         self.x_params = nn.ParameterDict()  # Production variables x[i,p,t]
@@ -48,14 +52,15 @@ class ProductionShipmentModel(nn.Module):
             for p in products:
                 for t in months:
                     key = f"x_{i}_{p}_{t}"
-                    self.x_params[key] = nn.Parameter(torch.tensor(0.0))
+                    # Initialize parameter on the proper device.
+                    self.x_params[key] = nn.Parameter(torch.tensor(0.0, device=self.device))
                     
         for i in facilities:
             for j in markets:
                 for p in products:
                     for t in months:
                         key = f"y_{i}_{j}_{p}_{t}"
-                        self.y_params[key] = nn.Parameter(torch.tensor(0.0))
+                        self.y_params[key] = nn.Parameter(torch.tensor(0.0, device=self.device))
                         
         # Softplus transformation ensures non-negativity.
         self.softplus = nn.Softplus()
@@ -111,18 +116,17 @@ def compute_loss(x, y, facilities, markets, products, months, capacity, demand, 
                 penalty += penalty_weight * torch.abs(prod_val - shipped)
                 
     # Error: Demand satisfaction error for each market, product, month
-    # Here, we compute the error according to the evaluation metric.
+    # Compute error using the provided evaluation metric.
     for j in markets:
         for p in products:
             for t in months:
-                # Total shipped to market j for product p in month t.
                 shipment_sum = sum(y[f"y_{i}_{j}_{p}_{t}"] for i in facilities)
                 d = demand.get((j, p, t), 0)
                 if d != 0:
                     error_term += ((shipment_sum - d)**2) / d
                 else:
-                    error_term += ((shipment_sum - d)**2)  # denominator 1 when demand is 0
-
+                    error_term += ((shipment_sum - d)**2)
+    
     total_loss = cost + penalty + error_weight * error_term
     return total_loss
 
@@ -131,11 +135,18 @@ def compute_loss(x, y, facilities, markets, products, months, capacity, demand, 
 # -----------------------------
 def optimize_model(demand_file, capacity_file, production_cost_file, shipment_cost_file,
                    num_iterations=5000, lr=0.01, error_weight=1.0):
+    # Determine device: GPU if available.
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
+    
     facilities, markets, products, months, capacity, demand, prod_cost, ship_cost = load_data(
         demand_file, capacity_file, production_cost_file, shipment_cost_file
     )
     
-    model = ProductionShipmentModel(facilities, markets, products, months)
+    # Create model instance with the specified device.
+    model = ProductionShipmentModel(facilities, markets, products, months, device=device)
+    model.to(device)
+    
     optimizer = optim.Adam(model.parameters(), lr=lr)
     
     for iteration in range(num_iterations):
@@ -151,7 +162,7 @@ def optimize_model(demand_file, capacity_file, production_cost_file, shipment_co
             print(f"Iteration {iteration}, Loss: {loss.item()}")
     
     x_final, y_final = model()
-    return x_final, y_final, facilities, markets, products, months
+    return x_final, y_final, facilities, markets, products, months, device
 
 # -----------------------------
 # Example Usage
@@ -159,14 +170,12 @@ def optimize_model(demand_file, capacity_file, production_cost_file, shipment_co
 if __name__ == "__main__":
     # Expected command-line arguments:
     #   1. Demand file, 2. Capacity file, 3. Production cost file, 4. Shipment cost file
-    import sys
     demand_file = sys.argv[1]
     capacity_file = sys.argv[2]
     production_cost_file = sys.argv[3]
     shipment_cost_file = sys.argv[4]
     
-    # error_weight is a tunable parameter to balance cost minimization and error minimization.
-    x_sol, y_sol, facilities, markets, products, months = optimize_model(
+    x_sol, y_sol, facilities, markets, products, months, device = optimize_model(
         demand_file, capacity_file, production_cost_file, shipment_cost_file,
         num_iterations=5000, lr=0.01, error_weight=1.0
     )
@@ -177,10 +186,10 @@ if __name__ == "__main__":
         for p in products:
             for t in months:
                 key = f"x_{i}_{p}_{t}"
-                qty = x_sol[key].detach().cpu().item()
+                qty = x_sol[key].detach().cpu().item()  # Move back to CPU for saving.
                 prod_plan.append({"Country": i, "Product": p, "Month": t, "Quantity": qty})
     df_prod_plan = pd.DataFrame(prod_plan)
-    df_prod_plan.to_csv("03_output_productionPlan_4095_v6.csv", index=False)
+    df_prod_plan.to_csv("03_output_productionPlan_pytorch.csv", index=False)
     
     # Save shipments plan as CSV.
     shipments_plan = []
@@ -189,12 +198,12 @@ if __name__ == "__main__":
             for p in products:
                 for t in months:
                     key = f"y_{i}_{j}_{p}_{t}"
-                    qty = y_sol[key].detach().cpu().item()
+                    qty = y_sol[key].detach().cpu().item()  # Move back to CPU.
                     if qty > 1e-6:
                         shipments_plan.append({
                             "Origin": i, "Destination": j, "Product": p, "Month": t, "Quantity": qty
                         })
     df_shipments = pd.DataFrame(shipments_plan)
-    df_shipments.to_csv("03_output_shipments_4095_v6.csv", index=False)
+    df_shipments.to_csv("03_output_shipments_pytorch.csv", index=False)
     
     print("Optimized production and shipment plans (with cost and error minimization) have been saved.")

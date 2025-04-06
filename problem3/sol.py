@@ -43,6 +43,8 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     for _, row in df_demand.iterrows():
         key = (row["Country"], row["Product"], row["Month"])
         demand[key] = row["Quantity"]
+    # Remove rows with demand 0
+    demand = {k: v for k, v in demand.items() if v > 0}
 
     # Constant monthly production cost dictionary: key = (facility, product)
     production_cost = df_production_cost.set_index(["Country", "Product"])["Unit Cost"].to_dict()
@@ -51,6 +53,12 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     shipment_cost = df_shipment_cost.set_index(["Origin", "Destination"])["Unit Cost"].to_dict()
     # Origin and destination are given only for one way of shipment but the cost is the same for both ways so we need to add the reverse of the shipment cost
     shipment_cost = {**shipment_cost, **{k[::-1]: v for k, v in shipment_cost.items()}}
+
+    # Penalty cost for non-local shipments
+    shipping_weights = {}
+    for i in facilities:
+        for j in markets:
+            shipping_weights[(i, j)] = 0 if i == j else 1
 
     # -----------------------------
     # 3. Define the Optimization Model
@@ -92,7 +100,7 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
                 for t in months
             )
             + pulp.lpSum(
-                shipment_cost.get((i, j), 0) * y[(i, j, p, t)]
+                shipment_cost.get((i, j), 0) * y[(i, j, p, t)] * shipping_weights[(i, j)]
                 for i in facilities
                 for j in markets
                 for p in products
@@ -156,12 +164,10 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
         for p in products:
             for t in months:
                 qty = x[(i, p, t)].varValue
-                # Optionally, round or convert to int if required.
-                if qty is None:
-                    qty = 0
-                prod_plan.append(
-                    {"Country": i, "Product": p, "Month": t, "Quantity": int(qty)}
-                )
+                if qty > 0:
+                    prod_plan.append(
+                            {"Country": i, "Product": p, "Month": t, "Quantity": int(qty)}
+                    )
     df_prod_plan = pd.DataFrame(prod_plan)
     # Write production plan to CSV.
     df_prod_plan.to_csv(
@@ -172,22 +178,20 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     shipments = []
     for i in facilities:
         for j in markets:
-            for p in products:
-                for t in months:
-                    qty = y[(i, j, p, t)].varValue
-                    if qty is None:
-                        qty = 0
-                    # Only include positive shipments
-                    if qty > 0:
-                        shipments.append(
-                            {
-                                "Origin": i,
-                                "Destination": j,
-                                "Product": p,
-                                "Month": t,
-                                "Quantity": int(qty),
-                            }
-                        )
+            if i != j:
+                for p in products:
+                    for t in months:
+                        qty = y[(i, j, p, t)].varValue
+                        if qty > 0:
+                            shipments.append(
+                                {
+                                    "Origin": i,
+                                    "Destination": j,
+                                    "Product": p,
+                                    "Month": t,
+                                    "Quantity": int(qty),
+                                }
+                            )
     df_shipments = pd.DataFrame(shipments)
     # Write shipments to CSV.
     df_shipments.to_csv(
