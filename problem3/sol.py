@@ -9,22 +9,13 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     Main function to solve the production balance problem.
     """
 
-    # -----------------------------
-    # 1. Read Input Data
-    # -----------------------------
-
-    # Read market demand: columns: Country, Product, Month, Quantity
+    # Input data
     df_demand = pd.read_csv(demand_file)
-    # Read facility capacities: columns: Country, Monthly Capacity
     df_capacity = pd.read_csv(capacity_file)
-    # Read production costs: columns: Country, Product, Month, Production Cost
     df_production_cost = pd.read_csv(production_cost_file)
-    # Read shipment costs: columns: Origin, Destination, Product, Month, Shipment Cost
     df_shipment_cost = pd.read_csv(shipment_cost_file)
 
-    # -----------------------------
-    # 2. Create Sets and Parameters
-    # -----------------------------
+    # Input variables
     facilities = df_capacity["Country"].unique().tolist()  # Production locations
     markets = df_demand["Country"].unique().tolist()  # Destination markets
     products = df_demand["Product"].unique().tolist()  # Products
@@ -40,9 +31,7 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
         "Unit Cost"
     ].to_dict()
 
-    # -----------------------------
-    # 3. Define the Optimization Model
-    # -----------------------------
+    # Optimization model
     model = pulp.LpProblem("Production_Cost_Optimization", pulp.LpMinimize)
 
     # Decision variables:
@@ -65,13 +54,7 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
                         f"y_{i}_{j}_{p}_{t}", lowBound=0, cat="Continuous"
                     )
 
-    # -----------------------------
-    # 4. Objective Function: Minimize Total Cost
-    # -----------------------------
-    # Total cost includes:
-    #   - Production cost: sum_{i,p,t} [Unit Production Cost at (i,p)] * x[i,p,t]
-    #   - Shipment cost: sum_{i,j,p,t} [Unit Shipment Cost from (i,j)] * y[i,j,p,t]
-
+    # Objective function: Minimize Total Cost
     model += (
         (
             pulp.lpSum(
@@ -91,9 +74,7 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
         "Total_Cost",
     )
 
-    # -----------------------------
-    # 5. Constraints
-    # -----------------------------
+    # Constraints
 
     # (a) Facility capacity constraint for each facility and month
     for i in facilities:
@@ -118,27 +99,22 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
         for p in products:
             for t in months:
                 model += (
-                    pulp.lpSum(y[(i, j, p, t)] for j in markets) <= x[(i, p, t)],
+                    pulp.lpSum(y[(i, j, p, t)] for j in markets) == x[(i, p, t)],
                     f"Flow_{i}_{p}_{t}",
                 )
 
-    # -----------------------------
-    # 6. Solve the Model
-    # -----------------------------
+    # Solve the model
     solver = pulp.PULP_CBC_CMD(msg=False)
     model.solve(solver)
 
     print("Status:", pulp.LpStatus[model.status])
     print("Objective (Total Shipment Cost):", pulp.value(model.objective))
 
-    # -----------------------------
-    # 7. Extract Results and Write Output Files
-    # -----------------------------
+    # Results
     file_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(file_dir, "../solutions")
     os.makedirs(output_dir, exist_ok=True)
 
-    # Create Production Plan DataFrame: columns [Country, Product, Month, Quantity]
     prod_plan = []
     for i in facilities:
         for p in products:
@@ -149,12 +125,10 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
                         {"Country": i, "Product": p, "Month": t, "Quantity": int(qty)}
                     )
     df_prod_plan = pd.DataFrame(prod_plan)
-    # Write production plan to CSV.
     df_prod_plan.to_csv(
         os.path.join(output_dir, "03_output_productionPlan_4095.csv"), index=False
     )
 
-    # Create Shipments DataFrame: columns [Origin, Destination, Product, Month, Quantity]
     shipments = []
     for i in facilities:
         for j in markets:
@@ -172,7 +146,6 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
                             }
                         )
     df_shipments = pd.DataFrame(shipments)
-    # Write shipments to CSV.
     df_shipments.to_csv(
         os.path.join(output_dir, "03_output_shipments_4095.csv"), index=False
     )
