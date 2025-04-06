@@ -49,8 +49,6 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
 
     # Shipment cost dictionary: key = (origin, destination)
     shipment_cost = df_shipment_cost.set_index(["Origin", "Destination"])["Unit Cost"].to_dict()
-    # Origin and destination are given only for one way of shipment but the cost is the same for both ways so we need to add the reverse of the shipment cost
-    shipment_cost = {**shipment_cost, **{k[::-1]: v for k, v in shipment_cost.items()}}
 
     # -----------------------------
     # 3. Define the Optimization Model
@@ -83,6 +81,9 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     # Total cost includes:
     #   - Production cost: sum_{i,p,t} [Unit Production Cost at (i,p)] * x[i,p,t]
     #   - Shipment cost: sum_{i,j,p,t} [Unit Shipment Cost from (i,j)] * y[i,j,p,t]
+    # Define a penalty factor for non-local shipments (adjust this factor based on experimentation)
+    penalty_factor = 2.0  # Example: non-local shipments cost twice as much
+
     model += (
         (
             pulp.lpSum(
@@ -91,8 +92,12 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
                 for p in products
                 for t in months
             )
-            + pulp.lpSum(
-                shipment_cost.get((i, j), 0) * y[(i, j, p, t)]
+            +
+            pulp.lpSum(
+                # If facility equals market, use the regular shipment cost.
+                # Otherwise, multiply by the penalty factor.
+                (shipment_cost.get((i, j), 0) if i == j else shipment_cost.get((i, j), 0) * penalty_factor)
+                * y[(i, j, p, t)]
                 for i in facilities
                 for j in markets
                 for p in products

@@ -67,9 +67,10 @@ def main(demand_file, capacity_file):
         for j in markets:
             for p in products:
                 for t in months:
-                    y[(i, j, p, t)] = pulp.LpVariable(
-                        f"y_{i}_{j}_{p}_{t}", lowBound=0, cat="Continuous"
-                    )
+                    if i!=j:
+                        y[(i, j, p, t)] = pulp.LpVariable(
+                            f"y_{i}_{j}_{p}_{t}", lowBound=0, cat="Continuous"
+                        )
 
     # -----------------------------
     # 4. Objective Function
@@ -121,7 +122,7 @@ def main(demand_file, capacity_file):
     # -----------------------------
     # 6. Solve the Model
     # -----------------------------
-    solver = pulp.PULP_CBC_CMD(msg=True)
+    solver = pulp.PULP_CBC_CMD(msg=False)
     model.solve(solver)
 
     print("Status:", pulp.LpStatus[model.status])
