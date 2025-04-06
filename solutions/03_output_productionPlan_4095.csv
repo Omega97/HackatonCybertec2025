@@ -59,6 +59,10 @@ Australia,DailyDazzle Toothpaste,Sep2004,705
 Australia,DailyDazzle Toothpaste,Oct2004,704
 Australia,DailyDazzle Toothpaste,Nov2004,736
 Australia,DailyDazzle Toothpaste,Dec2004,685
+Australia,OralEase Plus Toothbrush,Feb2004,123
+Australia,OralEase Plus Toothbrush,Apr2004,828
+Australia,OralEase Plus Toothbrush,Oct2004,61
+Australia,OralEase Plus Toothbrush,Nov2004,411
 Australia,BreatheEasy Inhalant,Jan2004,1867
 Australia,BreatheEasy Inhalant,Feb2004,1675
 Australia,BreatheEasy Inhalant,Mar2004,1721
@@ -71,7 +75,6 @@ Australia,BreatheEasy Inhalant,Sep2004,1929
 Australia,BreatheEasy Inhalant,Oct2004,1652
 Australia,BreatheEasy Inhalant,Nov2004,2034
 Australia,BreatheEasy Inhalant,Dec2004,1699
-Australia,SmilesSoPure Waterpik,Sep2004,76
 Australia,FreshFix Mouthwash,Jan2004,621
 Australia,FreshFix Mouthwash,Feb2004,675
 Australia,FreshFix Mouthwash,Mar2004,625
@@ -144,18 +147,6 @@ Australia,SilkSmooth Exfoliating Scrub,Sep2004,724
 Australia,SilkSmooth Exfoliating Scrub,Oct2004,779
 Australia,SilkSmooth Exfoliating Scrub,Nov2004,763
 Australia,SilkSmooth Exfoliating Scrub,Dec2004,669
-Australia,SunShield SPF 50 Lotion,Jan2004,606
-Australia,SunShield SPF 50 Lotion,Feb2004,719
-Australia,SunShield SPF 50 Lotion,Mar2004,640
-Australia,SunShield SPF 50 Lotion,Apr2004,636
-Australia,SunShield SPF 50 Lotion,May2004,686
-Australia,SunShield SPF 50 Lotion,Jun2004,595
-Australia,SunShield SPF 50 Lotion,Jul2004,663
-Australia,SunShield SPF 50 Lotion,Aug2004,655
-Australia,SunShield SPF 50 Lotion,Sep2004,619
-Australia,SunShield SPF 50 Lotion,Oct2004,595
-Australia,SunShield SPF 50 Lotion,Nov2004,647
-Australia,SunShield SPF 50 Lotion,Dec2004,602
 Australia,Refreshing Rose Body Oil,Jan2004,683
 Australia,Refreshing Rose Body Oil,Feb2004,728
 Australia,Refreshing Rose Body Oil,Mar2004,901
@@ -192,30 +183,30 @@ Australia,SoothingSerenity Hand Sanitizer,Sep2004,4509
 Australia,SoothingSerenity Hand Sanitizer,Oct2004,4670
 Australia,SoothingSerenity Hand Sanitizer,Nov2004,4702
 Australia,SoothingSerenity Hand Sanitizer,Dec2004,4871
-Australia,GentleGlow Face Cleanser,Jan2004,1088
+Australia,GentleGlow Face Cleanser,Jan2004,1753
 Australia,GentleGlow Face Cleanser,Feb2004,1092
 Australia,GentleGlow Face Cleanser,Mar2004,965
-Australia,GentleGlow Face Cleanser,Apr2004,1053
-Australia,GentleGlow Face Cleanser,May2004,1043
-Australia,GentleGlow Face Cleanser,Jun2004,1265
+Australia,GentleGlow Face Cleanser,Apr2004,1324
+Australia,GentleGlow Face Cleanser,May2004,1678
+Australia,GentleGlow Face Cleanser,Jun2004,1814
 Australia,GentleGlow Face Cleanser,Jul2004,1108
 Australia,GentleGlow Face Cleanser,Aug2004,1094
-Australia,GentleGlow Face Cleanser,Sep2004,1044
+Australia,GentleGlow Face Cleanser,Sep2004,1510
 Australia,GentleGlow Face Cleanser,Oct2004,1026
-Australia,GentleGlow Face Cleanser,Nov2004,1292
-Australia,GentleGlow Face Cleanser,Dec2004,1014
+Australia,GentleGlow Face Cleanser,Nov2004,1465
+Australia,GentleGlow Face Cleanser,Dec2004,1375
 Australia,PurePore Toner,Jan2004,2533
-Australia,PurePore Toner,Feb2004,2233
-Australia,PurePore Toner,Mar2004,2471
-Australia,PurePore Toner,Apr2004,2516
+Australia,PurePore Toner,Feb2004,3011
+Australia,PurePore Toner,Mar2004,2930
+Australia,PurePore Toner,Apr2004,3332
 Australia,PurePore Toner,May2004,2657
 Australia,PurePore Toner,Jun2004,2547
-Australia,PurePore Toner,Jul2004,2375
+Australia,PurePore Toner,Jul2004,2473
 Australia,PurePore Toner,Aug2004,2494
 Australia,PurePore Toner,Sep2004,2458
-Australia,PurePore Toner,Oct2004,2488
-Australia,PurePore Toner,Nov2004,2488
-Australia,PurePore Toner,Dec2004,2569
+Australia,PurePore Toner,Oct2004,3314
+Australia,PurePore Toner,Nov2004,3332
+Australia,PurePore Toner,Dec2004,2630
 Australia,SilkySkin Moisturizing Cream,Jan2004,578
 Australia,SilkySkin Moisturizing Cream,Feb2004,564
 Australia,SilkySkin Moisturizing Cream,Mar2004,633
@@ -277,10 +268,12 @@ Australia,SoothingSoft Fabric Softener,Oct2004,3646
 Australia,SoothingSoft Fabric Softener,Nov2004,3782
 Australia,SoothingSoft Fabric Softener,Dec2004,3639
 Australia,SparklingClean All-Purpose Cleaner,Jan2004,295
+Australia,SparklingClean All-Purpose Cleaner,Feb2004,315
+Australia,SparklingClean All-Purpose Cleaner,Mar2004,281
 Australia,SparklingClean All-Purpose Cleaner,Apr2004,267
 Australia,SparklingClean All-Purpose Cleaner,May2004,264
 Australia,SparklingClean All-Purpose Cleaner,Jun2004,321
-Australia,SparklingClean All-Purpose Cleaner,Jul2004,155
+Australia,SparklingClean All-Purpose Cleaner,Jul2004,305
 Australia,SparklingClean All-Purpose Cleaner,Aug2004,307
 Australia,SparklingClean All-Purpose Cleaner,Sep2004,316
 Australia,SparklingClean All-Purpose Cleaner,Oct2004,267
@@ -299,29 +292,29 @@ Australia,RadiantRinse Color Protector,Oct2004,1352
 Australia,RadiantRinse Color Protector,Nov2004,1552
 Australia,RadiantRinse Color Protector,Dec2004,1428
 Australia,EasyWash Laundry Detergent,Jan2004,1315
-Australia,EasyWash Laundry Detergent,Feb2004,894
-Australia,EasyWash Laundry Detergent,Mar2004,1152
+Australia,EasyWash Laundry Detergent,Feb2004,1277
+Australia,EasyWash Laundry Detergent,Mar2004,1289
 Australia,EasyWash Laundry Detergent,Apr2004,1230
-Australia,EasyWash Laundry Detergent,May2004,1347
+Australia,EasyWash Laundry Detergent,May2004,1423
 Australia,EasyWash Laundry Detergent,Jun2004,1254
 Australia,EasyWash Laundry Detergent,Jul2004,1308
-Australia,EasyWash Laundry Detergent,Aug2004,1012
-Australia,EasyWash Laundry Detergent,Sep2004,730
-Australia,EasyWash Laundry Detergent,Oct2004,917
-Australia,EasyWash Laundry Detergent,Nov2004,920
-Australia,EasyWash Laundry Detergent,Dec2004,172
-Australia,SmellSational Odor Eliminator,Jan2004,1571
-Australia,SmellSational Odor Eliminator,Feb2004,1511
-Australia,SmellSational Odor Eliminator,Mar2004,1532
-Australia,SmellSational Odor Eliminator,Apr2004,1436
-Australia,SmellSational Odor Eliminator,May2004,1460
-Australia,SmellSational Odor Eliminator,Jun2004,1605
-Australia,SmellSational Odor Eliminator,Jul2004,1441
-Australia,SmellSational Odor Eliminator,Aug2004,1498
-Australia,SmellSational Odor Eliminator,Sep2004,1497
-Australia,SmellSational Odor Eliminator,Oct2004,1549
-Australia,SmellSational Odor Eliminator,Nov2004,1487
-Australia,SmellSational Odor Eliminator,Dec2004,1383
+Australia,EasyWash Laundry Detergent,Aug2004,1294
+Australia,EasyWash Laundry Detergent,Sep2004,1311
+Australia,EasyWash Laundry Detergent,Oct2004,1456
+Australia,EasyWash Laundry Detergent,Nov2004,1360
+Australia,EasyWash Laundry Detergent,Dec2004,1183
+Australia,SmellSational Odor Eliminator,Jan2004,666
+Australia,SmellSational Odor Eliminator,Feb2004,628
+Australia,SmellSational Odor Eliminator,Mar2004,627
+Australia,SmellSational Odor Eliminator,Apr2004,596
+Australia,SmellSational Odor Eliminator,May2004,606
+Australia,SmellSational Odor Eliminator,Jun2004,672
+Australia,SmellSational Odor Eliminator,Jul2004,570
+Australia,SmellSational Odor Eliminator,Aug2004,620
+Australia,SmellSational Odor Eliminator,Sep2004,638
+Australia,SmellSational Odor Eliminator,Oct2004,669
+Australia,SmellSational Odor Eliminator,Nov2004,583
+Australia,SmellSational Odor Eliminator,Dec2004,559
 Australia,LittleLullaby Diaper Cream,Jan2004,2522
 Australia,LittleLullaby Diaper Cream,Feb2004,2550
 Australia,LittleLullaby Diaper Cream,Mar2004,2496
@@ -670,18 +663,18 @@ Brazil,FreshStart Toothpaste,Sep2004,1830
 Brazil,FreshStart Toothpaste,Oct2004,1863
 Brazil,FreshStart Toothpaste,Nov2004,1862
 Brazil,FreshStart Toothpaste,Dec2004,1692
-Brazil,BriteBite Toothbrush,Jan2004,3924
-Brazil,BriteBite Toothbrush,Feb2004,3926
-Brazil,BriteBite Toothbrush,Mar2004,3781
-Brazil,BriteBite Toothbrush,Apr2004,3874
-Brazil,BriteBite Toothbrush,May2004,3654
-Brazil,BriteBite Toothbrush,Jun2004,3956
-Brazil,BriteBite Toothbrush,Jul2004,3913
-Brazil,BriteBite Toothbrush,Aug2004,3789
-Brazil,BriteBite Toothbrush,Sep2004,4249
-Brazil,BriteBite Toothbrush,Oct2004,4022
-Brazil,BriteBite Toothbrush,Nov2004,4032
-Brazil,BriteBite Toothbrush,Dec2004,3932
+Brazil,BriteBite Toothbrush,Jan2004,2210
+Brazil,BriteBite Toothbrush,Feb2004,2145
+Brazil,BriteBite Toothbrush,Mar2004,2079
+Brazil,BriteBite Toothbrush,Apr2004,2246
+Brazil,BriteBite Toothbrush,May2004,2408
+Brazil,BriteBite Toothbrush,Jun2004,2140
+Brazil,BriteBite Toothbrush,Jul2004,2282
+Brazil,BriteBite Toothbrush,Aug2004,2185
+Brazil,BriteBite Toothbrush,Sep2004,2331
+Brazil,BriteBite Toothbrush,Oct2004,2156
+Brazil,BriteBite Toothbrush,Nov2004,2263
+Brazil,BriteBite Toothbrush,Dec2004,2219
 Brazil,CleanSlate Mouthwash,Jan2004,1040
 Brazil,CleanSlate Mouthwash,Feb2004,1054
 Brazil,CleanSlate Mouthwash,Mar2004,1157
@@ -718,6 +711,18 @@ Brazil,DentalDefense Toothpaste,Sep2004,1394
 Brazil,DentalDefense Toothpaste,Oct2004,1331
 Brazil,DentalDefense Toothpaste,Nov2004,1370
 Brazil,DentalDefense Toothpaste,Dec2004,1397
+Brazil,SparklingSmile Water Flosser,Jan2004,1470
+Brazil,SparklingSmile Water Flosser,Feb2004,1614
+Brazil,SparklingSmile Water Flosser,Mar2004,1583
+Brazil,SparklingSmile Water Flosser,Apr2004,1670
+Brazil,SparklingSmile Water Flosser,May2004,1345
+Brazil,SparklingSmile Water Flosser,Jun2004,1476
+Brazil,SparklingSmile Water Flosser,Jul2004,1450
+Brazil,SparklingSmile Water Flosser,Aug2004,1567
+Brazil,SparklingSmile Water Flosser,Sep2004,1539
+Brazil,SparklingSmile Water Flosser,Oct2004,1484
+Brazil,SparklingSmile Water Flosser,Nov2004,1479
+Brazil,SparklingSmile Water Flosser,Dec2004,1478
 Brazil,FreshFusion Mouth Rinse,Jan2004,899
 Brazil,FreshFusion Mouth Rinse,Feb2004,937
 Brazil,FreshFusion Mouth Rinse,Mar2004,911
@@ -767,16 +772,16 @@ Brazil,MorningBreeze Gum Care,Oct2004,1272
 Brazil,MorningBreeze Gum Care,Nov2004,1289
 Brazil,MorningBreeze Gum Care,Dec2004,1286
 Brazil,OralEase Plus Toothbrush,Jan2004,2574
-Brazil,OralEase Plus Toothbrush,Feb2004,2641
+Brazil,OralEase Plus Toothbrush,Feb2004,2518
 Brazil,OralEase Plus Toothbrush,Mar2004,2712
-Brazil,OralEase Plus Toothbrush,Apr2004,2767
+Brazil,OralEase Plus Toothbrush,Apr2004,1939
 Brazil,OralEase Plus Toothbrush,May2004,2625
 Brazil,OralEase Plus Toothbrush,Jun2004,2684
 Brazil,OralEase Plus Toothbrush,Jul2004,2638
 Brazil,OralEase Plus Toothbrush,Aug2004,2614
 Brazil,OralEase Plus Toothbrush,Sep2004,2828
-Brazil,OralEase Plus Toothbrush,Oct2004,2657
-Brazil,OralEase Plus Toothbrush,Nov2004,2757
+Brazil,OralEase Plus Toothbrush,Oct2004,2596
+Brazil,OralEase Plus Toothbrush,Nov2004,2346
 Brazil,OralEase Plus Toothbrush,Dec2004,2535
 Brazil,BreatheEasy Inhalant,Jan2004,770
 Brazil,BreatheEasy Inhalant,Feb2004,757
@@ -886,25 +891,29 @@ Brazil,Calming Creme Relaxant Bath,Sep2004,886
 Brazil,Calming Creme Relaxant Bath,Oct2004,808
 Brazil,Calming Creme Relaxant Bath,Nov2004,865
 Brazil,Calming Creme Relaxant Bath,Dec2004,849
-Brazil,Brightening Body Wash,Jan2004,2628
-Brazil,Brightening Body Wash,Feb2004,2711
-Brazil,Brightening Body Wash,Mar2004,2677
-Brazil,Brightening Body Wash,Apr2004,2598
-Brazil,Brightening Body Wash,May2004,2471
-Brazil,Brightening Body Wash,Jun2004,2688
-Brazil,Brightening Body Wash,Jul2004,2581
-Brazil,Brightening Body Wash,Aug2004,2626
-Brazil,Brightening Body Wash,Sep2004,2528
-Brazil,Brightening Body Wash,Oct2004,2542
-Brazil,Brightening Body Wash,Nov2004,2659
-Brazil,Brightening Body Wash,Dec2004,2530
-Brazil,SmoothOperator Shaving Gel,Jan2004,166
-Brazil,SmoothOperator Shaving Gel,Mar2004,398
+Brazil,Brightening Body Wash,Jan2004,1670
+Brazil,Brightening Body Wash,Feb2004,1692
+Brazil,Brightening Body Wash,Mar2004,1781
+Brazil,Brightening Body Wash,Apr2004,1691
+Brazil,Brightening Body Wash,May2004,1632
+Brazil,Brightening Body Wash,Jun2004,1854
+Brazil,Brightening Body Wash,Jul2004,1615
+Brazil,Brightening Body Wash,Aug2004,1665
+Brazil,Brightening Body Wash,Sep2004,1611
+Brazil,Brightening Body Wash,Oct2004,1697
+Brazil,Brightening Body Wash,Nov2004,1718
+Brazil,Brightening Body Wash,Dec2004,1723
+Brazil,SmoothOperator Shaving Gel,Jan2004,500
+Brazil,SmoothOperator Shaving Gel,Feb2004,487
+Brazil,SmoothOperator Shaving Gel,Mar2004,533
+Brazil,SmoothOperator Shaving Gel,Apr2004,571
 Brazil,SmoothOperator Shaving Gel,May2004,486
 Brazil,SmoothOperator Shaving Gel,Jun2004,548
 Brazil,SmoothOperator Shaving Gel,Jul2004,522
 Brazil,SmoothOperator Shaving Gel,Aug2004,516
 Brazil,SmoothOperator Shaving Gel,Sep2004,537
+Brazil,SmoothOperator Shaving Gel,Oct2004,504
+Brazil,SmoothOperator Shaving Gel,Nov2004,460
 Brazil,SmoothOperator Shaving Gel,Dec2004,532
 Brazil,RadiantRose Face Mask,Jan2004,907
 Brazil,RadiantRose Face Mask,Feb2004,1046
@@ -930,13 +939,14 @@ Brazil,GentleGlow Face Cleanser,Sep2004,1051
 Brazil,GentleGlow Face Cleanser,Oct2004,991
 Brazil,GentleGlow Face Cleanser,Nov2004,961
 Brazil,GentleGlow Face Cleanser,Dec2004,957
-Brazil,PurePore Toner,Jan2004,537
+Brazil,PurePore Toner,Jan2004,797
+Brazil,PurePore Toner,Mar2004,223
 Brazil,PurePore Toner,May2004,834
 Brazil,PurePore Toner,Jun2004,768
-Brazil,PurePore Toner,Jul2004,214
+Brazil,PurePore Toner,Jul2004,782
 Brazil,PurePore Toner,Aug2004,801
-Brazil,PurePore Toner,Sep2004,316
-Brazil,PurePore Toner,Dec2004,269
+Brazil,PurePore Toner,Sep2004,686
+Brazil,PurePore Toner,Dec2004,758
 Brazil,MorningMist Deodorant,Jan2004,1420
 Brazil,MorningMist Deodorant,Feb2004,1407
 Brazil,MorningMist Deodorant,Mar2004,1550
@@ -961,18 +971,18 @@ Brazil,Hydrating Honey Body Lotion,Sep2004,1015
 Brazil,Hydrating Honey Body Lotion,Oct2004,1120
 Brazil,Hydrating Honey Body Lotion,Nov2004,1100
 Brazil,Hydrating Honey Body Lotion,Dec2004,1074
-Brazil,FreshFusion Detergent,Jan2004,1995
-Brazil,FreshFusion Detergent,Feb2004,1720
-Brazil,FreshFusion Detergent,Mar2004,2068
-Brazil,FreshFusion Detergent,Apr2004,1406
+Brazil,FreshFusion Detergent,Jan2004,1458
+Brazil,FreshFusion Detergent,Feb2004,1355
+Brazil,FreshFusion Detergent,Mar2004,1460
+Brazil,FreshFusion Detergent,Apr2004,1360
 Brazil,FreshFusion Detergent,May2004,2076
-Brazil,FreshFusion Detergent,Jun2004,1763
-Brazil,FreshFusion Detergent,Jul2004,1971
+Brazil,FreshFusion Detergent,Jun2004,1702
+Brazil,FreshFusion Detergent,Jul2004,1369
 Brazil,FreshFusion Detergent,Aug2004,2069
-Brazil,FreshFusion Detergent,Sep2004,1940
-Brazil,FreshFusion Detergent,Oct2004,1783
+Brazil,FreshFusion Detergent,Sep2004,1644
+Brazil,FreshFusion Detergent,Oct2004,1406
 Brazil,FreshFusion Detergent,Nov2004,1256
-Brazil,FreshFusion Detergent,Dec2004,1916
+Brazil,FreshFusion Detergent,Dec2004,1331
 Brazil,SoothingSoft Fabric Softener,Jan2004,1884
 Brazil,SoothingSoft Fabric Softener,Feb2004,1887
 Brazil,SoothingSoft Fabric Softener,Mar2004,1609
@@ -1127,7 +1137,7 @@ Brazil,EasyWash Laundry Detergent for Babies,Jul2004,522
 Brazil,EasyWash Laundry Detergent for Babies,Aug2004,508
 Brazil,EasyWash Laundry Detergent for Babies,Sep2004,516
 Brazil,EasyWash Laundry Detergent for Babies,Oct2004,491
-Brazil,EasyWash Laundry Detergent for Babies,Nov2004,502
+Brazil,EasyWash Laundry Detergent for Babies,Nov2004,572
 Brazil,EasyWash Laundry Detergent for Babies,Dec2004,498
 Brazil,LittleLullaby Diaper Liners,Jan2004,3515
 Brazil,LittleLullaby Diaper Liners,Feb2004,3659
@@ -1165,9 +1175,18 @@ Brazil,PurePore Baby Skincare Set,Sep2004,401
 Brazil,PurePore Baby Skincare Set,Oct2004,432
 Brazil,PurePore Baby Skincare Set,Nov2004,454
 Brazil,PurePore Baby Skincare Set,Dec2004,463
-Brazil,SilkySkin Baby Moisturizer,May2004,475
-Brazil,SilkySkin Baby Moisturizer,Jun2004,41
-Brazil,SilkySkin Baby Moisturizer,Aug2004,178
+Brazil,SilkySkin Baby Moisturizer,Jan2004,1145
+Brazil,SilkySkin Baby Moisturizer,Feb2004,1187
+Brazil,SilkySkin Baby Moisturizer,Mar2004,1265
+Brazil,SilkySkin Baby Moisturizer,Apr2004,1168
+Brazil,SilkySkin Baby Moisturizer,May2004,1215
+Brazil,SilkySkin Baby Moisturizer,Jun2004,1276
+Brazil,SilkySkin Baby Moisturizer,Jul2004,1181
+Brazil,SilkySkin Baby Moisturizer,Aug2004,1176
+Brazil,SilkySkin Baby Moisturizer,Sep2004,1222
+Brazil,SilkySkin Baby Moisturizer,Oct2004,1161
+Brazil,SilkySkin Baby Moisturizer,Nov2004,1112
+Brazil,SilkySkin Baby Moisturizer,Dec2004,1138
 Brazil,GentleGlow Baby Face Wash,Jan2004,1083
 Brazil,GentleGlow Baby Face Wash,Feb2004,1015
 Brazil,GentleGlow Baby Face Wash,Mar2004,1197
@@ -1480,30 +1499,66 @@ Egypt,FreshStart Toothpaste,Sep2004,1230
 Egypt,FreshStart Toothpaste,Oct2004,1221
 Egypt,FreshStart Toothpaste,Nov2004,1238
 Egypt,FreshStart Toothpaste,Dec2004,1080
-Egypt,DentalDefense Toothpaste,Jan2004,816
-Egypt,DentalDefense Toothpaste,Feb2004,770
-Egypt,DentalDefense Toothpaste,Mar2004,793
-Egypt,DentalDefense Toothpaste,Apr2004,796
-Egypt,DentalDefense Toothpaste,May2004,866
-Egypt,DentalDefense Toothpaste,Jun2004,856
-Egypt,DentalDefense Toothpaste,Jul2004,878
-Egypt,DentalDefense Toothpaste,Aug2004,898
-Egypt,DentalDefense Toothpaste,Sep2004,926
-Egypt,DentalDefense Toothpaste,Oct2004,799
-Egypt,DentalDefense Toothpaste,Nov2004,775
-Egypt,DentalDefense Toothpaste,Dec2004,798
-Egypt,SparklingSmile Water Flosser,Jan2004,1771
-Egypt,SparklingSmile Water Flosser,Feb2004,1958
-Egypt,SparklingSmile Water Flosser,Mar2004,1906
-Egypt,SparklingSmile Water Flosser,Apr2004,1989
-Egypt,SparklingSmile Water Flosser,May2004,1646
-Egypt,SparklingSmile Water Flosser,Jun2004,1816
-Egypt,SparklingSmile Water Flosser,Jul2004,1750
-Egypt,SparklingSmile Water Flosser,Aug2004,1888
-Egypt,SparklingSmile Water Flosser,Sep2004,1885
-Egypt,SparklingSmile Water Flosser,Oct2004,1829
-Egypt,SparklingSmile Water Flosser,Nov2004,1813
-Egypt,SparklingSmile Water Flosser,Dec2004,1893
+Egypt,LuminousLip Care,Jan2004,1406
+Egypt,LuminousLip Care,Feb2004,1485
+Egypt,LuminousLip Care,Mar2004,1414
+Egypt,LuminousLip Care,Apr2004,1408
+Egypt,LuminousLip Care,May2004,1407
+Egypt,LuminousLip Care,Jun2004,1460
+Egypt,LuminousLip Care,Jul2004,1436
+Egypt,LuminousLip Care,Aug2004,1297
+Egypt,LuminousLip Care,Sep2004,1396
+Egypt,LuminousLip Care,Oct2004,1445
+Egypt,LuminousLip Care,Nov2004,1370
+Egypt,LuminousLip Care,Dec2004,1360
+Egypt,DentalDefense Toothpaste,Jan2004,2827
+Egypt,DentalDefense Toothpaste,Feb2004,2618
+Egypt,DentalDefense Toothpaste,Mar2004,2646
+Egypt,DentalDefense Toothpaste,Apr2004,2726
+Egypt,DentalDefense Toothpaste,May2004,2810
+Egypt,DentalDefense Toothpaste,Jun2004,2707
+Egypt,DentalDefense Toothpaste,Jul2004,2759
+Egypt,DentalDefense Toothpaste,Aug2004,2865
+Egypt,DentalDefense Toothpaste,Sep2004,2761
+Egypt,DentalDefense Toothpaste,Oct2004,2775
+Egypt,DentalDefense Toothpaste,Nov2004,2797
+Egypt,DentalDefense Toothpaste,Dec2004,2946
+Egypt,SparklingSmile Water Flosser,Jan2004,301
+Egypt,SparklingSmile Water Flosser,Feb2004,344
+Egypt,SparklingSmile Water Flosser,Mar2004,323
+Egypt,SparklingSmile Water Flosser,Apr2004,319
+Egypt,SparklingSmile Water Flosser,May2004,301
+Egypt,SparklingSmile Water Flosser,Jun2004,340
+Egypt,SparklingSmile Water Flosser,Jul2004,300
+Egypt,SparklingSmile Water Flosser,Aug2004,321
+Egypt,SparklingSmile Water Flosser,Sep2004,346
+Egypt,SparklingSmile Water Flosser,Oct2004,345
+Egypt,SparklingSmile Water Flosser,Nov2004,334
+Egypt,SparklingSmile Water Flosser,Dec2004,415
+Egypt,FreshFusion Mouth Rinse,Jan2004,810
+Egypt,FreshFusion Mouth Rinse,Feb2004,713
+Egypt,FreshFusion Mouth Rinse,Mar2004,818
+Egypt,FreshFusion Mouth Rinse,Apr2004,719
+Egypt,FreshFusion Mouth Rinse,May2004,809
+Egypt,FreshFusion Mouth Rinse,Jun2004,728
+Egypt,FreshFusion Mouth Rinse,Jul2004,797
+Egypt,FreshFusion Mouth Rinse,Aug2004,779
+Egypt,FreshFusion Mouth Rinse,Sep2004,775
+Egypt,FreshFusion Mouth Rinse,Oct2004,799
+Egypt,FreshFusion Mouth Rinse,Nov2004,747
+Egypt,FreshFusion Mouth Rinse,Dec2004,803
+Egypt,DailyDazzle Toothpaste,Jan2004,2423
+Egypt,DailyDazzle Toothpaste,Feb2004,2429
+Egypt,DailyDazzle Toothpaste,Mar2004,2735
+Egypt,DailyDazzle Toothpaste,Apr2004,2813
+Egypt,DailyDazzle Toothpaste,May2004,2507
+Egypt,DailyDazzle Toothpaste,Jun2004,2795
+Egypt,DailyDazzle Toothpaste,Jul2004,2832
+Egypt,DailyDazzle Toothpaste,Aug2004,2339
+Egypt,DailyDazzle Toothpaste,Sep2004,2103
+Egypt,DailyDazzle Toothpaste,Oct2004,2488
+Egypt,DailyDazzle Toothpaste,Nov2004,2298
+Egypt,DailyDazzle Toothpaste,Dec2004,1798
 Egypt,MorningBreeze Gum Care,Jan2004,1160
 Egypt,MorningBreeze Gum Care,Feb2004,1212
 Egypt,MorningBreeze Gum Care,Mar2004,1091
@@ -1540,18 +1595,40 @@ Egypt,BreatheEasy Inhalant,Sep2004,3247
 Egypt,BreatheEasy Inhalant,Oct2004,3081
 Egypt,BreatheEasy Inhalant,Nov2004,2977
 Egypt,BreatheEasy Inhalant,Dec2004,3195
-Egypt,Purezza Body Wash,Jan2004,1157
-Egypt,Purezza Body Wash,Feb2004,1061
-Egypt,Purezza Body Wash,Mar2004,1108
-Egypt,Purezza Body Wash,Apr2004,1045
-Egypt,Purezza Body Wash,May2004,1060
-Egypt,Purezza Body Wash,Jun2004,1077
-Egypt,Purezza Body Wash,Jul2004,1102
-Egypt,Purezza Body Wash,Aug2004,1041
-Egypt,Purezza Body Wash,Sep2004,1089
-Egypt,Purezza Body Wash,Oct2004,1058
-Egypt,Purezza Body Wash,Nov2004,1157
-Egypt,Purezza Body Wash,Dec2004,1072
+Egypt,SparklingGlow Toothpaste,Jan2004,154
+Egypt,SparklingGlow Toothpaste,Feb2004,370
+Egypt,SparklingGlow Toothpaste,Mar2004,122
+Egypt,SparklingGlow Toothpaste,Apr2004,507
+Egypt,SparklingGlow Toothpaste,May2004,530
+Egypt,SparklingGlow Toothpaste,Jun2004,931
+Egypt,SparklingGlow Toothpaste,Jul2004,1120
+Egypt,SparklingGlow Toothpaste,Sep2004,803
+Egypt,SparklingGlow Toothpaste,Oct2004,127
+Egypt,SparklingGlow Toothpaste,Dec2004,704
+Egypt,Purezza Body Wash,Jan2004,1936
+Egypt,Purezza Body Wash,Feb2004,1800
+Egypt,Purezza Body Wash,Mar2004,1781
+Egypt,Purezza Body Wash,Apr2004,1797
+Egypt,Purezza Body Wash,May2004,1778
+Egypt,Purezza Body Wash,Jun2004,1753
+Egypt,Purezza Body Wash,Jul2004,1979
+Egypt,Purezza Body Wash,Aug2004,1716
+Egypt,Purezza Body Wash,Sep2004,1703
+Egypt,Purezza Body Wash,Oct2004,1741
+Egypt,Purezza Body Wash,Nov2004,1840
+Egypt,Purezza Body Wash,Dec2004,1800
+Egypt,SkinSational Moisturizer,Jan2004,1141
+Egypt,SkinSational Moisturizer,Feb2004,1055
+Egypt,SkinSational Moisturizer,Mar2004,1130
+Egypt,SkinSational Moisturizer,Apr2004,1180
+Egypt,SkinSational Moisturizer,May2004,1081
+Egypt,SkinSational Moisturizer,Jun2004,1129
+Egypt,SkinSational Moisturizer,Jul2004,1088
+Egypt,SkinSational Moisturizer,Aug2004,1053
+Egypt,SkinSational Moisturizer,Sep2004,1079
+Egypt,SkinSational Moisturizer,Oct2004,1074
+Egypt,SkinSational Moisturizer,Nov2004,1052
+Egypt,SkinSational Moisturizer,Dec2004,1124
 Egypt,SoftStep Shaving Cream,Jan2004,1674
 Egypt,SoftStep Shaving Cream,Feb2004,1594
 Egypt,SoftStep Shaving Cream,Mar2004,1661
@@ -1588,18 +1665,54 @@ Egypt,HydraHydrate Hand Cream,Sep2004,836
 Egypt,HydraHydrate Hand Cream,Oct2004,883
 Egypt,HydraHydrate Hand Cream,Nov2004,863
 Egypt,HydraHydrate Hand Cream,Dec2004,855
-Egypt,RadiantRose Face Mask,Jan2004,1020
-Egypt,RadiantRose Face Mask,Feb2004,892
-Egypt,RadiantRose Face Mask,Mar2004,1061
-Egypt,RadiantRose Face Mask,Apr2004,1013
-Egypt,RadiantRose Face Mask,May2004,1026
-Egypt,RadiantRose Face Mask,Jun2004,1036
-Egypt,RadiantRose Face Mask,Jul2004,1080
-Egypt,RadiantRose Face Mask,Aug2004,994
-Egypt,RadiantRose Face Mask,Sep2004,1077
-Egypt,RadiantRose Face Mask,Oct2004,1047
-Egypt,RadiantRose Face Mask,Nov2004,900
-Egypt,RadiantRose Face Mask,Dec2004,992
+Egypt,SunShield SPF 50 Lotion,Jan2004,1830
+Egypt,SunShield SPF 50 Lotion,Feb2004,1825
+Egypt,SunShield SPF 50 Lotion,Mar2004,1859
+Egypt,SunShield SPF 50 Lotion,Apr2004,1775
+Egypt,SunShield SPF 50 Lotion,May2004,1985
+Egypt,SunShield SPF 50 Lotion,Jun2004,1912
+Egypt,SunShield SPF 50 Lotion,Jul2004,1926
+Egypt,SunShield SPF 50 Lotion,Aug2004,1756
+Egypt,SunShield SPF 50 Lotion,Sep2004,1881
+Egypt,SunShield SPF 50 Lotion,Oct2004,1826
+Egypt,SunShield SPF 50 Lotion,Nov2004,1873
+Egypt,SunShield SPF 50 Lotion,Dec2004,1857
+Egypt,Refreshing Rose Body Oil,Jan2004,1174
+Egypt,Refreshing Rose Body Oil,Feb2004,1130
+Egypt,Refreshing Rose Body Oil,Mar2004,1128
+Egypt,Refreshing Rose Body Oil,Apr2004,1112
+Egypt,Refreshing Rose Body Oil,May2004,1256
+Egypt,Refreshing Rose Body Oil,Jun2004,1201
+Egypt,Refreshing Rose Body Oil,Jul2004,1141
+Egypt,Refreshing Rose Body Oil,Aug2004,1034
+Egypt,Refreshing Rose Body Oil,Sep2004,1120
+Egypt,Refreshing Rose Body Oil,Oct2004,1097
+Egypt,Refreshing Rose Body Oil,Nov2004,1096
+Egypt,Refreshing Rose Body Oil,Dec2004,1193
+Egypt,Calming Creme Relaxant Bath,Jan2004,838
+Egypt,Calming Creme Relaxant Bath,Feb2004,900
+Egypt,Calming Creme Relaxant Bath,Mar2004,958
+Egypt,Calming Creme Relaxant Bath,Apr2004,909
+Egypt,Calming Creme Relaxant Bath,May2004,878
+Egypt,Calming Creme Relaxant Bath,Jun2004,826
+Egypt,Calming Creme Relaxant Bath,Jul2004,827
+Egypt,Calming Creme Relaxant Bath,Aug2004,886
+Egypt,Calming Creme Relaxant Bath,Sep2004,898
+Egypt,Calming Creme Relaxant Bath,Oct2004,862
+Egypt,Calming Creme Relaxant Bath,Nov2004,902
+Egypt,Calming Creme Relaxant Bath,Dec2004,773
+Egypt,RadiantRose Face Mask,Jan2004,1661
+Egypt,RadiantRose Face Mask,Feb2004,1484
+Egypt,RadiantRose Face Mask,Mar2004,1682
+Egypt,RadiantRose Face Mask,Apr2004,1659
+Egypt,RadiantRose Face Mask,May2004,1665
+Egypt,RadiantRose Face Mask,Jun2004,1674
+Egypt,RadiantRose Face Mask,Jul2004,1695
+Egypt,RadiantRose Face Mask,Aug2004,1602
+Egypt,RadiantRose Face Mask,Sep2004,1658
+Egypt,RadiantRose Face Mask,Oct2004,1672
+Egypt,RadiantRose Face Mask,Nov2004,1557
+Egypt,RadiantRose Face Mask,Dec2004,1560
 Egypt,SoothingSerenity Hand Sanitizer,Jan2004,2089
 Egypt,SoothingSerenity Hand Sanitizer,Feb2004,2008
 Egypt,SoothingSerenity Hand Sanitizer,Mar2004,1895
@@ -1624,6 +1737,18 @@ Egypt,PurePore Toner,Sep2004,1764
 Egypt,PurePore Toner,Oct2004,1897
 Egypt,PurePore Toner,Nov2004,1898
 Egypt,PurePore Toner,Dec2004,1696
+Egypt,MorningMist Deodorant,Jan2004,1315
+Egypt,MorningMist Deodorant,Feb2004,1326
+Egypt,MorningMist Deodorant,Mar2004,1355
+Egypt,MorningMist Deodorant,Apr2004,1398
+Egypt,MorningMist Deodorant,May2004,1465
+Egypt,MorningMist Deodorant,Jun2004,1358
+Egypt,MorningMist Deodorant,Jul2004,1411
+Egypt,MorningMist Deodorant,Aug2004,1466
+Egypt,MorningMist Deodorant,Sep2004,1351
+Egypt,MorningMist Deodorant,Oct2004,1247
+Egypt,MorningMist Deodorant,Nov2004,1405
+Egypt,MorningMist Deodorant,Dec2004,1331
 Egypt,Hydrating Honey Body Lotion,Jan2004,926
 Egypt,Hydrating Honey Body Lotion,Feb2004,806
 Egypt,Hydrating Honey Body Lotion,Mar2004,877
@@ -1660,18 +1785,42 @@ Egypt,FreshFusion Detergent,Sep2004,1291
 Egypt,FreshFusion Detergent,Oct2004,1310
 Egypt,FreshFusion Detergent,Nov2004,1495
 Egypt,FreshFusion Detergent,Dec2004,1391
-Egypt,CleanSlate Stain Remover,Jan2004,1156
-Egypt,CleanSlate Stain Remover,Feb2004,1117
-Egypt,CleanSlate Stain Remover,Mar2004,1181
-Egypt,CleanSlate Stain Remover,Apr2004,1213
-Egypt,CleanSlate Stain Remover,May2004,1350
-Egypt,CleanSlate Stain Remover,Jun2004,1201
-Egypt,CleanSlate Stain Remover,Jul2004,1167
-Egypt,CleanSlate Stain Remover,Aug2004,1224
-Egypt,CleanSlate Stain Remover,Sep2004,1209
-Egypt,CleanSlate Stain Remover,Oct2004,1199
-Egypt,CleanSlate Stain Remover,Nov2004,1243
-Egypt,CleanSlate Stain Remover,Dec2004,1237
+Egypt,CleanSlate Stain Remover,Jan2004,2536
+Egypt,CleanSlate Stain Remover,Feb2004,2513
+Egypt,CleanSlate Stain Remover,Mar2004,2569
+Egypt,CleanSlate Stain Remover,Apr2004,2551
+Egypt,CleanSlate Stain Remover,May2004,2664
+Egypt,CleanSlate Stain Remover,Jun2004,2625
+Egypt,CleanSlate Stain Remover,Jul2004,2499
+Egypt,CleanSlate Stain Remover,Aug2004,2596
+Egypt,CleanSlate Stain Remover,Sep2004,2554
+Egypt,CleanSlate Stain Remover,Oct2004,2503
+Egypt,CleanSlate Stain Remover,Nov2004,2575
+Egypt,CleanSlate Stain Remover,Dec2004,2418
+Egypt,EasyWash Laundry Detergent,Jan2004,529
+Egypt,EasyWash Laundry Detergent,Feb2004,464
+Egypt,EasyWash Laundry Detergent,Mar2004,554
+Egypt,EasyWash Laundry Detergent,Apr2004,479
+Egypt,EasyWash Laundry Detergent,May2004,503
+Egypt,EasyWash Laundry Detergent,Jun2004,491
+Egypt,EasyWash Laundry Detergent,Jul2004,491
+Egypt,EasyWash Laundry Detergent,Aug2004,476
+Egypt,EasyWash Laundry Detergent,Sep2004,465
+Egypt,EasyWash Laundry Detergent,Oct2004,483
+Egypt,EasyWash Laundry Detergent,Nov2004,497
+Egypt,EasyWash Laundry Detergent,Dec2004,498
+Egypt,SmellSational Odor Eliminator,Jan2004,1331
+Egypt,SmellSational Odor Eliminator,Feb2004,1264
+Egypt,SmellSational Odor Eliminator,Mar2004,1448
+Egypt,SmellSational Odor Eliminator,Apr2004,1367
+Egypt,SmellSational Odor Eliminator,May2004,1464
+Egypt,SmellSational Odor Eliminator,Jun2004,1292
+Egypt,SmellSational Odor Eliminator,Jul2004,1434
+Egypt,SmellSational Odor Eliminator,Aug2004,986
+Egypt,SmellSational Odor Eliminator,Sep2004,1402
+Egypt,SmellSational Odor Eliminator,Oct2004,1373
+Egypt,SmellSational Odor Eliminator,Nov2004,1445
+Egypt,SmellSational Odor Eliminator,Dec2004,1351
 Egypt,CalmingClean Bath Time Wash,Jan2004,686
 Egypt,CalmingClean Bath Time Wash,Feb2004,615
 Egypt,CalmingClean Bath Time Wash,Mar2004,644
@@ -1720,18 +1869,18 @@ Egypt,BrightBreeze Insect Repellent,Sep2004,1051
 Egypt,BrightBreeze Insect Repellent,Oct2004,1059
 Egypt,BrightBreeze Insect Repellent,Nov2004,1074
 Egypt,BrightBreeze Insect Repellent,Dec2004,1044
-Egypt,EasyWash Laundry Detergent for Babies,Jan2004,1678
-Egypt,EasyWash Laundry Detergent for Babies,Feb2004,1627
-Egypt,EasyWash Laundry Detergent for Babies,Mar2004,1677
-Egypt,EasyWash Laundry Detergent for Babies,Apr2004,1580
-Egypt,EasyWash Laundry Detergent for Babies,May2004,1690
-Egypt,EasyWash Laundry Detergent for Babies,Jun2004,1677
-Egypt,EasyWash Laundry Detergent for Babies,Jul2004,1563
-Egypt,EasyWash Laundry Detergent for Babies,Aug2004,1723
-Egypt,EasyWash Laundry Detergent for Babies,Sep2004,1484
-Egypt,EasyWash Laundry Detergent for Babies,Oct2004,1507
-Egypt,EasyWash Laundry Detergent for Babies,Nov2004,1745
-Egypt,EasyWash Laundry Detergent for Babies,Dec2004,1603
+Egypt,EasyWash Laundry Detergent for Babies,Jan2004,2469
+Egypt,EasyWash Laundry Detergent for Babies,Feb2004,2377
+Egypt,EasyWash Laundry Detergent for Babies,Mar2004,2436
+Egypt,EasyWash Laundry Detergent for Babies,Apr2004,2324
+Egypt,EasyWash Laundry Detergent for Babies,May2004,2405
+Egypt,EasyWash Laundry Detergent for Babies,Jun2004,2483
+Egypt,EasyWash Laundry Detergent for Babies,Jul2004,2447
+Egypt,EasyWash Laundry Detergent for Babies,Aug2004,2487
+Egypt,EasyWash Laundry Detergent for Babies,Sep2004,2307
+Egypt,EasyWash Laundry Detergent for Babies,Oct2004,2287
+Egypt,EasyWash Laundry Detergent for Babies,Nov2004,2527
+Egypt,EasyWash Laundry Detergent for Babies,Dec2004,2418
 Egypt,LittleLullaby Diaper Liners,Jan2004,711
 Egypt,LittleLullaby Diaper Liners,Feb2004,772
 Egypt,LittleLullaby Diaper Liners,Mar2004,833
@@ -1744,54 +1893,78 @@ Egypt,LittleLullaby Diaper Liners,Sep2004,781
 Egypt,LittleLullaby Diaper Liners,Oct2004,854
 Egypt,LittleLullaby Diaper Liners,Nov2004,808
 Egypt,LittleLullaby Diaper Liners,Dec2004,687
-Egypt,SoothingSerenity Baby Rub,Jan2004,1284
-Egypt,SoothingSerenity Baby Rub,Feb2004,1305
-Egypt,SoothingSerenity Baby Rub,Mar2004,1293
-Egypt,SoothingSerenity Baby Rub,Apr2004,1367
-Egypt,SoothingSerenity Baby Rub,May2004,1242
-Egypt,SoothingSerenity Baby Rub,Jun2004,1420
-Egypt,SoothingSerenity Baby Rub,Jul2004,1263
-Egypt,SoothingSerenity Baby Rub,Aug2004,1301
-Egypt,SoothingSerenity Baby Rub,Sep2004,1364
-Egypt,SoothingSerenity Baby Rub,Oct2004,1350
-Egypt,SoothingSerenity Baby Rub,Nov2004,1310
-Egypt,SoothingSerenity Baby Rub,Dec2004,1305
-Egypt,SilkySkin Baby Moisturizer,Jan2004,1903
-Egypt,SilkySkin Baby Moisturizer,Feb2004,1988
-Egypt,SilkySkin Baby Moisturizer,Mar2004,2134
-Egypt,SilkySkin Baby Moisturizer,Apr2004,2111
-Egypt,SilkySkin Baby Moisturizer,May2004,1502
-Egypt,SilkySkin Baby Moisturizer,Jun2004,2075
-Egypt,SilkySkin Baby Moisturizer,Jul2004,2590
-Egypt,SilkySkin Baby Moisturizer,Aug2004,1768
-Egypt,SilkySkin Baby Moisturizer,Sep2004,2035
-Egypt,SilkySkin Baby Moisturizer,Oct2004,1995
-Egypt,SilkySkin Baby Moisturizer,Nov2004,1950
-Egypt,SilkySkin Baby Moisturizer,Dec2004,1868
-Egypt,GentleGlow Baby Face Wash,Jan2004,790
-Egypt,GentleGlow Baby Face Wash,Feb2004,765
-Egypt,GentleGlow Baby Face Wash,Mar2004,775
-Egypt,GentleGlow Baby Face Wash,Apr2004,791
-Egypt,GentleGlow Baby Face Wash,May2004,805
-Egypt,GentleGlow Baby Face Wash,Jun2004,803
-Egypt,GentleGlow Baby Face Wash,Jul2004,741
-Egypt,GentleGlow Baby Face Wash,Aug2004,720
-Egypt,GentleGlow Baby Face Wash,Sep2004,785
-Egypt,GentleGlow Baby Face Wash,Oct2004,773
-Egypt,GentleGlow Baby Face Wash,Nov2004,715
-Egypt,GentleGlow Baby Face Wash,Dec2004,785
-Egypt,LuminousLocks Shampoo,Jan2004,609
-Egypt,LuminousLocks Shampoo,Feb2004,611
-Egypt,LuminousLocks Shampoo,Mar2004,567
-Egypt,LuminousLocks Shampoo,Apr2004,563
-Egypt,LuminousLocks Shampoo,May2004,593
-Egypt,LuminousLocks Shampoo,Jun2004,581
-Egypt,LuminousLocks Shampoo,Jul2004,641
-Egypt,LuminousLocks Shampoo,Aug2004,600
-Egypt,LuminousLocks Shampoo,Sep2004,581
-Egypt,LuminousLocks Shampoo,Oct2004,540
-Egypt,LuminousLocks Shampoo,Nov2004,615
-Egypt,LuminousLocks Shampoo,Dec2004,556
+Egypt,SoothingSerenity Baby Rub,Jan2004,2216
+Egypt,SoothingSerenity Baby Rub,Feb2004,2233
+Egypt,SoothingSerenity Baby Rub,Mar2004,2195
+Egypt,SoothingSerenity Baby Rub,Apr2004,2187
+Egypt,SoothingSerenity Baby Rub,May2004,2128
+Egypt,SoothingSerenity Baby Rub,Jun2004,2297
+Egypt,SoothingSerenity Baby Rub,Jul2004,2213
+Egypt,SoothingSerenity Baby Rub,Aug2004,2186
+Egypt,SoothingSerenity Baby Rub,Sep2004,2287
+Egypt,SoothingSerenity Baby Rub,Oct2004,2208
+Egypt,SoothingSerenity Baby Rub,Nov2004,2199
+Egypt,SoothingSerenity Baby Rub,Dec2004,2275
+Egypt,FreshFusion Baby Wipes,Jan2004,723
+Egypt,FreshFusion Baby Wipes,Feb2004,649
+Egypt,FreshFusion Baby Wipes,Mar2004,710
+Egypt,FreshFusion Baby Wipes,Apr2004,684
+Egypt,FreshFusion Baby Wipes,May2004,688
+Egypt,FreshFusion Baby Wipes,Jun2004,656
+Egypt,FreshFusion Baby Wipes,Jul2004,673
+Egypt,FreshFusion Baby Wipes,Aug2004,677
+Egypt,FreshFusion Baby Wipes,Sep2004,657
+Egypt,FreshFusion Baby Wipes,Oct2004,678
+Egypt,FreshFusion Baby Wipes,Nov2004,683
+Egypt,FreshFusion Baby Wipes,Dec2004,653
+Egypt,SilkySkin Baby Moisturizer,Jan2004,758
+Egypt,SilkySkin Baby Moisturizer,Feb2004,801
+Egypt,SilkySkin Baby Moisturizer,Mar2004,869
+Egypt,SilkySkin Baby Moisturizer,Apr2004,745
+Egypt,SilkySkin Baby Moisturizer,May2004,762
+Egypt,SilkySkin Baby Moisturizer,Jun2004,818
+Egypt,SilkySkin Baby Moisturizer,Jul2004,829
+Egypt,SilkySkin Baby Moisturizer,Aug2004,770
+Egypt,SilkySkin Baby Moisturizer,Sep2004,813
+Egypt,SilkySkin Baby Moisturizer,Oct2004,834
+Egypt,SilkySkin Baby Moisturizer,Nov2004,838
+Egypt,SilkySkin Baby Moisturizer,Dec2004,730
+Egypt,GentleGlow Baby Face Wash,Jan2004,1822
+Egypt,GentleGlow Baby Face Wash,Feb2004,2043
+Egypt,GentleGlow Baby Face Wash,Mar2004,1817
+Egypt,GentleGlow Baby Face Wash,Apr2004,1965
+Egypt,GentleGlow Baby Face Wash,May2004,1935
+Egypt,GentleGlow Baby Face Wash,Jun2004,1872
+Egypt,GentleGlow Baby Face Wash,Jul2004,1975
+Egypt,GentleGlow Baby Face Wash,Aug2004,1854
+Egypt,GentleGlow Baby Face Wash,Sep2004,1923
+Egypt,GentleGlow Baby Face Wash,Oct2004,1976
+Egypt,GentleGlow Baby Face Wash,Nov2004,2107
+Egypt,GentleGlow Baby Face Wash,Dec2004,1972
+Egypt,BrightBreeze Baby Sunscreen Stick,Jan2004,1263
+Egypt,BrightBreeze Baby Sunscreen Stick,Feb2004,1233
+Egypt,BrightBreeze Baby Sunscreen Stick,Mar2004,1263
+Egypt,BrightBreeze Baby Sunscreen Stick,Apr2004,1174
+Egypt,BrightBreeze Baby Sunscreen Stick,May2004,1206
+Egypt,BrightBreeze Baby Sunscreen Stick,Jun2004,1348
+Egypt,BrightBreeze Baby Sunscreen Stick,Jul2004,1293
+Egypt,BrightBreeze Baby Sunscreen Stick,Aug2004,1221
+Egypt,BrightBreeze Baby Sunscreen Stick,Sep2004,1338
+Egypt,BrightBreeze Baby Sunscreen Stick,Oct2004,1221
+Egypt,BrightBreeze Baby Sunscreen Stick,Nov2004,1237
+Egypt,BrightBreeze Baby Sunscreen Stick,Dec2004,1250
+Egypt,LuminousLocks Shampoo,Jan2004,1927
+Egypt,LuminousLocks Shampoo,Feb2004,1963
+Egypt,LuminousLocks Shampoo,Mar2004,2002
+Egypt,LuminousLocks Shampoo,Apr2004,2196
+Egypt,LuminousLocks Shampoo,May2004,2112
+Egypt,LuminousLocks Shampoo,Jun2004,2123
+Egypt,LuminousLocks Shampoo,Jul2004,2006
+Egypt,LuminousLocks Shampoo,Aug2004,1873
+Egypt,LuminousLocks Shampoo,Sep2004,2124
+Egypt,LuminousLocks Shampoo,Oct2004,1857
+Egypt,LuminousLocks Shampoo,Nov2004,2123
+Egypt,LuminousLocks Shampoo,Dec2004,2142
 Egypt,SilkSmooth Conditioner,Jan2004,1635
 Egypt,SilkSmooth Conditioner,Feb2004,1753
 Egypt,SilkSmooth Conditioner,Mar2004,1962
@@ -1804,6 +1977,18 @@ Egypt,SilkSmooth Conditioner,Sep2004,1701
 Egypt,SilkSmooth Conditioner,Oct2004,1780
 Egypt,SilkSmooth Conditioner,Nov2004,1800
 Egypt,SilkSmooth Conditioner,Dec2004,1741
+Egypt,CleanSlate Feminine Deodorant,Jan2004,1610
+Egypt,CleanSlate Feminine Deodorant,Feb2004,1712
+Egypt,CleanSlate Feminine Deodorant,Mar2004,1589
+Egypt,CleanSlate Feminine Deodorant,Apr2004,1470
+Egypt,CleanSlate Feminine Deodorant,May2004,1770
+Egypt,CleanSlate Feminine Deodorant,Jun2004,1590
+Egypt,CleanSlate Feminine Deodorant,Jul2004,1657
+Egypt,CleanSlate Feminine Deodorant,Aug2004,1500
+Egypt,CleanSlate Feminine Deodorant,Sep2004,1712
+Egypt,CleanSlate Feminine Deodorant,Oct2004,1520
+Egypt,CleanSlate Feminine Deodorant,Nov2004,1562
+Egypt,CleanSlate Feminine Deodorant,Dec2004,1668
 Egypt,BrightBreeze Period Pain Relief,Jan2004,5310
 Egypt,BrightBreeze Period Pain Relief,Feb2004,5240
 Egypt,BrightBreeze Period Pain Relief,Mar2004,5384
@@ -1852,18 +2037,18 @@ Egypt,SoothingSerenity Air Freshener,Sep2004,4057
 Egypt,SoothingSerenity Air Freshener,Oct2004,3996
 Egypt,SoothingSerenity Air Freshener,Nov2004,4199
 Egypt,SoothingSerenity Air Freshener,Dec2004,3969
-Egypt,BrightBreeze Window Cleaner,Jan2004,4393
-Egypt,BrightBreeze Window Cleaner,Feb2004,4799
-Egypt,BrightBreeze Window Cleaner,Mar2004,4586
-Egypt,BrightBreeze Window Cleaner,Apr2004,4687
-Egypt,BrightBreeze Window Cleaner,May2004,4923
-Egypt,BrightBreeze Window Cleaner,Jun2004,4893
-Egypt,BrightBreeze Window Cleaner,Jul2004,4643
-Egypt,BrightBreeze Window Cleaner,Aug2004,4231
-Egypt,BrightBreeze Window Cleaner,Sep2004,4716
-Egypt,BrightBreeze Window Cleaner,Oct2004,4643
-Egypt,BrightBreeze Window Cleaner,Nov2004,4725
-Egypt,BrightBreeze Window Cleaner,Dec2004,4855
+Egypt,BrightBreeze Window Cleaner,Jan2004,2297
+Egypt,BrightBreeze Window Cleaner,Feb2004,2297
+Egypt,BrightBreeze Window Cleaner,Mar2004,2238
+Egypt,BrightBreeze Window Cleaner,Apr2004,2199
+Egypt,BrightBreeze Window Cleaner,May2004,2201
+Egypt,BrightBreeze Window Cleaner,Jun2004,2357
+Egypt,BrightBreeze Window Cleaner,Jul2004,2267
+Egypt,BrightBreeze Window Cleaner,Aug2004,2411
+Egypt,BrightBreeze Window Cleaner,Sep2004,2200
+Egypt,BrightBreeze Window Cleaner,Oct2004,2351
+Egypt,BrightBreeze Window Cleaner,Nov2004,2210
+Egypt,BrightBreeze Window Cleaner,Dec2004,2388
 Egypt,RadiantRose Glass Cleaner,Jan2004,1135
 Egypt,RadiantRose Glass Cleaner,Feb2004,1012
 Egypt,RadiantRose Glass Cleaner,Mar2004,1065
@@ -1876,30 +2061,30 @@ Egypt,RadiantRose Glass Cleaner,Sep2004,1054
 Egypt,RadiantRose Glass Cleaner,Oct2004,992
 Egypt,RadiantRose Glass Cleaner,Nov2004,1104
 Egypt,RadiantRose Glass Cleaner,Dec2004,1264
-Egypt,PurePore Insect Repellent Spray,Jan2004,1384
-Egypt,PurePore Insect Repellent Spray,Feb2004,1340
-Egypt,PurePore Insect Repellent Spray,Mar2004,1431
-Egypt,PurePore Insect Repellent Spray,Apr2004,1337
-Egypt,PurePore Insect Repellent Spray,May2004,1276
-Egypt,PurePore Insect Repellent Spray,Jun2004,1256
-Egypt,PurePore Insect Repellent Spray,Jul2004,1411
-Egypt,PurePore Insect Repellent Spray,Aug2004,1324
-Egypt,PurePore Insect Repellent Spray,Sep2004,1423
-Egypt,PurePore Insect Repellent Spray,Oct2004,1384
-Egypt,PurePore Insect Repellent Spray,Nov2004,1396
-Egypt,PurePore Insect Repellent Spray,Dec2004,1528
-Egypt,EasyWash Laundry Detergent for Delicates,Jan2004,2737
-Egypt,EasyWash Laundry Detergent for Delicates,Feb2004,3061
-Egypt,EasyWash Laundry Detergent for Delicates,Mar2004,3102
-Egypt,EasyWash Laundry Detergent for Delicates,Apr2004,3176
-Egypt,EasyWash Laundry Detergent for Delicates,May2004,3213
-Egypt,EasyWash Laundry Detergent for Delicates,Jun2004,3316
-Egypt,EasyWash Laundry Detergent for Delicates,Jul2004,3549
-Egypt,EasyWash Laundry Detergent for Delicates,Aug2004,2099
-Egypt,EasyWash Laundry Detergent for Delicates,Sep2004,3312
-Egypt,EasyWash Laundry Detergent for Delicates,Oct2004,2800
-Egypt,EasyWash Laundry Detergent for Delicates,Nov2004,2904
-Egypt,EasyWash Laundry Detergent for Delicates,Dec2004,3430
+Egypt,PurePore Insect Repellent Spray,Jan2004,2512
+Egypt,PurePore Insect Repellent Spray,Feb2004,2443
+Egypt,PurePore Insect Repellent Spray,Mar2004,2570
+Egypt,PurePore Insect Repellent Spray,Apr2004,2382
+Egypt,PurePore Insect Repellent Spray,May2004,2403
+Egypt,PurePore Insect Repellent Spray,Jun2004,2345
+Egypt,PurePore Insect Repellent Spray,Jul2004,2446
+Egypt,PurePore Insect Repellent Spray,Aug2004,2463
+Egypt,PurePore Insect Repellent Spray,Sep2004,2504
+Egypt,PurePore Insect Repellent Spray,Oct2004,2561
+Egypt,PurePore Insect Repellent Spray,Nov2004,2512
+Egypt,PurePore Insect Repellent Spray,Dec2004,2691
+Egypt,EasyWash Laundry Detergent for Delicates,Jan2004,1798
+Egypt,EasyWash Laundry Detergent for Delicates,Feb2004,1774
+Egypt,EasyWash Laundry Detergent for Delicates,Mar2004,1820
+Egypt,EasyWash Laundry Detergent for Delicates,Apr2004,1717
+Egypt,EasyWash Laundry Detergent for Delicates,May2004,1844
+Egypt,EasyWash Laundry Detergent for Delicates,Jun2004,1863
+Egypt,EasyWash Laundry Detergent for Delicates,Jul2004,1940
+Egypt,EasyWash Laundry Detergent for Delicates,Aug2004,1753
+Egypt,EasyWash Laundry Detergent for Delicates,Sep2004,1807
+Egypt,EasyWash Laundry Detergent for Delicates,Oct2004,1803
+Egypt,EasyWash Laundry Detergent for Delicates,Nov2004,1772
+Egypt,EasyWash Laundry Detergent for Delicates,Dec2004,1880
 Egypt,SoothingSerenity Humidifier,Jan2004,478
 Egypt,SoothingSerenity Humidifier,Feb2004,509
 Egypt,SoothingSerenity Humidifier,Mar2004,483
@@ -1912,15 +2097,18 @@ Egypt,SoothingSerenity Humidifier,Sep2004,559
 Egypt,SoothingSerenity Humidifier,Oct2004,526
 Egypt,SoothingSerenity Humidifier,Nov2004,514
 Egypt,SoothingSerenity Humidifier,Dec2004,523
-Egypt,GentleGlow Pet Grooming Kit,Feb2004,527
-Egypt,GentleGlow Pet Grooming Kit,Mar2004,524
-Egypt,GentleGlow Pet Grooming Kit,Apr2004,584
-Egypt,GentleGlow Pet Grooming Kit,May2004,541
-Egypt,GentleGlow Pet Grooming Kit,Jun2004,527
-Egypt,GentleGlow Pet Grooming Kit,Jul2004,568
-Egypt,GentleGlow Pet Grooming Kit,Sep2004,562
-Egypt,GentleGlow Pet Grooming Kit,Nov2004,559
-Egypt,GentleGlow Pet Grooming Kit,Dec2004,512
+Egypt,GentleGlow Pet Grooming Kit,Jan2004,352
+Egypt,GentleGlow Pet Grooming Kit,Feb2004,390
+Egypt,GentleGlow Pet Grooming Kit,Mar2004,356
+Egypt,GentleGlow Pet Grooming Kit,Apr2004,309
+Egypt,GentleGlow Pet Grooming Kit,May2004,379
+Egypt,GentleGlow Pet Grooming Kit,Jun2004,410
+Egypt,GentleGlow Pet Grooming Kit,Jul2004,394
+Egypt,GentleGlow Pet Grooming Kit,Aug2004,382
+Egypt,GentleGlow Pet Grooming Kit,Sep2004,430
+Egypt,GentleGlow Pet Grooming Kit,Oct2004,330
+Egypt,GentleGlow Pet Grooming Kit,Nov2004,364
+Egypt,GentleGlow Pet Grooming Kit,Dec2004,395
 Egypt,BrightBreeze Pet Odor Eliminator,Jan2004,495
 Egypt,BrightBreeze Pet Odor Eliminator,Feb2004,480
 Egypt,BrightBreeze Pet Odor Eliminator,Mar2004,502
@@ -1933,6 +2121,18 @@ Egypt,BrightBreeze Pet Odor Eliminator,Sep2004,508
 Egypt,BrightBreeze Pet Odor Eliminator,Oct2004,542
 Egypt,BrightBreeze Pet Odor Eliminator,Nov2004,522
 Egypt,BrightBreeze Pet Odor Eliminator,Dec2004,551
+Egypt,SmellSational Pet Deodorizer,Jan2004,619
+Egypt,SmellSational Pet Deodorizer,Feb2004,611
+Egypt,SmellSational Pet Deodorizer,Mar2004,642
+Egypt,SmellSational Pet Deodorizer,Apr2004,526
+Egypt,SmellSational Pet Deodorizer,May2004,591
+Egypt,SmellSational Pet Deodorizer,Jun2004,607
+Egypt,SmellSational Pet Deodorizer,Jul2004,547
+Egypt,SmellSational Pet Deodorizer,Aug2004,601
+Egypt,SmellSational Pet Deodorizer,Sep2004,649
+Egypt,SmellSational Pet Deodorizer,Oct2004,567
+Egypt,SmellSational Pet Deodorizer,Nov2004,594
+Egypt,SmellSational Pet Deodorizer,Dec2004,548
 Egypt,CalmingClean Dog Brush,Jan2004,4726
 Egypt,CalmingClean Dog Brush,Feb2004,4818
 Egypt,CalmingClean Dog Brush,Mar2004,4829
@@ -1958,24 +2158,13 @@ France,SmileShield Whitening Strips,Oct2004,600
 France,SmileShield Whitening Strips,Nov2004,617
 France,SmileShield Whitening Strips,Dec2004,679
 France,LuminousLip Care,Jan2004,232
-France,LuminousLip Care,Apr2004,20
-France,LuminousLip Care,May2004,231
+France,LuminousLip Care,Mar2004,2
+France,LuminousLip Care,May2004,225
 France,LuminousLip Care,Jun2004,271
-France,LuminousLip Care,Sep2004,93
+France,LuminousLip Care,Jul2004,226
+France,LuminousLip Care,Sep2004,229
 France,LuminousLip Care,Nov2004,208
-France,LuminousLip Care,Dec2004,149
-France,OralEase Gel,Jan2004,942
-France,OralEase Gel,Feb2004,928
-France,OralEase Gel,Mar2004,1006
-France,OralEase Gel,Apr2004,355
-France,OralEase Gel,May2004,1008
-France,OralEase Gel,Jun2004,919
-France,OralEase Gel,Jul2004,1023
-France,OralEase Gel,Aug2004,962
-France,OralEase Gel,Sep2004,995
-France,OralEase Gel,Oct2004,963
-France,OralEase Gel,Nov2004,955
-France,OralEase Gel,Dec2004,982
+France,LuminousLip Care,Dec2004,221
 France,MorningBreeze Gum Care,Jan2004,1112
 France,MorningBreeze Gum Care,Feb2004,1236
 France,MorningBreeze Gum Care,Mar2004,1201
@@ -1988,18 +2177,16 @@ France,MorningBreeze Gum Care,Sep2004,1240
 France,MorningBreeze Gum Care,Oct2004,1267
 France,MorningBreeze Gum Care,Nov2004,1312
 France,MorningBreeze Gum Care,Dec2004,1192
-France,CleanSmile Floss Picks,Jan2004,1334
-France,CleanSmile Floss Picks,Feb2004,1147
-France,CleanSmile Floss Picks,Mar2004,1288
-France,CleanSmile Floss Picks,Apr2004,1247
-France,CleanSmile Floss Picks,May2004,1268
-France,CleanSmile Floss Picks,Jun2004,1167
-France,CleanSmile Floss Picks,Jul2004,1053
-France,CleanSmile Floss Picks,Aug2004,1230
-France,CleanSmile Floss Picks,Sep2004,1133
-France,CleanSmile Floss Picks,Oct2004,1199
-France,CleanSmile Floss Picks,Nov2004,1139
-France,CleanSmile Floss Picks,Dec2004,1107
+France,CleanSmile Floss Picks,Jan2004,237
+France,CleanSmile Floss Picks,Feb2004,729
+France,CleanSmile Floss Picks,Mar2004,832
+France,CleanSmile Floss Picks,Jun2004,128
+France,CleanSmile Floss Picks,Jul2004,6
+France,CleanSmile Floss Picks,Aug2004,736
+France,CleanSmile Floss Picks,Sep2004,274
+France,CleanSmile Floss Picks,Oct2004,1044
+France,CleanSmile Floss Picks,Nov2004,86
+France,CleanSmile Floss Picks,Dec2004,169
 France,FreshFix Mouthwash,Jan2004,929
 France,FreshFix Mouthwash,Feb2004,1040
 France,FreshFix Mouthwash,Mar2004,795
@@ -2072,17 +2259,18 @@ France,CleanSkin Acne Treatment,Sep2004,1674
 France,CleanSkin Acne Treatment,Oct2004,1659
 France,CleanSkin Acne Treatment,Nov2004,1801
 France,CleanSkin Acne Treatment,Dec2004,1742
-France,Calming Creme Relaxant Bath,Jan2004,474
-France,Calming Creme Relaxant Bath,Feb2004,436
-France,Calming Creme Relaxant Bath,Mar2004,512
+France,Calming Creme Relaxant Bath,Jan2004,783
+France,Calming Creme Relaxant Bath,Feb2004,618
+France,Calming Creme Relaxant Bath,Mar2004,821
 France,Calming Creme Relaxant Bath,Apr2004,845
-France,Calming Creme Relaxant Bath,May2004,524
+France,Calming Creme Relaxant Bath,May2004,834
 France,Calming Creme Relaxant Bath,Jun2004,832
-France,Calming Creme Relaxant Bath,Jul2004,708
+France,Calming Creme Relaxant Bath,Jul2004,882
+France,Calming Creme Relaxant Bath,Aug2004,93
 France,Calming Creme Relaxant Bath,Sep2004,750
-France,Calming Creme Relaxant Bath,Oct2004,179
-France,Calming Creme Relaxant Bath,Nov2004,525
-France,Calming Creme Relaxant Bath,Dec2004,629
+France,Calming Creme Relaxant Bath,Oct2004,302
+France,Calming Creme Relaxant Bath,Nov2004,744
+France,Calming Creme Relaxant Bath,Dec2004,746
 France,MorningMist Deodorant,Jan2004,302
 France,MorningMist Deodorant,Feb2004,307
 France,MorningMist Deodorant,Mar2004,323
@@ -2107,9 +2295,6 @@ France,BrightBreeze Whitening Booster,Sep2004,604
 France,BrightBreeze Whitening Booster,Oct2004,552
 France,BrightBreeze Whitening Booster,Nov2004,600
 France,BrightBreeze Whitening Booster,Dec2004,646
-France,SparklingClean All-Purpose Cleaner,Feb2004,315
-France,SparklingClean All-Purpose Cleaner,Mar2004,281
-France,SparklingClean All-Purpose Cleaner,Jul2004,150
 France,SmellSational Odor Eliminator,Jan2004,261
 France,SmellSational Odor Eliminator,Feb2004,216
 France,SmellSational Odor Eliminator,Mar2004,225
@@ -2146,11 +2331,18 @@ France,EasyWash Laundry Detergent for Babies,Sep2004,793
 France,EasyWash Laundry Detergent for Babies,Oct2004,819
 France,EasyWash Laundry Detergent for Babies,Nov2004,826
 France,EasyWash Laundry Detergent for Babies,Dec2004,828
-France,SoothingSerenity Baby Rub,Feb2004,315
-France,SoothingSerenity Baby Rub,Mar2004,435
-France,SoothingSerenity Baby Rub,Aug2004,977
-France,SoothingSerenity Baby Rub,Sep2004,94
-France,SoothingSerenity Baby Rub,Oct2004,825
+France,CalmingClean Diaper Rash Cream,Jan2004,1730
+France,CalmingClean Diaper Rash Cream,Feb2004,1794
+France,CalmingClean Diaper Rash Cream,Mar2004,1867
+France,CalmingClean Diaper Rash Cream,Apr2004,1788
+France,CalmingClean Diaper Rash Cream,May2004,1972
+France,CalmingClean Diaper Rash Cream,Jun2004,1958
+France,CalmingClean Diaper Rash Cream,Jul2004,1820
+France,CalmingClean Diaper Rash Cream,Aug2004,1890
+France,CalmingClean Diaper Rash Cream,Sep2004,1812
+France,CalmingClean Diaper Rash Cream,Oct2004,1820
+France,CalmingClean Diaper Rash Cream,Nov2004,1789
+France,CalmingClean Diaper Rash Cream,Dec2004,1731
 France,SilkySkin Baby Moisturizer,Jan2004,501
 France,SilkySkin Baby Moisturizer,Feb2004,491
 France,SilkySkin Baby Moisturizer,Mar2004,475
@@ -2214,7 +2406,7 @@ France,PurePore Sanitary Belt,Dec2004,1418
 France,SmellSational Intimate Spray,Jan2004,1201
 France,SmellSational Intimate Spray,Feb2004,1260
 France,SmellSational Intimate Spray,Mar2004,1237
-France,SmellSational Intimate Spray,Apr2004,1274
+France,SmellSational Intimate Spray,Apr2004,1108
 France,SmellSational Intimate Spray,May2004,1315
 France,SmellSational Intimate Spray,Jun2004,1215
 France,SmellSational Intimate Spray,Jul2004,1241
@@ -2254,6 +2446,7 @@ France,GentleGlow Dish Soap,Apr2004,534
 France,GentleGlow Dish Soap,May2004,398
 France,GentleGlow Dish Soap,Jun2004,481
 France,GentleGlow Dish Soap,Jul2004,475
+France,GentleGlow Dish Soap,Aug2004,450
 France,GentleGlow Dish Soap,Sep2004,499
 France,GentleGlow Dish Soap,Oct2004,464
 France,GentleGlow Dish Soap,Nov2004,498
@@ -2318,18 +2511,18 @@ India,MorningMint,Sep2004,558
 India,MorningMint,Oct2004,576
 India,MorningMint,Nov2004,538
 India,MorningMint,Dec2004,555
-India,FreshStart Toothpaste,Jan2004,3869
-India,FreshStart Toothpaste,Feb2004,4074
-India,FreshStart Toothpaste,Mar2004,3904
-India,FreshStart Toothpaste,Apr2004,4022
-India,FreshStart Toothpaste,May2004,4033
-India,FreshStart Toothpaste,Jun2004,4121
-India,FreshStart Toothpaste,Jul2004,3822
-India,FreshStart Toothpaste,Aug2004,3986
-India,FreshStart Toothpaste,Sep2004,3981
-India,FreshStart Toothpaste,Oct2004,3849
-India,FreshStart Toothpaste,Nov2004,4159
-India,FreshStart Toothpaste,Dec2004,3981
+India,FreshStart Toothpaste,Jan2004,2398
+India,FreshStart Toothpaste,Feb2004,2527
+India,FreshStart Toothpaste,Mar2004,2377
+India,FreshStart Toothpaste,Apr2004,2373
+India,FreshStart Toothpaste,May2004,2369
+India,FreshStart Toothpaste,Jun2004,2470
+India,FreshStart Toothpaste,Jul2004,2338
+India,FreshStart Toothpaste,Aug2004,2449
+India,FreshStart Toothpaste,Sep2004,2357
+India,FreshStart Toothpaste,Oct2004,2282
+India,FreshStart Toothpaste,Nov2004,2521
+India,FreshStart Toothpaste,Dec2004,2429
 India,SmileShield Whitening Strips,Jan2004,1389
 India,SmileShield Whitening Strips,Feb2004,1366
 India,SmileShield Whitening Strips,Mar2004,1372
@@ -2342,18 +2535,30 @@ India,SmileShield Whitening Strips,Sep2004,1357
 India,SmileShield Whitening Strips,Oct2004,1268
 India,SmileShield Whitening Strips,Nov2004,1472
 India,SmileShield Whitening Strips,Dec2004,1462
-India,LuminousLip Care,Jan2004,1620
-India,LuminousLip Care,Feb2004,1738
-India,LuminousLip Care,Mar2004,1619
-India,LuminousLip Care,Apr2004,1708
-India,LuminousLip Care,May2004,1677
-India,LuminousLip Care,Jun2004,1644
-India,LuminousLip Care,Jul2004,1815
-India,LuminousLip Care,Aug2004,1807
-India,LuminousLip Care,Sep2004,1621
-India,LuminousLip Care,Oct2004,1624
-India,LuminousLip Care,Nov2004,1710
-India,LuminousLip Care,Dec2004,1714
+India,BriteBite Toothbrush,Jan2004,1714
+India,BriteBite Toothbrush,Feb2004,1781
+India,BriteBite Toothbrush,Mar2004,1702
+India,BriteBite Toothbrush,Apr2004,1628
+India,BriteBite Toothbrush,May2004,1246
+India,BriteBite Toothbrush,Jun2004,1816
+India,BriteBite Toothbrush,Jul2004,1631
+India,BriteBite Toothbrush,Aug2004,1604
+India,BriteBite Toothbrush,Sep2004,1918
+India,BriteBite Toothbrush,Oct2004,1866
+India,BriteBite Toothbrush,Nov2004,1769
+India,BriteBite Toothbrush,Dec2004,1713
+India,LuminousLip Care,Jan2004,3444
+India,LuminousLip Care,Feb2004,3628
+India,LuminousLip Care,Mar2004,3698
+India,LuminousLip Care,Apr2004,3823
+India,LuminousLip Care,May2004,3595
+India,LuminousLip Care,Jun2004,3634
+India,LuminousLip Care,Jul2004,3834
+India,LuminousLip Care,Aug2004,3776
+India,LuminousLip Care,Sep2004,3834
+India,LuminousLip Care,Oct2004,3653
+India,LuminousLip Care,Nov2004,3678
+India,LuminousLip Care,Dec2004,3848
 India,DentalDefense Toothpaste,Jan2004,511
 India,DentalDefense Toothpaste,Feb2004,485
 India,DentalDefense Toothpaste,Mar2004,553
@@ -2378,18 +2583,18 @@ India,SparklingSmile Water Flosser,Sep2004,1168
 India,SparklingSmile Water Flosser,Oct2004,1171
 India,SparklingSmile Water Flosser,Nov2004,1409
 India,SparklingSmile Water Flosser,Dec2004,1201
-India,FreshFusion Mouth Rinse,Jan2004,1631
-India,FreshFusion Mouth Rinse,Feb2004,1633
-India,FreshFusion Mouth Rinse,Mar2004,1693
-India,FreshFusion Mouth Rinse,Apr2004,1743
-India,FreshFusion Mouth Rinse,May2004,1739
-India,FreshFusion Mouth Rinse,Jun2004,1737
-India,FreshFusion Mouth Rinse,Jul2004,1637
-India,FreshFusion Mouth Rinse,Aug2004,1604
-India,FreshFusion Mouth Rinse,Sep2004,1735
-India,FreshFusion Mouth Rinse,Oct2004,1597
-India,FreshFusion Mouth Rinse,Nov2004,1620
-India,FreshFusion Mouth Rinse,Dec2004,1740
+India,FreshFusion Mouth Rinse,Jan2004,821
+India,FreshFusion Mouth Rinse,Feb2004,920
+India,FreshFusion Mouth Rinse,Mar2004,875
+India,FreshFusion Mouth Rinse,Apr2004,1024
+India,FreshFusion Mouth Rinse,May2004,930
+India,FreshFusion Mouth Rinse,Jun2004,1009
+India,FreshFusion Mouth Rinse,Jul2004,840
+India,FreshFusion Mouth Rinse,Aug2004,825
+India,FreshFusion Mouth Rinse,Sep2004,960
+India,FreshFusion Mouth Rinse,Oct2004,798
+India,FreshFusion Mouth Rinse,Nov2004,873
+India,FreshFusion Mouth Rinse,Dec2004,937
 India,SmileSavvy Tooth Whitening Kit,Jan2004,511
 India,SmileSavvy Tooth Whitening Kit,Feb2004,516
 India,SmileSavvy Tooth Whitening Kit,Mar2004,548
@@ -2414,18 +2619,18 @@ India,MorningBreeze Gum Care,Sep2004,2402
 India,MorningBreeze Gum Care,Oct2004,2529
 India,MorningBreeze Gum Care,Nov2004,2423
 India,MorningBreeze Gum Care,Dec2004,2474
-India,OralEase Plus Toothbrush,Jan2004,1373
-India,OralEase Plus Toothbrush,Feb2004,1400
-India,OralEase Plus Toothbrush,Mar2004,1404
-India,OralEase Plus Toothbrush,Apr2004,1482
-India,OralEase Plus Toothbrush,May2004,1518
-India,OralEase Plus Toothbrush,Jun2004,1531
-India,OralEase Plus Toothbrush,Jul2004,1381
-India,OralEase Plus Toothbrush,Aug2004,1442
-India,OralEase Plus Toothbrush,Sep2004,1515
-India,OralEase Plus Toothbrush,Oct2004,1533
-India,OralEase Plus Toothbrush,Nov2004,1478
-India,OralEase Plus Toothbrush,Dec2004,1399
+India,OralEase Plus Toothbrush,Jan2004,818
+India,OralEase Plus Toothbrush,Feb2004,812
+India,OralEase Plus Toothbrush,Mar2004,818
+India,OralEase Plus Toothbrush,Apr2004,886
+India,OralEase Plus Toothbrush,May2004,942
+India,OralEase Plus Toothbrush,Jun2004,928
+India,OralEase Plus Toothbrush,Jul2004,847
+India,OralEase Plus Toothbrush,Aug2004,869
+India,OralEase Plus Toothbrush,Sep2004,967
+India,OralEase Plus Toothbrush,Oct2004,919
+India,OralEase Plus Toothbrush,Nov2004,904
+India,OralEase Plus Toothbrush,Dec2004,834
 India,SmilesSoPure Waterpik,Jan2004,1517
 India,SmilesSoPure Waterpik,Feb2004,1415
 India,SmilesSoPure Waterpik,Mar2004,1552
@@ -2450,30 +2655,18 @@ India,CleanSmile Floss Picks,Sep2004,1466
 India,CleanSmile Floss Picks,Oct2004,1438
 India,CleanSmile Floss Picks,Nov2004,1464
 India,CleanSmile Floss Picks,Dec2004,1475
-India,FreshFix Mouthwash,Jan2004,1348
-India,FreshFix Mouthwash,Feb2004,1410
-India,FreshFix Mouthwash,Mar2004,1322
-India,FreshFix Mouthwash,Apr2004,1425
-India,FreshFix Mouthwash,May2004,1461
-India,FreshFix Mouthwash,Jun2004,1475
-India,FreshFix Mouthwash,Jul2004,1472
-India,FreshFix Mouthwash,Aug2004,1316
-India,FreshFix Mouthwash,Sep2004,1562
-India,FreshFix Mouthwash,Oct2004,1346
-India,FreshFix Mouthwash,Nov2004,1442
-India,FreshFix Mouthwash,Dec2004,1504
-India,SparklingGlow Toothpaste,Jan2004,1893
-India,SparklingGlow Toothpaste,Feb2004,1903
-India,SparklingGlow Toothpaste,Mar2004,1760
-India,SparklingGlow Toothpaste,Apr2004,1733
-India,SparklingGlow Toothpaste,May2004,1957
-India,SparklingGlow Toothpaste,Jun2004,1837
-India,SparklingGlow Toothpaste,Jul2004,2021
-India,SparklingGlow Toothpaste,Aug2004,1832
-India,SparklingGlow Toothpaste,Sep2004,1894
-India,SparklingGlow Toothpaste,Oct2004,1843
-India,SparklingGlow Toothpaste,Nov2004,2029
-India,SparklingGlow Toothpaste,Dec2004,1925
+India,FreshFix Mouthwash,Jan2004,722
+India,FreshFix Mouthwash,Feb2004,817
+India,FreshFix Mouthwash,Mar2004,805
+India,FreshFix Mouthwash,Apr2004,816
+India,FreshFix Mouthwash,May2004,778
+India,FreshFix Mouthwash,Jun2004,770
+India,FreshFix Mouthwash,Jul2004,767
+India,FreshFix Mouthwash,Aug2004,752
+India,FreshFix Mouthwash,Sep2004,813
+India,FreshFix Mouthwash,Oct2004,794
+India,FreshFix Mouthwash,Nov2004,782
+India,FreshFix Mouthwash,Dec2004,755
 India,Purezza Body Wash,Jan2004,1993
 India,Purezza Body Wash,Feb2004,1806
 India,Purezza Body Wash,Mar2004,1954
@@ -2487,53 +2680,53 @@ India,Purezza Body Wash,Oct2004,1803
 India,Purezza Body Wash,Nov2004,1880
 India,Purezza Body Wash,Dec2004,1869
 India,SoftStep Shaving Cream,Jan2004,1533
-India,SoftStep Shaving Cream,Feb2004,1328
-India,SoftStep Shaving Cream,Mar2004,1455
-India,SoftStep Shaving Cream,Apr2004,1308
-India,SoftStep Shaving Cream,May2004,1057
-India,SoftStep Shaving Cream,Jun2004,872
-India,SoftStep Shaving Cream,Jul2004,1492
+India,SoftStep Shaving Cream,Feb2004,1650
+India,SoftStep Shaving Cream,Mar2004,1620
+India,SoftStep Shaving Cream,Apr2004,1598
+India,SoftStep Shaving Cream,May2004,1631
+India,SoftStep Shaving Cream,Jun2004,1506
+India,SoftStep Shaving Cream,Jul2004,1748
 India,SoftStep Shaving Cream,Aug2004,1618
 India,SoftStep Shaving Cream,Sep2004,1717
 India,SoftStep Shaving Cream,Oct2004,1698
-India,SoftStep Shaving Cream,Nov2004,1003
-India,SoftStep Shaving Cream,Dec2004,575
+India,SoftStep Shaving Cream,Nov2004,1576
+India,SoftStep Shaving Cream,Dec2004,1668
 India,SilkSmooth Exfoliating Scrub,Jan2004,908
 India,SilkSmooth Exfoliating Scrub,Feb2004,989
 India,SilkSmooth Exfoliating Scrub,Mar2004,1053
-India,SilkSmooth Exfoliating Scrub,Apr2004,1028
+India,SilkSmooth Exfoliating Scrub,Apr2004,1142
 India,SilkSmooth Exfoliating Scrub,May2004,998
 India,SilkSmooth Exfoliating Scrub,Jun2004,989
 India,SilkSmooth Exfoliating Scrub,Jul2004,997
 India,SilkSmooth Exfoliating Scrub,Aug2004,1034
-India,SilkSmooth Exfoliating Scrub,Sep2004,981
+India,SilkSmooth Exfoliating Scrub,Sep2004,1470
 India,SilkSmooth Exfoliating Scrub,Oct2004,1040
 India,SilkSmooth Exfoliating Scrub,Nov2004,995
 India,SilkSmooth Exfoliating Scrub,Dec2004,1044
-India,CleanSkin Acne Treatment,Jan2004,3075
-India,CleanSkin Acne Treatment,Feb2004,2875
-India,CleanSkin Acne Treatment,Mar2004,2894
-India,CleanSkin Acne Treatment,Apr2004,2977
-India,CleanSkin Acne Treatment,May2004,2829
-India,CleanSkin Acne Treatment,Jun2004,2883
-India,CleanSkin Acne Treatment,Jul2004,2884
-India,CleanSkin Acne Treatment,Aug2004,2888
-India,CleanSkin Acne Treatment,Sep2004,2886
-India,CleanSkin Acne Treatment,Oct2004,2996
-India,CleanSkin Acne Treatment,Nov2004,2904
-India,CleanSkin Acne Treatment,Dec2004,2998
-India,SunShield SPF 50 Lotion,Jan2004,2415
-India,SunShield SPF 50 Lotion,Feb2004,2439
-India,SunShield SPF 50 Lotion,Mar2004,2488
-India,SunShield SPF 50 Lotion,Apr2004,2389
-India,SunShield SPF 50 Lotion,May2004,2580
-India,SunShield SPF 50 Lotion,Jun2004,2511
-India,SunShield SPF 50 Lotion,Jul2004,2543
-India,SunShield SPF 50 Lotion,Aug2004,2376
-India,SunShield SPF 50 Lotion,Sep2004,2492
-India,SunShield SPF 50 Lotion,Oct2004,2429
-India,SunShield SPF 50 Lotion,Nov2004,2484
-India,SunShield SPF 50 Lotion,Dec2004,2433
+India,CleanSkin Acne Treatment,Jan2004,1677
+India,CleanSkin Acne Treatment,Feb2004,1584
+India,CleanSkin Acne Treatment,Mar2004,1515
+India,CleanSkin Acne Treatment,Apr2004,1682
+India,CleanSkin Acne Treatment,May2004,1554
+India,CleanSkin Acne Treatment,Jun2004,1508
+India,CleanSkin Acne Treatment,Jul2004,1520
+India,CleanSkin Acne Treatment,Aug2004,1588
+India,CleanSkin Acne Treatment,Sep2004,1607
+India,CleanSkin Acne Treatment,Oct2004,1650
+India,CleanSkin Acne Treatment,Nov2004,1513
+India,CleanSkin Acne Treatment,Dec2004,1583
+India,SunShield SPF 50 Lotion,Jan2004,1191
+India,SunShield SPF 50 Lotion,Feb2004,1333
+India,SunShield SPF 50 Lotion,Mar2004,1269
+India,SunShield SPF 50 Lotion,Apr2004,1250
+India,SunShield SPF 50 Lotion,May2004,1281
+India,SunShield SPF 50 Lotion,Jun2004,1194
+India,SunShield SPF 50 Lotion,Jul2004,1280
+India,SunShield SPF 50 Lotion,Aug2004,1275
+India,SunShield SPF 50 Lotion,Sep2004,1230
+India,SunShield SPF 50 Lotion,Oct2004,1198
+India,SunShield SPF 50 Lotion,Nov2004,1258
+India,SunShield SPF 50 Lotion,Dec2004,1178
 India,Refreshing Rose Body Oil,Jan2004,803
 India,Refreshing Rose Body Oil,Feb2004,837
 India,Refreshing Rose Body Oil,Mar2004,748
@@ -2546,30 +2739,18 @@ India,Refreshing Rose Body Oil,Sep2004,766
 India,Refreshing Rose Body Oil,Oct2004,831
 India,Refreshing Rose Body Oil,Nov2004,631
 India,Refreshing Rose Body Oil,Dec2004,925
-India,Calming Creme Relaxant Bath,Jan2004,838
-India,Calming Creme Relaxant Bath,Feb2004,900
-India,Calming Creme Relaxant Bath,Mar2004,958
-India,Calming Creme Relaxant Bath,Apr2004,909
-India,Calming Creme Relaxant Bath,May2004,878
-India,Calming Creme Relaxant Bath,Jun2004,826
-India,Calming Creme Relaxant Bath,Jul2004,827
-India,Calming Creme Relaxant Bath,Aug2004,886
-India,Calming Creme Relaxant Bath,Sep2004,898
-India,Calming Creme Relaxant Bath,Oct2004,862
-India,Calming Creme Relaxant Bath,Nov2004,902
-India,Calming Creme Relaxant Bath,Dec2004,773
-India,Brightening Body Wash,Jan2004,1227
-India,Brightening Body Wash,Feb2004,1209
-India,Brightening Body Wash,Mar2004,1316
-India,Brightening Body Wash,Apr2004,1251
-India,Brightening Body Wash,May2004,1251
-India,Brightening Body Wash,Jun2004,1152
-India,Brightening Body Wash,Jul2004,1235
-India,Brightening Body Wash,Aug2004,1210
-India,Brightening Body Wash,Sep2004,1252
-India,Brightening Body Wash,Oct2004,1206
-India,Brightening Body Wash,Nov2004,1321
-India,Brightening Body Wash,Dec2004,1190
+India,Brightening Body Wash,Jan2004,2185
+India,Brightening Body Wash,Feb2004,2228
+India,Brightening Body Wash,Mar2004,2212
+India,Brightening Body Wash,Apr2004,2158
+India,Brightening Body Wash,May2004,2090
+India,Brightening Body Wash,Jun2004,1986
+India,Brightening Body Wash,Jul2004,2201
+India,Brightening Body Wash,Aug2004,2171
+India,Brightening Body Wash,Sep2004,2169
+India,Brightening Body Wash,Oct2004,2051
+India,Brightening Body Wash,Nov2004,2262
+India,Brightening Body Wash,Dec2004,1997
 India,SmoothOperator Shaving Gel,Jan2004,1063
 India,SmoothOperator Shaving Gel,Feb2004,1143
 India,SmoothOperator Shaving Gel,Mar2004,1067
@@ -2582,18 +2763,6 @@ India,SmoothOperator Shaving Gel,Sep2004,1110
 India,SmoothOperator Shaving Gel,Oct2004,1078
 India,SmoothOperator Shaving Gel,Nov2004,1078
 India,SmoothOperator Shaving Gel,Dec2004,1101
-India,RadiantRose Face Mask,Jan2004,641
-India,RadiantRose Face Mask,Feb2004,592
-India,RadiantRose Face Mask,Mar2004,621
-India,RadiantRose Face Mask,Apr2004,646
-India,RadiantRose Face Mask,May2004,639
-India,RadiantRose Face Mask,Jun2004,638
-India,RadiantRose Face Mask,Jul2004,615
-India,RadiantRose Face Mask,Aug2004,608
-India,RadiantRose Face Mask,Sep2004,581
-India,RadiantRose Face Mask,Oct2004,625
-India,RadiantRose Face Mask,Nov2004,657
-India,RadiantRose Face Mask,Dec2004,568
 India,GentleGlow Face Cleanser,Jan2004,1354
 India,GentleGlow Face Cleanser,Feb2004,1439
 India,GentleGlow Face Cleanser,Mar2004,1294
@@ -2618,18 +2787,18 @@ India,PurePore Toner,Sep2004,1896
 India,PurePore Toner,Oct2004,1787
 India,PurePore Toner,Nov2004,1842
 India,PurePore Toner,Dec2004,2009
-India,MorningMist Deodorant,Jan2004,2677
-India,MorningMist Deodorant,Feb2004,2732
-India,MorningMist Deodorant,Mar2004,2817
-India,MorningMist Deodorant,Apr2004,2869
-India,MorningMist Deodorant,May2004,2967
-India,MorningMist Deodorant,Jun2004,2851
-India,MorningMist Deodorant,Jul2004,2725
-India,MorningMist Deodorant,Aug2004,2904
-India,MorningMist Deodorant,Sep2004,2818
-India,MorningMist Deodorant,Oct2004,2761
-India,MorningMist Deodorant,Nov2004,2788
-India,MorningMist Deodorant,Dec2004,2842
+India,MorningMist Deodorant,Jan2004,1362
+India,MorningMist Deodorant,Feb2004,1406
+India,MorningMist Deodorant,Mar2004,1462
+India,MorningMist Deodorant,Apr2004,1471
+India,MorningMist Deodorant,May2004,1502
+India,MorningMist Deodorant,Jun2004,1493
+India,MorningMist Deodorant,Jul2004,1314
+India,MorningMist Deodorant,Aug2004,1438
+India,MorningMist Deodorant,Sep2004,1467
+India,MorningMist Deodorant,Oct2004,1514
+India,MorningMist Deodorant,Nov2004,1383
+India,MorningMist Deodorant,Dec2004,1511
 India,Hydrating Honey Body Lotion,Jan2004,3223
 India,Hydrating Honey Body Lotion,Feb2004,3223
 India,Hydrating Honey Body Lotion,Mar2004,3423
@@ -2642,18 +2811,6 @@ India,Hydrating Honey Body Lotion,Sep2004,3309
 India,Hydrating Honey Body Lotion,Oct2004,3323
 India,Hydrating Honey Body Lotion,Nov2004,3325
 India,Hydrating Honey Body Lotion,Dec2004,3359
-India,CleanSlate Stain Remover,Jan2004,1380
-India,CleanSlate Stain Remover,Feb2004,1396
-India,CleanSlate Stain Remover,Mar2004,1388
-India,CleanSlate Stain Remover,Apr2004,1338
-India,CleanSlate Stain Remover,May2004,1314
-India,CleanSlate Stain Remover,Jun2004,1424
-India,CleanSlate Stain Remover,Jul2004,1332
-India,CleanSlate Stain Remover,Aug2004,1372
-India,CleanSlate Stain Remover,Sep2004,1345
-India,CleanSlate Stain Remover,Oct2004,1304
-India,CleanSlate Stain Remover,Nov2004,1332
-India,CleanSlate Stain Remover,Dec2004,1181
 India,EasyWash Laundry Detergent,Jan2004,1440
 India,EasyWash Laundry Detergent,Feb2004,1449
 India,EasyWash Laundry Detergent,Mar2004,1478
@@ -2666,18 +2823,30 @@ India,EasyWash Laundry Detergent,Sep2004,1430
 India,EasyWash Laundry Detergent,Oct2004,1525
 India,EasyWash Laundry Detergent,Nov2004,1570
 India,EasyWash Laundry Detergent,Dec2004,1387
-India,SoothingSerenity Baby Oil,Jan2004,1341
-India,SoothingSerenity Baby Oil,Feb2004,1503
-India,SoothingSerenity Baby Oil,Mar2004,1394
-India,SoothingSerenity Baby Oil,Apr2004,1400
-India,SoothingSerenity Baby Oil,May2004,1506
-India,SoothingSerenity Baby Oil,Jun2004,1443
-India,SoothingSerenity Baby Oil,Jul2004,1442
-India,SoothingSerenity Baby Oil,Aug2004,1375
-India,SoothingSerenity Baby Oil,Sep2004,1360
-India,SoothingSerenity Baby Oil,Oct2004,1410
-India,SoothingSerenity Baby Oil,Nov2004,1362
-India,SoothingSerenity Baby Oil,Dec2004,1406
+India,SmellSational Odor Eliminator,Jan2004,905
+India,SmellSational Odor Eliminator,Feb2004,883
+India,SmellSational Odor Eliminator,Mar2004,905
+India,SmellSational Odor Eliminator,Apr2004,840
+India,SmellSational Odor Eliminator,May2004,854
+India,SmellSational Odor Eliminator,Jun2004,933
+India,SmellSational Odor Eliminator,Jul2004,871
+India,SmellSational Odor Eliminator,Aug2004,878
+India,SmellSational Odor Eliminator,Sep2004,859
+India,SmellSational Odor Eliminator,Oct2004,880
+India,SmellSational Odor Eliminator,Nov2004,904
+India,SmellSational Odor Eliminator,Dec2004,824
+India,SoothingSerenity Baby Oil,Jan2004,214
+India,SoothingSerenity Baby Oil,Feb2004,247
+India,SoothingSerenity Baby Oil,Mar2004,242
+India,SoothingSerenity Baby Oil,Apr2004,226
+India,SoothingSerenity Baby Oil,May2004,217
+India,SoothingSerenity Baby Oil,Jun2004,238
+India,SoothingSerenity Baby Oil,Jul2004,217
+India,SoothingSerenity Baby Oil,Aug2004,221
+India,SoothingSerenity Baby Oil,Sep2004,235
+India,SoothingSerenity Baby Oil,Oct2004,223
+India,SoothingSerenity Baby Oil,Nov2004,213
+India,SoothingSerenity Baby Oil,Dec2004,229
 India,FreshFusion Diaper Rash Remedy,Jan2004,2535
 India,FreshFusion Diaper Rash Remedy,Feb2004,2519
 India,FreshFusion Diaper Rash Remedy,Mar2004,2516
@@ -2714,30 +2883,6 @@ India,SilkySkin Baby Cream,Sep2004,1953
 India,SilkySkin Baby Cream,Oct2004,1979
 India,SilkySkin Baby Cream,Nov2004,1909
 India,SilkySkin Baby Cream,Dec2004,2037
-India,BrightBreeze Insect Repellent,Jan2004,651
-India,BrightBreeze Insect Repellent,Feb2004,627
-India,BrightBreeze Insect Repellent,Mar2004,604
-India,BrightBreeze Insect Repellent,Apr2004,645
-India,BrightBreeze Insect Repellent,May2004,588
-India,BrightBreeze Insect Repellent,Jun2004,635
-India,BrightBreeze Insect Repellent,Jul2004,594
-India,BrightBreeze Insect Repellent,Aug2004,590
-India,BrightBreeze Insect Repellent,Sep2004,605
-India,BrightBreeze Insect Repellent,Oct2004,609
-India,BrightBreeze Insect Repellent,Nov2004,626
-India,BrightBreeze Insect Repellent,Dec2004,589
-India,SoftStep Baby Shampoo,Jan2004,785
-India,SoftStep Baby Shampoo,Feb2004,828
-India,SoftStep Baby Shampoo,Mar2004,769
-India,SoftStep Baby Shampoo,Apr2004,772
-India,SoftStep Baby Shampoo,May2004,755
-India,SoftStep Baby Shampoo,Jun2004,822
-India,SoftStep Baby Shampoo,Jul2004,739
-India,SoftStep Baby Shampoo,Aug2004,756
-India,SoftStep Baby Shampoo,Sep2004,806
-India,SoftStep Baby Shampoo,Oct2004,779
-India,SoftStep Baby Shampoo,Nov2004,752
-India,SoftStep Baby Shampoo,Dec2004,812
 India,RadiantRose Baby Massage Oil,Jan2004,1257
 India,RadiantRose Baby Massage Oil,Feb2004,1162
 India,RadiantRose Baby Massage Oil,Mar2004,1165
@@ -2750,18 +2895,18 @@ India,RadiantRose Baby Massage Oil,Sep2004,989
 India,RadiantRose Baby Massage Oil,Oct2004,1056
 India,RadiantRose Baby Massage Oil,Nov2004,1109
 India,RadiantRose Baby Massage Oil,Dec2004,967
-India,EasyWash Laundry Detergent for Babies,Jan2004,1635
-India,EasyWash Laundry Detergent for Babies,Feb2004,1632
-India,EasyWash Laundry Detergent for Babies,Mar2004,1683
-India,EasyWash Laundry Detergent for Babies,Apr2004,1698
-India,EasyWash Laundry Detergent for Babies,May2004,1619
-India,EasyWash Laundry Detergent for Babies,Jun2004,1752
-India,EasyWash Laundry Detergent for Babies,Jul2004,1797
-India,EasyWash Laundry Detergent for Babies,Aug2004,1661
-India,EasyWash Laundry Detergent for Babies,Sep2004,1692
-India,EasyWash Laundry Detergent for Babies,Oct2004,1730
-India,EasyWash Laundry Detergent for Babies,Nov2004,1726
-India,EasyWash Laundry Detergent for Babies,Dec2004,1622
+India,EasyWash Laundry Detergent for Babies,Jan2004,844
+India,EasyWash Laundry Detergent for Babies,Feb2004,882
+India,EasyWash Laundry Detergent for Babies,Mar2004,924
+India,EasyWash Laundry Detergent for Babies,Apr2004,954
+India,EasyWash Laundry Detergent for Babies,May2004,904
+India,EasyWash Laundry Detergent for Babies,Jun2004,946
+India,EasyWash Laundry Detergent for Babies,Jul2004,913
+India,EasyWash Laundry Detergent for Babies,Aug2004,897
+India,EasyWash Laundry Detergent for Babies,Sep2004,869
+India,EasyWash Laundry Detergent for Babies,Oct2004,950
+India,EasyWash Laundry Detergent for Babies,Nov2004,874
+India,EasyWash Laundry Detergent for Babies,Dec2004,807
 India,SoothingSerenity Baby Rub,Jan2004,1233
 India,SoothingSerenity Baby Rub,Feb2004,1124
 India,SoothingSerenity Baby Rub,Mar2004,1228
@@ -2774,30 +2919,30 @@ India,SoothingSerenity Baby Rub,Sep2004,1250
 India,SoothingSerenity Baby Rub,Oct2004,1013
 India,SoothingSerenity Baby Rub,Nov2004,1208
 India,SoothingSerenity Baby Rub,Dec2004,1239
-India,CalmingClean Diaper Rash Cream,Jan2004,1746
-India,CalmingClean Diaper Rash Cream,Feb2004,1729
-India,CalmingClean Diaper Rash Cream,Mar2004,1647
-India,CalmingClean Diaper Rash Cream,Apr2004,1724
-India,CalmingClean Diaper Rash Cream,May2004,1714
-India,CalmingClean Diaper Rash Cream,Jun2004,1653
-India,CalmingClean Diaper Rash Cream,Jul2004,1637
-India,CalmingClean Diaper Rash Cream,Aug2004,1774
-India,CalmingClean Diaper Rash Cream,Sep2004,1691
-India,CalmingClean Diaper Rash Cream,Oct2004,1771
-India,CalmingClean Diaper Rash Cream,Nov2004,1782
-India,CalmingClean Diaper Rash Cream,Dec2004,1721
-India,FreshFusion Baby Wipes,Jan2004,2401
-India,FreshFusion Baby Wipes,Feb2004,2615
-India,FreshFusion Baby Wipes,Mar2004,2400
-India,FreshFusion Baby Wipes,Apr2004,2066
-India,FreshFusion Baby Wipes,May2004,2550
-India,FreshFusion Baby Wipes,Jun2004,2448
-India,FreshFusion Baby Wipes,Jul2004,2097
-India,FreshFusion Baby Wipes,Aug2004,2370
+India,CalmingClean Diaper Rash Cream,Jan2004,3321
+India,CalmingClean Diaper Rash Cream,Feb2004,3133
+India,CalmingClean Diaper Rash Cream,Mar2004,3331
+India,CalmingClean Diaper Rash Cream,Apr2004,3280
+India,CalmingClean Diaper Rash Cream,May2004,3383
+India,CalmingClean Diaper Rash Cream,Jun2004,3300
+India,CalmingClean Diaper Rash Cream,Jul2004,3350
+India,CalmingClean Diaper Rash Cream,Aug2004,3546
+India,CalmingClean Diaper Rash Cream,Sep2004,3458
+India,CalmingClean Diaper Rash Cream,Oct2004,3501
+India,CalmingClean Diaper Rash Cream,Nov2004,3450
+India,CalmingClean Diaper Rash Cream,Dec2004,3452
+India,FreshFusion Baby Wipes,Jan2004,1678
+India,FreshFusion Baby Wipes,Feb2004,1966
+India,FreshFusion Baby Wipes,Mar2004,1690
+India,FreshFusion Baby Wipes,Apr2004,1669
+India,FreshFusion Baby Wipes,May2004,1862
+India,FreshFusion Baby Wipes,Jun2004,1792
+India,FreshFusion Baby Wipes,Jul2004,1697
+India,FreshFusion Baby Wipes,Aug2004,1693
 India,FreshFusion Baby Wipes,Sep2004,1742
-India,FreshFusion Baby Wipes,Oct2004,2454
-India,FreshFusion Baby Wipes,Nov2004,2484
-India,FreshFusion Baby Wipes,Dec2004,2189
+India,FreshFusion Baby Wipes,Oct2004,1776
+India,FreshFusion Baby Wipes,Nov2004,1801
+India,FreshFusion Baby Wipes,Dec2004,1786
 India,GentleGlow Baby Face Wash,Jan2004,544
 India,GentleGlow Baby Face Wash,Feb2004,567
 India,GentleGlow Baby Face Wash,Mar2004,594
@@ -2810,18 +2955,18 @@ India,GentleGlow Baby Face Wash,Sep2004,574
 India,GentleGlow Baby Face Wash,Oct2004,523
 India,GentleGlow Baby Face Wash,Nov2004,593
 India,GentleGlow Baby Face Wash,Dec2004,563
-India,BrightBreeze Baby Sunscreen Stick,Jan2004,2163
-India,BrightBreeze Baby Sunscreen Stick,Feb2004,2144
-India,BrightBreeze Baby Sunscreen Stick,Mar2004,2129
-India,BrightBreeze Baby Sunscreen Stick,Apr2004,2113
-India,BrightBreeze Baby Sunscreen Stick,May2004,2247
-India,BrightBreeze Baby Sunscreen Stick,Jun2004,2266
-India,BrightBreeze Baby Sunscreen Stick,Jul2004,2227
-India,BrightBreeze Baby Sunscreen Stick,Aug2004,2219
-India,BrightBreeze Baby Sunscreen Stick,Sep2004,2314
-India,BrightBreeze Baby Sunscreen Stick,Oct2004,2216
-India,BrightBreeze Baby Sunscreen Stick,Nov2004,2247
-India,BrightBreeze Baby Sunscreen Stick,Dec2004,2287
+India,BrightBreeze Baby Sunscreen Stick,Jan2004,900
+India,BrightBreeze Baby Sunscreen Stick,Feb2004,911
+India,BrightBreeze Baby Sunscreen Stick,Mar2004,866
+India,BrightBreeze Baby Sunscreen Stick,Apr2004,939
+India,BrightBreeze Baby Sunscreen Stick,May2004,1041
+India,BrightBreeze Baby Sunscreen Stick,Jun2004,918
+India,BrightBreeze Baby Sunscreen Stick,Jul2004,934
+India,BrightBreeze Baby Sunscreen Stick,Aug2004,998
+India,BrightBreeze Baby Sunscreen Stick,Sep2004,976
+India,BrightBreeze Baby Sunscreen Stick,Oct2004,995
+India,BrightBreeze Baby Sunscreen Stick,Nov2004,1010
+India,BrightBreeze Baby Sunscreen Stick,Dec2004,1037
 India,LuminousLocks Shampoo,Jan2004,828
 India,LuminousLocks Shampoo,Feb2004,813
 India,LuminousLocks Shampoo,Mar2004,812
@@ -2894,30 +3039,18 @@ India,SmellSational Intimate Spray,Sep2004,1944
 India,SmellSational Intimate Spray,Oct2004,1801
 India,SmellSational Intimate Spray,Nov2004,1915
 India,SmellSational Intimate Spray,Dec2004,1922
-India,SoftStep Shaving Cream for Women,Jan2004,3697
-India,SoftStep Shaving Cream for Women,Feb2004,3688
-India,SoftStep Shaving Cream for Women,Mar2004,3805
-India,SoftStep Shaving Cream for Women,Apr2004,3986
-India,SoftStep Shaving Cream for Women,May2004,3584
-India,SoftStep Shaving Cream for Women,Jun2004,4134
-India,SoftStep Shaving Cream for Women,Jul2004,3803
-India,SoftStep Shaving Cream for Women,Aug2004,3745
-India,SoftStep Shaving Cream for Women,Sep2004,3730
-India,SoftStep Shaving Cream for Women,Oct2004,3785
-India,SoftStep Shaving Cream for Women,Nov2004,3804
-India,SoftStep Shaving Cream for Women,Dec2004,4112
-India,FreshFusion All-Purpose Cleaner,Jan2004,1869
-India,FreshFusion All-Purpose Cleaner,Feb2004,2045
-India,FreshFusion All-Purpose Cleaner,Mar2004,1920
-India,FreshFusion All-Purpose Cleaner,Apr2004,2049
-India,FreshFusion All-Purpose Cleaner,May2004,1992
-India,FreshFusion All-Purpose Cleaner,Jun2004,1783
-India,FreshFusion All-Purpose Cleaner,Jul2004,2011
-India,FreshFusion All-Purpose Cleaner,Aug2004,1852
-India,FreshFusion All-Purpose Cleaner,Sep2004,2042
-India,FreshFusion All-Purpose Cleaner,Oct2004,2015
-India,FreshFusion All-Purpose Cleaner,Nov2004,1920
-India,FreshFusion All-Purpose Cleaner,Dec2004,1882
+India,SoftStep Shaving Cream for Women,Jan2004,2497
+India,SoftStep Shaving Cream for Women,Feb2004,2614
+India,SoftStep Shaving Cream for Women,Mar2004,2516
+India,SoftStep Shaving Cream for Women,Apr2004,2638
+India,SoftStep Shaving Cream for Women,May2004,2520
+India,SoftStep Shaving Cream for Women,Jun2004,2641
+India,SoftStep Shaving Cream for Women,Jul2004,2560
+India,SoftStep Shaving Cream for Women,Aug2004,2576
+India,SoftStep Shaving Cream for Women,Sep2004,2405
+India,SoftStep Shaving Cream for Women,Oct2004,2411
+India,SoftStep Shaving Cream for Women,Nov2004,2739
+India,SoftStep Shaving Cream for Women,Dec2004,2724
 India,CleanSlate Disinfectant Spray,Jan2004,760
 India,CleanSlate Disinfectant Spray,Feb2004,724
 India,CleanSlate Disinfectant Spray,Mar2004,730
@@ -2930,42 +3063,18 @@ India,CleanSlate Disinfectant Spray,Sep2004,800
 India,CleanSlate Disinfectant Spray,Oct2004,713
 India,CleanSlate Disinfectant Spray,Nov2004,735
 India,CleanSlate Disinfectant Spray,Dec2004,796
-India,GentleGlow Dish Soap,Jan2004,1878
-India,GentleGlow Dish Soap,Feb2004,1908
-India,GentleGlow Dish Soap,Mar2004,2131
-India,GentleGlow Dish Soap,Apr2004,2047
-India,GentleGlow Dish Soap,May2004,2055
-India,GentleGlow Dish Soap,Jun2004,1909
-India,GentleGlow Dish Soap,Jul2004,1990
-India,GentleGlow Dish Soap,Aug2004,1992
-India,GentleGlow Dish Soap,Sep2004,1817
-India,GentleGlow Dish Soap,Oct2004,1896
-India,GentleGlow Dish Soap,Nov2004,2028
-India,GentleGlow Dish Soap,Dec2004,2071
-India,RadiantRose Glass Cleaner,Jan2004,530
-India,RadiantRose Glass Cleaner,Feb2004,437
-India,RadiantRose Glass Cleaner,Mar2004,407
-India,RadiantRose Glass Cleaner,Apr2004,462
-India,RadiantRose Glass Cleaner,May2004,709
-India,RadiantRose Glass Cleaner,Jun2004,712
-India,RadiantRose Glass Cleaner,Jul2004,706
-India,RadiantRose Glass Cleaner,Aug2004,212
-India,RadiantRose Glass Cleaner,Sep2004,657
-India,RadiantRose Glass Cleaner,Oct2004,402
-India,RadiantRose Glass Cleaner,Nov2004,304
-India,RadiantRose Glass Cleaner,Dec2004,618
-India,PurePore Insect Repellent Spray,Jan2004,1128
-India,PurePore Insect Repellent Spray,Feb2004,1103
-India,PurePore Insect Repellent Spray,Mar2004,1139
-India,PurePore Insect Repellent Spray,Apr2004,1045
-India,PurePore Insect Repellent Spray,May2004,1127
-India,PurePore Insect Repellent Spray,Jun2004,1089
-India,PurePore Insect Repellent Spray,Jul2004,1035
-India,PurePore Insect Repellent Spray,Aug2004,1139
-India,PurePore Insect Repellent Spray,Sep2004,1081
-India,PurePore Insect Repellent Spray,Oct2004,1177
-India,PurePore Insect Repellent Spray,Nov2004,1116
-India,PurePore Insect Repellent Spray,Dec2004,1163
+India,GentleGlow Dish Soap,Jan2004,1199
+India,GentleGlow Dish Soap,Feb2004,1254
+India,GentleGlow Dish Soap,Mar2004,1448
+India,GentleGlow Dish Soap,Apr2004,1333
+India,GentleGlow Dish Soap,May2004,1342
+India,GentleGlow Dish Soap,Jun2004,1203
+India,GentleGlow Dish Soap,Jul2004,1280
+India,GentleGlow Dish Soap,Aug2004,1228
+India,GentleGlow Dish Soap,Sep2004,1166
+India,GentleGlow Dish Soap,Oct2004,1178
+India,GentleGlow Dish Soap,Nov2004,1282
+India,GentleGlow Dish Soap,Dec2004,1434
 India,SoothingSerenity Humidifier,Jan2004,1341
 India,SoothingSerenity Humidifier,Feb2004,1260
 India,SoothingSerenity Humidifier,Mar2004,1195
@@ -3014,42 +3123,18 @@ India,RadiantRover Pet Conditioner,Sep2004,569
 India,RadiantRover Pet Conditioner,Oct2004,526
 India,RadiantRover Pet Conditioner,Nov2004,525
 India,RadiantRover Pet Conditioner,Dec2004,602
-India,GentleGlow Pet Grooming Kit,Jan2004,926
-India,GentleGlow Pet Grooming Kit,Feb2004,390
-India,GentleGlow Pet Grooming Kit,Mar2004,356
-India,GentleGlow Pet Grooming Kit,Apr2004,309
-India,GentleGlow Pet Grooming Kit,May2004,379
-India,GentleGlow Pet Grooming Kit,Jun2004,410
-India,GentleGlow Pet Grooming Kit,Jul2004,394
-India,GentleGlow Pet Grooming Kit,Aug2004,867
-India,GentleGlow Pet Grooming Kit,Sep2004,430
-India,GentleGlow Pet Grooming Kit,Oct2004,925
-India,GentleGlow Pet Grooming Kit,Nov2004,364
-India,GentleGlow Pet Grooming Kit,Dec2004,395
-India,BrightBreeze Pet Odor Eliminator,Jan2004,568
-India,BrightBreeze Pet Odor Eliminator,Feb2004,559
-India,BrightBreeze Pet Odor Eliminator,Mar2004,589
-India,BrightBreeze Pet Odor Eliminator,Apr2004,601
-India,BrightBreeze Pet Odor Eliminator,May2004,585
-India,BrightBreeze Pet Odor Eliminator,Jun2004,554
-India,BrightBreeze Pet Odor Eliminator,Jul2004,601
-India,BrightBreeze Pet Odor Eliminator,Aug2004,583
-India,BrightBreeze Pet Odor Eliminator,Sep2004,547
-India,BrightBreeze Pet Odor Eliminator,Oct2004,572
-India,BrightBreeze Pet Odor Eliminator,Nov2004,570
-India,BrightBreeze Pet Odor Eliminator,Dec2004,628
-India,SmellSational Pet Deodorizer,Jan2004,619
-India,SmellSational Pet Deodorizer,Feb2004,611
-India,SmellSational Pet Deodorizer,Mar2004,642
-India,SmellSational Pet Deodorizer,Apr2004,526
-India,SmellSational Pet Deodorizer,May2004,591
-India,SmellSational Pet Deodorizer,Jun2004,607
-India,SmellSational Pet Deodorizer,Jul2004,547
-India,SmellSational Pet Deodorizer,Aug2004,601
-India,SmellSational Pet Deodorizer,Sep2004,649
-India,SmellSational Pet Deodorizer,Oct2004,567
-India,SmellSational Pet Deodorizer,Nov2004,594
-India,SmellSational Pet Deodorizer,Dec2004,548
+India,GentleGlow Pet Grooming Kit,Jan2004,574
+India,GentleGlow Pet Grooming Kit,Feb2004,527
+India,GentleGlow Pet Grooming Kit,Mar2004,524
+India,GentleGlow Pet Grooming Kit,Apr2004,584
+India,GentleGlow Pet Grooming Kit,May2004,541
+India,GentleGlow Pet Grooming Kit,Jun2004,527
+India,GentleGlow Pet Grooming Kit,Jul2004,568
+India,GentleGlow Pet Grooming Kit,Aug2004,485
+India,GentleGlow Pet Grooming Kit,Sep2004,562
+India,GentleGlow Pet Grooming Kit,Oct2004,595
+India,GentleGlow Pet Grooming Kit,Nov2004,559
+India,GentleGlow Pet Grooming Kit,Dec2004,512
 Italy,MorningMint,Jan2004,646
 Italy,MorningMint,Feb2004,631
 Italy,MorningMint,Mar2004,671
@@ -3100,16 +3185,16 @@ Italy,BriteBite Toothbrush,Nov2004,1812
 Italy,BriteBite Toothbrush,Dec2004,1955
 Italy,LuminousLip Care,Jan2004,753
 Italy,LuminousLip Care,Feb2004,961
-Italy,LuminousLip Care,Mar2004,950
-Italy,LuminousLip Care,Apr2004,909
-Italy,LuminousLip Care,May2004,785
+Italy,LuminousLip Care,Mar2004,948
+Italy,LuminousLip Care,Apr2004,929
+Italy,LuminousLip Care,May2004,791
 Italy,LuminousLip Care,Jun2004,735
-Italy,LuminousLip Care,Jul2004,948
+Italy,LuminousLip Care,Jul2004,722
 Italy,LuminousLip Care,Aug2004,879
-Italy,LuminousLip Care,Sep2004,786
+Italy,LuminousLip Care,Sep2004,650
 Italy,LuminousLip Care,Oct2004,972
 Italy,LuminousLip Care,Nov2004,715
-Italy,LuminousLip Care,Dec2004,799
+Italy,LuminousLip Care,Dec2004,727
 Italy,CleanSlate Mouthwash,Jan2004,1716
 Italy,CleanSlate Mouthwash,Feb2004,1863
 Italy,CleanSlate Mouthwash,Mar2004,1704
@@ -3267,15 +3352,15 @@ Italy,Refreshing Rose Body Oil,Oct2004,1223
 Italy,Refreshing Rose Body Oil,Nov2004,1234
 Italy,Refreshing Rose Body Oil,Dec2004,1284
 Italy,Calming Creme Relaxant Bath,Jan2004,822
-Italy,Calming Creme Relaxant Bath,Feb2004,1159
-Italy,Calming Creme Relaxant Bath,Mar2004,1118
+Italy,Calming Creme Relaxant Bath,Feb2004,977
+Italy,Calming Creme Relaxant Bath,Mar2004,809
 Italy,Calming Creme Relaxant Bath,Apr2004,797
 Italy,Calming Creme Relaxant Bath,May2004,745
 Italy,Calming Creme Relaxant Bath,Jun2004,783
-Italy,Calming Creme Relaxant Bath,Jul2004,928
-Italy,Calming Creme Relaxant Bath,Aug2004,1679
+Italy,Calming Creme Relaxant Bath,Jul2004,754
+Italy,Calming Creme Relaxant Bath,Aug2004,1586
 Italy,Calming Creme Relaxant Bath,Sep2004,752
-Italy,Calming Creme Relaxant Bath,Oct2004,1398
+Italy,Calming Creme Relaxant Bath,Oct2004,1275
 Italy,Calming Creme Relaxant Bath,Nov2004,788
 Italy,Calming Creme Relaxant Bath,Dec2004,810
 Italy,Brightening Body Wash,Jan2004,917
@@ -3290,30 +3375,42 @@ Italy,Brightening Body Wash,Sep2004,935
 Italy,Brightening Body Wash,Oct2004,862
 Italy,Brightening Body Wash,Nov2004,918
 Italy,Brightening Body Wash,Dec2004,886
-Italy,GentleGlow Face Cleanser,Jan2004,1394
+Italy,SmoothOperator Shaving Gel,Jan2004,1030
+Italy,SmoothOperator Shaving Gel,Feb2004,960
+Italy,SmoothOperator Shaving Gel,Mar2004,993
+Italy,SmoothOperator Shaving Gel,Apr2004,1067
+Italy,SmoothOperator Shaving Gel,May2004,1098
+Italy,SmoothOperator Shaving Gel,Jun2004,939
+Italy,SmoothOperator Shaving Gel,Jul2004,1066
+Italy,SmoothOperator Shaving Gel,Aug2004,997
+Italy,SmoothOperator Shaving Gel,Sep2004,972
+Italy,SmoothOperator Shaving Gel,Oct2004,949
+Italy,SmoothOperator Shaving Gel,Nov2004,1017
+Italy,SmoothOperator Shaving Gel,Dec2004,983
+Italy,GentleGlow Face Cleanser,Jan2004,729
 Italy,GentleGlow Face Cleanser,Feb2004,1406
 Italy,GentleGlow Face Cleanser,Mar2004,1411
-Italy,GentleGlow Face Cleanser,Apr2004,1399
-Italy,GentleGlow Face Cleanser,May2004,1403
-Italy,GentleGlow Face Cleanser,Jun2004,1308
+Italy,GentleGlow Face Cleanser,Apr2004,1128
+Italy,GentleGlow Face Cleanser,May2004,768
+Italy,GentleGlow Face Cleanser,Jun2004,759
 Italy,GentleGlow Face Cleanser,Jul2004,1470
 Italy,GentleGlow Face Cleanser,Aug2004,1444
-Italy,GentleGlow Face Cleanser,Sep2004,1409
+Italy,GentleGlow Face Cleanser,Sep2004,943
 Italy,GentleGlow Face Cleanser,Oct2004,1534
-Italy,GentleGlow Face Cleanser,Nov2004,1186
-Italy,GentleGlow Face Cleanser,Dec2004,1436
-Italy,PurePore Toner,Jan2004,1989
-Italy,PurePore Toner,Feb2004,2580
-Italy,PurePore Toner,Mar2004,2469
-Italy,PurePore Toner,Apr2004,2622
+Italy,GentleGlow Face Cleanser,Nov2004,1013
+Italy,GentleGlow Face Cleanser,Dec2004,1075
+Italy,PurePore Toner,Jan2004,1729
+Italy,PurePore Toner,Feb2004,1802
+Italy,PurePore Toner,Mar2004,1787
+Italy,PurePore Toner,Apr2004,1806
 Italy,PurePore Toner,May2004,1826
 Italy,PurePore Toner,Jun2004,1658
-Italy,PurePore Toner,Jul2004,2444
+Italy,PurePore Toner,Jul2004,1778
 Italy,PurePore Toner,Aug2004,1589
-Italy,PurePore Toner,Sep2004,2076
-Italy,PurePore Toner,Oct2004,2509
-Italy,PurePore Toner,Nov2004,2583
-Italy,PurePore Toner,Dec2004,2244
+Italy,PurePore Toner,Sep2004,1706
+Italy,PurePore Toner,Oct2004,1683
+Italy,PurePore Toner,Nov2004,1739
+Italy,PurePore Toner,Dec2004,1694
 Italy,SilkySkin Moisturizing Cream,Jan2004,614
 Italy,SilkySkin Moisturizing Cream,Feb2004,577
 Italy,SilkySkin Moisturizing Cream,Mar2004,606
@@ -3753,7 +3850,7 @@ Italy,FreshFusion All-Purpose Cleaner,Apr2004,1748
 Italy,FreshFusion All-Purpose Cleaner,May2004,1883
 Italy,FreshFusion All-Purpose Cleaner,Jun2004,1929
 Italy,FreshFusion All-Purpose Cleaner,Jul2004,1844
-Italy,FreshFusion All-Purpose Cleaner,Aug2004,2384
+Italy,FreshFusion All-Purpose Cleaner,Aug2004,1930
 Italy,FreshFusion All-Purpose Cleaner,Sep2004,2143
 Italy,FreshFusion All-Purpose Cleaner,Oct2004,1760
 Italy,FreshFusion All-Purpose Cleaner,Nov2004,1852
@@ -3789,7 +3886,7 @@ Italy,GentleGlow Dish Soap,Apr2004,1119
 Italy,GentleGlow Dish Soap,May2004,1226
 Italy,GentleGlow Dish Soap,Jun2004,1224
 Italy,GentleGlow Dish Soap,Jul2004,1136
-Italy,GentleGlow Dish Soap,Aug2004,1517
+Italy,GentleGlow Dish Soap,Aug2004,1067
 Italy,GentleGlow Dish Soap,Sep2004,1125
 Italy,GentleGlow Dish Soap,Oct2004,1161
 Italy,GentleGlow Dish Soap,Nov2004,1177
@@ -3830,12 +3927,12 @@ Italy,SoothingSerenity Humidifier,Sep2004,1047
 Italy,SoothingSerenity Humidifier,Oct2004,1064
 Italy,SoothingSerenity Humidifier,Nov2004,1025
 Italy,SoothingSerenity Humidifier,Dec2004,1041
-Italy,PurePaw Dog Shampoo,Jan2004,2161
+Italy,PurePaw Dog Shampoo,Jan2004,2056
 Italy,PurePaw Dog Shampoo,Feb2004,2108
 Italy,PurePaw Dog Shampoo,Mar2004,2046
 Italy,PurePaw Dog Shampoo,Apr2004,2149
-Italy,PurePaw Dog Shampoo,May2004,2126
-Italy,PurePaw Dog Shampoo,Jun2004,2275
+Italy,PurePaw Dog Shampoo,May2004,1657
+Italy,PurePaw Dog Shampoo,Jun2004,1885
 Italy,PurePaw Dog Shampoo,Jul2004,2030
 Italy,PurePaw Dog Shampoo,Aug2004,2191
 Italy,PurePaw Dog Shampoo,Sep2004,2217
@@ -3926,6 +4023,18 @@ Italy,CalmingClean Dog Brush,Sep2004,575
 Italy,CalmingClean Dog Brush,Oct2004,542
 Italy,CalmingClean Dog Brush,Nov2004,648
 Italy,CalmingClean Dog Brush,Dec2004,552
+Japan,FreshStart Toothpaste,Jan2004,1471
+Japan,FreshStart Toothpaste,Feb2004,1547
+Japan,FreshStart Toothpaste,Mar2004,1527
+Japan,FreshStart Toothpaste,Apr2004,1649
+Japan,FreshStart Toothpaste,May2004,1664
+Japan,FreshStart Toothpaste,Jun2004,1651
+Japan,FreshStart Toothpaste,Jul2004,1484
+Japan,FreshStart Toothpaste,Aug2004,1537
+Japan,FreshStart Toothpaste,Sep2004,1624
+Japan,FreshStart Toothpaste,Oct2004,1567
+Japan,FreshStart Toothpaste,Nov2004,1638
+Japan,FreshStart Toothpaste,Dec2004,1552
 Japan,SmileShield Whitening Strips,Jan2004,670
 Japan,SmileShield Whitening Strips,Feb2004,702
 Japan,SmileShield Whitening Strips,Mar2004,684
@@ -3938,18 +4047,6 @@ Japan,SmileShield Whitening Strips,Sep2004,661
 Japan,SmileShield Whitening Strips,Oct2004,682
 Japan,SmileShield Whitening Strips,Nov2004,619
 Japan,SmileShield Whitening Strips,Dec2004,612
-Japan,LuminousLip Care,Jan2004,1406
-Japan,LuminousLip Care,Feb2004,1485
-Japan,LuminousLip Care,Mar2004,1414
-Japan,LuminousLip Care,Apr2004,1408
-Japan,LuminousLip Care,May2004,1407
-Japan,LuminousLip Care,Jun2004,1460
-Japan,LuminousLip Care,Jul2004,1436
-Japan,LuminousLip Care,Aug2004,1297
-Japan,LuminousLip Care,Sep2004,1396
-Japan,LuminousLip Care,Oct2004,1445
-Japan,LuminousLip Care,Nov2004,1370
-Japan,LuminousLip Care,Dec2004,1360
 Japan,CleanSlate Mouthwash,Jan2004,514
 Japan,CleanSlate Mouthwash,Feb2004,535
 Japan,CleanSlate Mouthwash,Mar2004,516
@@ -3986,30 +4083,18 @@ Japan,BreathBliss Mints,Sep2004,2077
 Japan,BreathBliss Mints,Oct2004,1801
 Japan,BreathBliss Mints,Nov2004,1862
 Japan,BreathBliss Mints,Dec2004,2054
-Japan,DentalDefense Toothpaste,Jan2004,2011
-Japan,DentalDefense Toothpaste,Feb2004,1848
-Japan,DentalDefense Toothpaste,Mar2004,1853
-Japan,DentalDefense Toothpaste,Apr2004,1930
-Japan,DentalDefense Toothpaste,May2004,1944
-Japan,DentalDefense Toothpaste,Jun2004,1851
-Japan,DentalDefense Toothpaste,Jul2004,1881
-Japan,DentalDefense Toothpaste,Aug2004,1967
-Japan,DentalDefense Toothpaste,Sep2004,1835
-Japan,DentalDefense Toothpaste,Oct2004,1976
-Japan,DentalDefense Toothpaste,Nov2004,2022
-Japan,DentalDefense Toothpaste,Dec2004,2148
-Japan,DailyDazzle Toothpaste,Jan2004,1724
-Japan,DailyDazzle Toothpaste,Feb2004,1707
-Japan,DailyDazzle Toothpaste,Mar2004,1875
-Japan,DailyDazzle Toothpaste,Apr2004,1726
-Japan,DailyDazzle Toothpaste,May2004,1719
-Japan,DailyDazzle Toothpaste,Jun2004,1783
-Japan,DailyDazzle Toothpaste,Jul2004,1711
-Japan,DailyDazzle Toothpaste,Aug2004,1692
-Japan,DailyDazzle Toothpaste,Sep2004,1614
-Japan,DailyDazzle Toothpaste,Oct2004,1763
-Japan,DailyDazzle Toothpaste,Nov2004,1759
-Japan,DailyDazzle Toothpaste,Dec2004,1798
+Japan,OralEase Plus Toothbrush,Jan2004,555
+Japan,OralEase Plus Toothbrush,Feb2004,588
+Japan,OralEase Plus Toothbrush,Mar2004,586
+Japan,OralEase Plus Toothbrush,Apr2004,596
+Japan,OralEase Plus Toothbrush,May2004,576
+Japan,OralEase Plus Toothbrush,Jun2004,603
+Japan,OralEase Plus Toothbrush,Jul2004,534
+Japan,OralEase Plus Toothbrush,Aug2004,573
+Japan,OralEase Plus Toothbrush,Sep2004,548
+Japan,OralEase Plus Toothbrush,Oct2004,614
+Japan,OralEase Plus Toothbrush,Nov2004,574
+Japan,OralEase Plus Toothbrush,Dec2004,565
 Japan,SmilesSoPure Waterpik,Jan2004,683
 Japan,SmilesSoPure Waterpik,Feb2004,664
 Japan,SmilesSoPure Waterpik,Mar2004,653
@@ -4034,25 +4119,37 @@ Japan,CleanSmile Floss Picks,Sep2004,1157
 Japan,CleanSmile Floss Picks,Oct2004,1072
 Japan,CleanSmile Floss Picks,Nov2004,1116
 Japan,CleanSmile Floss Picks,Dec2004,1131
-Japan,Purezza Body Wash,Jan2004,779
-Japan,Purezza Body Wash,Feb2004,739
-Japan,Purezza Body Wash,Mar2004,673
-Japan,Purezza Body Wash,Apr2004,752
-Japan,Purezza Body Wash,May2004,718
-Japan,Purezza Body Wash,Jun2004,676
-Japan,Purezza Body Wash,Jul2004,877
-Japan,Purezza Body Wash,Aug2004,675
-Japan,Purezza Body Wash,Sep2004,614
-Japan,Purezza Body Wash,Oct2004,683
-Japan,Purezza Body Wash,Nov2004,683
-Japan,Purezza Body Wash,Dec2004,728
+Japan,FreshFix Mouthwash,Jan2004,1348
+Japan,FreshFix Mouthwash,Feb2004,1410
+Japan,FreshFix Mouthwash,Mar2004,1322
+Japan,FreshFix Mouthwash,Apr2004,1425
+Japan,FreshFix Mouthwash,May2004,1461
+Japan,FreshFix Mouthwash,Jun2004,1475
+Japan,FreshFix Mouthwash,Jul2004,1472
+Japan,FreshFix Mouthwash,Aug2004,1316
+Japan,FreshFix Mouthwash,Sep2004,1404
+Japan,FreshFix Mouthwash,Oct2004,1346
+Japan,FreshFix Mouthwash,Nov2004,1442
+Japan,FreshFix Mouthwash,Dec2004,1504
+Japan,SparklingGlow Toothpaste,Jan2004,1739
+Japan,SparklingGlow Toothpaste,Feb2004,1533
+Japan,SparklingGlow Toothpaste,Mar2004,1638
+Japan,SparklingGlow Toothpaste,Apr2004,1226
+Japan,SparklingGlow Toothpaste,May2004,1427
+Japan,SparklingGlow Toothpaste,Jun2004,906
+Japan,SparklingGlow Toothpaste,Jul2004,901
+Japan,SparklingGlow Toothpaste,Aug2004,1832
+Japan,SparklingGlow Toothpaste,Sep2004,1091
+Japan,SparklingGlow Toothpaste,Oct2004,1716
+Japan,SparklingGlow Toothpaste,Nov2004,2029
+Japan,SparklingGlow Toothpaste,Dec2004,1221
 Japan,SoftStep Shaving Cream,Jan2004,920
 Japan,SoftStep Shaving Cream,Feb2004,942
 Japan,SoftStep Shaving Cream,Mar2004,865
 Japan,SoftStep Shaving Cream,Apr2004,972
-Japan,SoftStep Shaving Cream,May2004,689
+Japan,SoftStep Shaving Cream,May2004,956
 Japan,SoftStep Shaving Cream,Jun2004,881
-Japan,SoftStep Shaving Cream,Jul2004,424
+Japan,SoftStep Shaving Cream,Jul2004,806
 Japan,SoftStep Shaving Cream,Aug2004,879
 Japan,SoftStep Shaving Cream,Sep2004,1035
 Japan,SoftStep Shaving Cream,Oct2004,822
@@ -4082,6 +4179,18 @@ Japan,SilkSmooth Exfoliating Scrub,Sep2004,1788
 Japan,SilkSmooth Exfoliating Scrub,Oct2004,1777
 Japan,SilkSmooth Exfoliating Scrub,Nov2004,1839
 Japan,SilkSmooth Exfoliating Scrub,Dec2004,1726
+Japan,CleanSkin Acne Treatment,Jan2004,1398
+Japan,CleanSkin Acne Treatment,Feb2004,1291
+Japan,CleanSkin Acne Treatment,Mar2004,1379
+Japan,CleanSkin Acne Treatment,Apr2004,1295
+Japan,CleanSkin Acne Treatment,May2004,1275
+Japan,CleanSkin Acne Treatment,Jun2004,1375
+Japan,CleanSkin Acne Treatment,Jul2004,1364
+Japan,CleanSkin Acne Treatment,Aug2004,1300
+Japan,CleanSkin Acne Treatment,Sep2004,1279
+Japan,CleanSkin Acne Treatment,Oct2004,1346
+Japan,CleanSkin Acne Treatment,Nov2004,1391
+Japan,CleanSkin Acne Treatment,Dec2004,1415
 Japan,Refreshing Rose Body Oil,Jan2004,1170
 Japan,Refreshing Rose Body Oil,Feb2004,1225
 Japan,Refreshing Rose Body Oil,Mar2004,1226
@@ -4106,6 +4215,18 @@ Japan,Brightening Body Wash,Sep2004,1453
 Japan,Brightening Body Wash,Oct2004,1417
 Japan,Brightening Body Wash,Nov2004,1536
 Japan,Brightening Body Wash,Dec2004,1493
+Japan,SmoothOperator Shaving Gel,Jan2004,1211
+Japan,SmoothOperator Shaving Gel,Feb2004,1069
+Japan,SmoothOperator Shaving Gel,Mar2004,1020
+Japan,SmoothOperator Shaving Gel,Apr2004,1106
+Japan,SmoothOperator Shaving Gel,May2004,1152
+Japan,SmoothOperator Shaving Gel,Jun2004,1143
+Japan,SmoothOperator Shaving Gel,Jul2004,1155
+Japan,SmoothOperator Shaving Gel,Aug2004,1061
+Japan,SmoothOperator Shaving Gel,Sep2004,1135
+Japan,SmoothOperator Shaving Gel,Oct2004,953
+Japan,SmoothOperator Shaving Gel,Nov2004,1065
+Japan,SmoothOperator Shaving Gel,Dec2004,1265
 Japan,GentleGlow Face Cleanser,Jan2004,1299
 Japan,GentleGlow Face Cleanser,Feb2004,1278
 Japan,GentleGlow Face Cleanser,Mar2004,1364
@@ -4190,18 +4311,20 @@ Japan,RadiantRinse Color Protector,Sep2004,1197
 Japan,RadiantRinse Color Protector,Oct2004,1137
 Japan,RadiantRinse Color Protector,Nov2004,1124
 Japan,RadiantRinse Color Protector,Dec2004,1103
-Japan,SmellSational Odor Eliminator,Jan2004,1331
-Japan,SmellSational Odor Eliminator,Feb2004,1264
-Japan,SmellSational Odor Eliminator,Mar2004,1448
-Japan,SmellSational Odor Eliminator,Apr2004,1367
-Japan,SmellSational Odor Eliminator,May2004,1464
-Japan,SmellSational Odor Eliminator,Jun2004,1292
-Japan,SmellSational Odor Eliminator,Jul2004,1434
-Japan,SmellSational Odor Eliminator,Aug2004,1273
-Japan,SmellSational Odor Eliminator,Sep2004,1402
-Japan,SmellSational Odor Eliminator,Oct2004,1373
-Japan,SmellSational Odor Eliminator,Nov2004,1468
-Japan,SmellSational Odor Eliminator,Dec2004,1351
+Japan,SmellSational Odor Eliminator,Aug2004,287
+Japan,SmellSational Odor Eliminator,Nov2004,23
+Japan,SoothingSerenity Baby Oil,Jan2004,1127
+Japan,SoothingSerenity Baby Oil,Feb2004,1256
+Japan,SoothingSerenity Baby Oil,Mar2004,1152
+Japan,SoothingSerenity Baby Oil,Apr2004,1174
+Japan,SoothingSerenity Baby Oil,May2004,1289
+Japan,SoothingSerenity Baby Oil,Jun2004,1205
+Japan,SoothingSerenity Baby Oil,Jul2004,1225
+Japan,SoothingSerenity Baby Oil,Aug2004,1154
+Japan,SoothingSerenity Baby Oil,Sep2004,1125
+Japan,SoothingSerenity Baby Oil,Oct2004,1187
+Japan,SoothingSerenity Baby Oil,Nov2004,1149
+Japan,SoothingSerenity Baby Oil,Dec2004,1177
 Japan,CalmingClean Bath Time Wash,Jan2004,669
 Japan,CalmingClean Bath Time Wash,Feb2004,665
 Japan,CalmingClean Bath Time Wash,Mar2004,626
@@ -4214,18 +4337,30 @@ Japan,CalmingClean Bath Time Wash,Sep2004,590
 Japan,CalmingClean Bath Time Wash,Oct2004,722
 Japan,CalmingClean Bath Time Wash,Nov2004,703
 Japan,CalmingClean Bath Time Wash,Dec2004,739
-Japan,GentleGlow Baby Sunscreen,Jan2004,1014
-Japan,GentleGlow Baby Sunscreen,Feb2004,974
-Japan,GentleGlow Baby Sunscreen,Mar2004,914
-Japan,GentleGlow Baby Sunscreen,Apr2004,1023
-Japan,GentleGlow Baby Sunscreen,May2004,1069
-Japan,GentleGlow Baby Sunscreen,Jun2004,1039
-Japan,GentleGlow Baby Sunscreen,Jul2004,965
-Japan,GentleGlow Baby Sunscreen,Aug2004,1027
-Japan,GentleGlow Baby Sunscreen,Sep2004,988
-Japan,GentleGlow Baby Sunscreen,Oct2004,1010
-Japan,GentleGlow Baby Sunscreen,Nov2004,1026
-Japan,GentleGlow Baby Sunscreen,Dec2004,911
+Japan,BrightBreeze Insect Repellent,Jan2004,651
+Japan,BrightBreeze Insect Repellent,Feb2004,627
+Japan,BrightBreeze Insect Repellent,Mar2004,604
+Japan,BrightBreeze Insect Repellent,Apr2004,645
+Japan,BrightBreeze Insect Repellent,May2004,588
+Japan,BrightBreeze Insect Repellent,Jun2004,635
+Japan,BrightBreeze Insect Repellent,Jul2004,594
+Japan,BrightBreeze Insect Repellent,Aug2004,590
+Japan,BrightBreeze Insect Repellent,Sep2004,605
+Japan,BrightBreeze Insect Repellent,Oct2004,609
+Japan,BrightBreeze Insect Repellent,Nov2004,626
+Japan,BrightBreeze Insect Repellent,Dec2004,589
+Japan,SoftStep Baby Shampoo,Jan2004,785
+Japan,SoftStep Baby Shampoo,Feb2004,828
+Japan,SoftStep Baby Shampoo,Mar2004,769
+Japan,SoftStep Baby Shampoo,Apr2004,772
+Japan,SoftStep Baby Shampoo,May2004,755
+Japan,SoftStep Baby Shampoo,Jun2004,822
+Japan,SoftStep Baby Shampoo,Jul2004,739
+Japan,SoftStep Baby Shampoo,Aug2004,756
+Japan,SoftStep Baby Shampoo,Sep2004,806
+Japan,SoftStep Baby Shampoo,Oct2004,779
+Japan,SoftStep Baby Shampoo,Nov2004,752
+Japan,SoftStep Baby Shampoo,Dec2004,812
 Japan,RadiantRose Baby Massage Oil,Jan2004,1101
 Japan,RadiantRose Baby Massage Oil,Feb2004,1096
 Japan,RadiantRose Baby Massage Oil,Mar2004,1102
@@ -4250,54 +4385,42 @@ Japan,LittleLullaby Diaper Liners,Sep2004,539
 Japan,LittleLullaby Diaper Liners,Oct2004,509
 Japan,LittleLullaby Diaper Liners,Nov2004,535
 Japan,LittleLullaby Diaper Liners,Dec2004,528
-Japan,CalmingClean Diaper Rash Cream,Jan2004,3480
-Japan,CalmingClean Diaper Rash Cream,Feb2004,3640
-Japan,CalmingClean Diaper Rash Cream,Mar2004,3731
-Japan,CalmingClean Diaper Rash Cream,Apr2004,3705
-Japan,CalmingClean Diaper Rash Cream,May2004,3816
-Japan,CalmingClean Diaper Rash Cream,Jun2004,3734
-Japan,CalmingClean Diaper Rash Cream,Jul2004,3706
-Japan,CalmingClean Diaper Rash Cream,Aug2004,3684
-Japan,CalmingClean Diaper Rash Cream,Sep2004,3651
-Japan,CalmingClean Diaper Rash Cream,Oct2004,3574
-Japan,CalmingClean Diaper Rash Cream,Nov2004,3619
-Japan,CalmingClean Diaper Rash Cream,Dec2004,3707
-Japan,GentleGlow Baby Face Wash,Jan2004,1822
-Japan,GentleGlow Baby Face Wash,Feb2004,2043
-Japan,GentleGlow Baby Face Wash,Mar2004,1817
-Japan,GentleGlow Baby Face Wash,Apr2004,1965
-Japan,GentleGlow Baby Face Wash,May2004,1935
-Japan,GentleGlow Baby Face Wash,Jun2004,1872
-Japan,GentleGlow Baby Face Wash,Jul2004,1975
-Japan,GentleGlow Baby Face Wash,Aug2004,1854
-Japan,GentleGlow Baby Face Wash,Sep2004,1923
-Japan,GentleGlow Baby Face Wash,Oct2004,1976
-Japan,GentleGlow Baby Face Wash,Nov2004,2107
-Japan,GentleGlow Baby Face Wash,Dec2004,1972
-Japan,LuminousLocks Shampoo,Jan2004,1318
-Japan,LuminousLocks Shampoo,Feb2004,1352
-Japan,LuminousLocks Shampoo,Mar2004,1435
-Japan,LuminousLocks Shampoo,Apr2004,1633
-Japan,LuminousLocks Shampoo,May2004,1519
-Japan,LuminousLocks Shampoo,Jun2004,1542
-Japan,LuminousLocks Shampoo,Jul2004,1365
-Japan,LuminousLocks Shampoo,Aug2004,1273
-Japan,LuminousLocks Shampoo,Sep2004,1543
-Japan,LuminousLocks Shampoo,Oct2004,1317
-Japan,LuminousLocks Shampoo,Nov2004,1508
-Japan,LuminousLocks Shampoo,Dec2004,1586
-Japan,CleanSlate Feminine Deodorant,Jan2004,1610
-Japan,CleanSlate Feminine Deodorant,Feb2004,1712
-Japan,CleanSlate Feminine Deodorant,Mar2004,1589
-Japan,CleanSlate Feminine Deodorant,Apr2004,1470
-Japan,CleanSlate Feminine Deodorant,May2004,1770
-Japan,CleanSlate Feminine Deodorant,Jun2004,1590
-Japan,CleanSlate Feminine Deodorant,Jul2004,1657
-Japan,CleanSlate Feminine Deodorant,Aug2004,1500
-Japan,CleanSlate Feminine Deodorant,Sep2004,1712
-Japan,CleanSlate Feminine Deodorant,Oct2004,1520
-Japan,CleanSlate Feminine Deodorant,Nov2004,1562
-Japan,CleanSlate Feminine Deodorant,Dec2004,1668
+Japan,CalmingClean Diaper Rash Cream,Jan2004,1750
+Japan,CalmingClean Diaper Rash Cream,Feb2004,1846
+Japan,CalmingClean Diaper Rash Cream,Mar2004,1864
+Japan,CalmingClean Diaper Rash Cream,Apr2004,1917
+Japan,CalmingClean Diaper Rash Cream,May2004,1844
+Japan,CalmingClean Diaper Rash Cream,Jun2004,1776
+Japan,CalmingClean Diaper Rash Cream,Jul2004,1886
+Japan,CalmingClean Diaper Rash Cream,Aug2004,1794
+Japan,CalmingClean Diaper Rash Cream,Sep2004,1839
+Japan,CalmingClean Diaper Rash Cream,Oct2004,1754
+Japan,CalmingClean Diaper Rash Cream,Nov2004,1830
+Japan,CalmingClean Diaper Rash Cream,Dec2004,1976
+Japan,SoftStep Shaving Cream for Women,Jan2004,1200
+Japan,SoftStep Shaving Cream for Women,Feb2004,1074
+Japan,SoftStep Shaving Cream for Women,Mar2004,1289
+Japan,SoftStep Shaving Cream for Women,Apr2004,1348
+Japan,SoftStep Shaving Cream for Women,May2004,1064
+Japan,SoftStep Shaving Cream for Women,Jun2004,1493
+Japan,SoftStep Shaving Cream for Women,Jul2004,1243
+Japan,SoftStep Shaving Cream for Women,Aug2004,1169
+Japan,SoftStep Shaving Cream for Women,Sep2004,1325
+Japan,SoftStep Shaving Cream for Women,Oct2004,1374
+Japan,SoftStep Shaving Cream for Women,Nov2004,1065
+Japan,SoftStep Shaving Cream for Women,Dec2004,1388
+Japan,FreshFusion All-Purpose Cleaner,Jan2004,1869
+Japan,FreshFusion All-Purpose Cleaner,Feb2004,2045
+Japan,FreshFusion All-Purpose Cleaner,Mar2004,1920
+Japan,FreshFusion All-Purpose Cleaner,Apr2004,2049
+Japan,FreshFusion All-Purpose Cleaner,May2004,1992
+Japan,FreshFusion All-Purpose Cleaner,Jun2004,1783
+Japan,FreshFusion All-Purpose Cleaner,Jul2004,2011
+Japan,FreshFusion All-Purpose Cleaner,Aug2004,1852
+Japan,FreshFusion All-Purpose Cleaner,Sep2004,2042
+Japan,FreshFusion All-Purpose Cleaner,Oct2004,2015
+Japan,FreshFusion All-Purpose Cleaner,Nov2004,1920
+Japan,FreshFusion All-Purpose Cleaner,Dec2004,1882
 Japan,CleanSlate Disinfectant Spray,Jan2004,1716
 Japan,CleanSlate Disinfectant Spray,Feb2004,1863
 Japan,CleanSlate Disinfectant Spray,Mar2004,2093
@@ -4310,19 +4433,30 @@ Japan,CleanSlate Disinfectant Spray,Sep2004,1976
 Japan,CleanSlate Disinfectant Spray,Oct2004,1914
 Japan,CleanSlate Disinfectant Spray,Nov2004,2006
 Japan,CleanSlate Disinfectant Spray,Dec2004,1773
-Japan,BrightBreeze Window Cleaner,Jan2004,386
-Japan,BrightBreeze Window Cleaner,Aug2004,538
-Japan,BrightBreeze Window Cleaner,Oct2004,315
-Japan,RadiantRose Glass Cleaner,Jan2004,173
-Japan,RadiantRose Glass Cleaner,Feb2004,339
-Japan,RadiantRose Glass Cleaner,Mar2004,353
-Japan,RadiantRose Glass Cleaner,Apr2004,313
-Japan,RadiantRose Glass Cleaner,Jun2004,48
-Japan,RadiantRose Glass Cleaner,Aug2004,551
-Japan,RadiantRose Glass Cleaner,Sep2004,46
-Japan,RadiantRose Glass Cleaner,Oct2004,313
-Japan,RadiantRose Glass Cleaner,Nov2004,415
-Japan,RadiantRose Glass Cleaner,Dec2004,127
+Japan,GentleGlow Dish Soap,Jan2004,679
+Japan,GentleGlow Dish Soap,Feb2004,654
+Japan,GentleGlow Dish Soap,Mar2004,683
+Japan,GentleGlow Dish Soap,Apr2004,714
+Japan,GentleGlow Dish Soap,May2004,713
+Japan,GentleGlow Dish Soap,Jun2004,706
+Japan,GentleGlow Dish Soap,Jul2004,710
+Japan,GentleGlow Dish Soap,Aug2004,764
+Japan,GentleGlow Dish Soap,Sep2004,651
+Japan,GentleGlow Dish Soap,Oct2004,718
+Japan,GentleGlow Dish Soap,Nov2004,746
+Japan,GentleGlow Dish Soap,Dec2004,637
+Japan,RadiantRose Glass Cleaner,Jan2004,703
+Japan,RadiantRose Glass Cleaner,Feb2004,776
+Japan,RadiantRose Glass Cleaner,Mar2004,760
+Japan,RadiantRose Glass Cleaner,Apr2004,775
+Japan,RadiantRose Glass Cleaner,May2004,709
+Japan,RadiantRose Glass Cleaner,Jun2004,760
+Japan,RadiantRose Glass Cleaner,Jul2004,706
+Japan,RadiantRose Glass Cleaner,Aug2004,763
+Japan,RadiantRose Glass Cleaner,Sep2004,703
+Japan,RadiantRose Glass Cleaner,Oct2004,715
+Japan,RadiantRose Glass Cleaner,Nov2004,719
+Japan,RadiantRose Glass Cleaner,Dec2004,745
 Japan,SoothingPaws Cat Lotion,Jan2004,1495
 Japan,SoothingPaws Cat Lotion,Feb2004,1312
 Japan,SoothingPaws Cat Lotion,Mar2004,1351
@@ -4347,6 +4481,18 @@ Japan,FreshFusion Flea and Tick Spray,Sep2004,1032
 Japan,FreshFusion Flea and Tick Spray,Oct2004,1131
 Japan,FreshFusion Flea and Tick Spray,Nov2004,1029
 Japan,FreshFusion Flea and Tick Spray,Dec2004,1054
+Japan,BrightBreeze Pet Odor Eliminator,Jan2004,568
+Japan,BrightBreeze Pet Odor Eliminator,Feb2004,559
+Japan,BrightBreeze Pet Odor Eliminator,Mar2004,589
+Japan,BrightBreeze Pet Odor Eliminator,Apr2004,601
+Japan,BrightBreeze Pet Odor Eliminator,May2004,585
+Japan,BrightBreeze Pet Odor Eliminator,Jun2004,554
+Japan,BrightBreeze Pet Odor Eliminator,Jul2004,601
+Japan,BrightBreeze Pet Odor Eliminator,Aug2004,583
+Japan,BrightBreeze Pet Odor Eliminator,Sep2004,547
+Japan,BrightBreeze Pet Odor Eliminator,Oct2004,572
+Japan,BrightBreeze Pet Odor Eliminator,Nov2004,570
+Japan,BrightBreeze Pet Odor Eliminator,Dec2004,628
 Japan,EasyWash Pet Laundry Detergent,Jan2004,653
 Japan,EasyWash Pet Laundry Detergent,Feb2004,515
 Japan,EasyWash Pet Laundry Detergent,Mar2004,549
@@ -4479,17 +4625,17 @@ Russia,SmileSavvy Tooth Whitening Kit,Sep2004,3199
 Russia,SmileSavvy Tooth Whitening Kit,Oct2004,3314
 Russia,SmileSavvy Tooth Whitening Kit,Nov2004,3103
 Russia,SmileSavvy Tooth Whitening Kit,Dec2004,3134
-Russia,DailyDazzle Toothpaste,Jan2004,2089
-Russia,DailyDazzle Toothpaste,Feb2004,2034
-Russia,DailyDazzle Toothpaste,Mar2004,1858
-Russia,DailyDazzle Toothpaste,Apr2004,1905
-Russia,DailyDazzle Toothpaste,May2004,2170
-Russia,DailyDazzle Toothpaste,Jun2004,2078
-Russia,DailyDazzle Toothpaste,Jul2004,1937
-Russia,DailyDazzle Toothpaste,Aug2004,2022
-Russia,DailyDazzle Toothpaste,Sep2004,1970
-Russia,DailyDazzle Toothpaste,Oct2004,1942
-Russia,DailyDazzle Toothpaste,Nov2004,1848
+Russia,DailyDazzle Toothpaste,Jan2004,1390
+Russia,DailyDazzle Toothpaste,Feb2004,1312
+Russia,DailyDazzle Toothpaste,Mar2004,998
+Russia,DailyDazzle Toothpaste,Apr2004,818
+Russia,DailyDazzle Toothpaste,May2004,1382
+Russia,DailyDazzle Toothpaste,Jun2004,1066
+Russia,DailyDazzle Toothpaste,Jul2004,816
+Russia,DailyDazzle Toothpaste,Aug2004,1375
+Russia,DailyDazzle Toothpaste,Sep2004,1481
+Russia,DailyDazzle Toothpaste,Oct2004,1217
+Russia,DailyDazzle Toothpaste,Nov2004,1309
 Russia,DailyDazzle Toothpaste,Dec2004,2039
 Russia,OralEase Plus Toothbrush,Jan2004,1333
 Russia,OralEase Plus Toothbrush,Feb2004,1437
@@ -4635,18 +4781,18 @@ Russia,Refreshing Rose Body Oil,Sep2004,727
 Russia,Refreshing Rose Body Oil,Oct2004,717
 Russia,Refreshing Rose Body Oil,Nov2004,743
 Russia,Refreshing Rose Body Oil,Dec2004,727
-Russia,Calming Creme Relaxant Bath,Jan2004,1299
+Russia,Calming Creme Relaxant Bath,Jan2004,990
 Russia,Calming Creme Relaxant Bath,Feb2004,1020
 Russia,Calming Creme Relaxant Bath,Mar2004,995
 Russia,Calming Creme Relaxant Bath,Apr2004,974
-Russia,Calming Creme Relaxant Bath,May2004,1322
+Russia,Calming Creme Relaxant Bath,May2004,1012
 Russia,Calming Creme Relaxant Bath,Jun2004,938
 Russia,Calming Creme Relaxant Bath,Jul2004,1008
 Russia,Calming Creme Relaxant Bath,Aug2004,903
 Russia,Calming Creme Relaxant Bath,Sep2004,960
 Russia,Calming Creme Relaxant Bath,Oct2004,910
-Russia,Calming Creme Relaxant Bath,Nov2004,1215
-Russia,Calming Creme Relaxant Bath,Dec2004,993
+Russia,Calming Creme Relaxant Bath,Nov2004,996
+Russia,Calming Creme Relaxant Bath,Dec2004,876
 Russia,Brightening Body Wash,Jan2004,1260
 Russia,Brightening Body Wash,Feb2004,1145
 Russia,Brightening Body Wash,Mar2004,1316
@@ -4852,17 +4998,17 @@ Russia,RadiantRinse Color Protector,Oct2004,1482
 Russia,RadiantRinse Color Protector,Nov2004,1390
 Russia,RadiantRinse Color Protector,Dec2004,1512
 Russia,EasyWash Laundry Detergent,Jan2004,872
-Russia,EasyWash Laundry Detergent,Feb2004,1289
-Russia,EasyWash Laundry Detergent,Mar2004,1044
+Russia,EasyWash Laundry Detergent,Feb2004,906
+Russia,EasyWash Laundry Detergent,Mar2004,907
 Russia,EasyWash Laundry Detergent,Apr2004,910
-Russia,EasyWash Laundry Detergent,May2004,953
+Russia,EasyWash Laundry Detergent,May2004,877
 Russia,EasyWash Laundry Detergent,Jun2004,804
 Russia,EasyWash Laundry Detergent,Jul2004,807
-Russia,EasyWash Laundry Detergent,Aug2004,1117
-Russia,EasyWash Laundry Detergent,Sep2004,1405
-Russia,EasyWash Laundry Detergent,Oct2004,1434
-Russia,EasyWash Laundry Detergent,Nov2004,1320
-Russia,EasyWash Laundry Detergent,Dec2004,1838
+Russia,EasyWash Laundry Detergent,Aug2004,835
+Russia,EasyWash Laundry Detergent,Sep2004,824
+Russia,EasyWash Laundry Detergent,Oct2004,895
+Russia,EasyWash Laundry Detergent,Nov2004,880
+Russia,EasyWash Laundry Detergent,Dec2004,827
 Russia,SmellSational Odor Eliminator,Jan2004,761
 Russia,SmellSational Odor Eliminator,Feb2004,879
 Russia,SmellSational Odor Eliminator,Mar2004,809
@@ -4947,18 +5093,18 @@ Russia,SilkySkin Baby Cream,Sep2004,755
 Russia,SilkySkin Baby Cream,Oct2004,772
 Russia,SilkySkin Baby Cream,Nov2004,1063
 Russia,SilkySkin Baby Cream,Dec2004,854
-Russia,BrightBreeze Insect Repellent,Jan2004,2429
-Russia,BrightBreeze Insect Repellent,Feb2004,2716
-Russia,BrightBreeze Insect Repellent,Mar2004,2535
-Russia,BrightBreeze Insect Repellent,Apr2004,2558
-Russia,BrightBreeze Insect Repellent,May2004,2586
-Russia,BrightBreeze Insect Repellent,Jun2004,2581
-Russia,BrightBreeze Insect Repellent,Jul2004,2509
-Russia,BrightBreeze Insect Repellent,Aug2004,2519
-Russia,BrightBreeze Insect Repellent,Sep2004,2476
-Russia,BrightBreeze Insect Repellent,Oct2004,2528
-Russia,BrightBreeze Insect Repellent,Nov2004,2529
-Russia,BrightBreeze Insect Repellent,Dec2004,2436
+Russia,BrightBreeze Insect Repellent,Jan2004,1476
+Russia,BrightBreeze Insect Repellent,Feb2004,1798
+Russia,BrightBreeze Insect Repellent,Mar2004,1686
+Russia,BrightBreeze Insect Repellent,Apr2004,1662
+Russia,BrightBreeze Insect Repellent,May2004,1681
+Russia,BrightBreeze Insect Repellent,Jun2004,1643
+Russia,BrightBreeze Insect Repellent,Jul2004,1641
+Russia,BrightBreeze Insect Repellent,Aug2004,1687
+Russia,BrightBreeze Insect Repellent,Sep2004,1575
+Russia,BrightBreeze Insect Repellent,Oct2004,1735
+Russia,BrightBreeze Insect Repellent,Nov2004,1719
+Russia,BrightBreeze Insect Repellent,Dec2004,1710
 Russia,SoftStep Baby Shampoo,Jan2004,788
 Russia,SoftStep Baby Shampoo,Feb2004,757
 Russia,SoftStep Baby Shampoo,Mar2004,700
@@ -5046,10 +5192,10 @@ Russia,FreshFusion Baby Wipes,Dec2004,1075
 Russia,PurePore Baby Skincare Set,Jan2004,1434
 Russia,PurePore Baby Skincare Set,Feb2004,1410
 Russia,PurePore Baby Skincare Set,Mar2004,1424
-Russia,PurePore Baby Skincare Set,Apr2004,1356
+Russia,PurePore Baby Skincare Set,Apr2004,1179
 Russia,PurePore Baby Skincare Set,May2004,1455
 Russia,PurePore Baby Skincare Set,Jun2004,1561
-Russia,PurePore Baby Skincare Set,Jul2004,1470
+Russia,PurePore Baby Skincare Set,Jul2004,998
 Russia,PurePore Baby Skincare Set,Aug2004,1383
 Russia,PurePore Baby Skincare Set,Sep2004,1486
 Russia,PurePore Baby Skincare Set,Oct2004,1438
@@ -5058,10 +5204,10 @@ Russia,PurePore Baby Skincare Set,Dec2004,1459
 Russia,SilkySkin Baby Moisturizer,Jan2004,1050
 Russia,SilkySkin Baby Moisturizer,Feb2004,1034
 Russia,SilkySkin Baby Moisturizer,Mar2004,1021
-Russia,SilkySkin Baby Moisturizer,Apr2004,839
+Russia,SilkySkin Baby Moisturizer,Apr2004,1037
 Russia,SilkySkin Baby Moisturizer,May2004,1074
-Russia,SilkySkin Baby Moisturizer,Jun2004,1084
-Russia,SilkySkin Baby Moisturizer,Jul2004,575
+Russia,SilkySkin Baby Moisturizer,Jun2004,1106
+Russia,SilkySkin Baby Moisturizer,Jul2004,1155
 Russia,SilkySkin Baby Moisturizer,Aug2004,1088
 Russia,SilkySkin Baby Moisturizer,Sep2004,1036
 Russia,SilkySkin Baby Moisturizer,Oct2004,1020
@@ -5259,6 +5405,18 @@ Russia,SoothingSerenity Air Freshener,Sep2004,997
 Russia,SoothingSerenity Air Freshener,Oct2004,913
 Russia,SoothingSerenity Air Freshener,Nov2004,1060
 Russia,SoothingSerenity Air Freshener,Dec2004,1188
+Russia,BrightBreeze Window Cleaner,Jan2004,1961
+Russia,BrightBreeze Window Cleaner,Feb2004,2023
+Russia,BrightBreeze Window Cleaner,Mar2004,1846
+Russia,BrightBreeze Window Cleaner,Apr2004,1962
+Russia,BrightBreeze Window Cleaner,May2004,2079
+Russia,BrightBreeze Window Cleaner,Jun2004,1928
+Russia,BrightBreeze Window Cleaner,Jul2004,1881
+Russia,BrightBreeze Window Cleaner,Aug2004,1761
+Russia,BrightBreeze Window Cleaner,Sep2004,1971
+Russia,BrightBreeze Window Cleaner,Oct2004,2057
+Russia,BrightBreeze Window Cleaner,Nov2004,2008
+Russia,BrightBreeze Window Cleaner,Dec2004,1854
 Russia,GentleGlow Dish Soap,Jan2004,565
 Russia,GentleGlow Dish Soap,Feb2004,581
 Russia,GentleGlow Dish Soap,Mar2004,547
@@ -5415,18 +5573,6 @@ South Africa,FreshStart Toothpaste,Sep2004,920
 South Africa,FreshStart Toothpaste,Oct2004,987
 South Africa,FreshStart Toothpaste,Nov2004,906
 South Africa,FreshStart Toothpaste,Dec2004,918
-South Africa,LuminousLip Care,Jan2004,1824
-South Africa,LuminousLip Care,Feb2004,1890
-South Africa,LuminousLip Care,Mar2004,2079
-South Africa,LuminousLip Care,Apr2004,2115
-South Africa,LuminousLip Care,May2004,1918
-South Africa,LuminousLip Care,Jun2004,1990
-South Africa,LuminousLip Care,Jul2004,2019
-South Africa,LuminousLip Care,Aug2004,1969
-South Africa,LuminousLip Care,Sep2004,2213
-South Africa,LuminousLip Care,Oct2004,2029
-South Africa,LuminousLip Care,Nov2004,1968
-South Africa,LuminousLip Care,Dec2004,2134
 South Africa,CleanSlate Mouthwash,Jan2004,3132
 South Africa,CleanSlate Mouthwash,Feb2004,3542
 South Africa,CleanSlate Mouthwash,Mar2004,3251
@@ -5439,18 +5585,18 @@ South Africa,CleanSlate Mouthwash,Sep2004,3219
 South Africa,CleanSlate Mouthwash,Oct2004,3170
 South Africa,CleanSlate Mouthwash,Nov2004,3430
 South Africa,CleanSlate Mouthwash,Dec2004,3248
-South Africa,OralEase Gel,Jan2004,1884
-South Africa,OralEase Gel,Feb2004,1863
-South Africa,OralEase Gel,Mar2004,2062
-South Africa,OralEase Gel,Apr2004,2472
-South Africa,OralEase Gel,May2004,2085
-South Africa,OralEase Gel,Jun2004,1922
-South Africa,OralEase Gel,Jul2004,2161
-South Africa,OralEase Gel,Aug2004,1850
-South Africa,OralEase Gel,Sep2004,2017
-South Africa,OralEase Gel,Oct2004,2088
-South Africa,OralEase Gel,Nov2004,1948
-South Africa,OralEase Gel,Dec2004,1853
+South Africa,OralEase Gel,Jan2004,2779
+South Africa,OralEase Gel,Feb2004,2779
+South Africa,OralEase Gel,Mar2004,2973
+South Africa,OralEase Gel,Apr2004,2827
+South Africa,OralEase Gel,May2004,2622
+South Africa,OralEase Gel,Jun2004,2654
+South Africa,OralEase Gel,Jul2004,2911
+South Africa,OralEase Gel,Aug2004,1951
+South Africa,OralEase Gel,Sep2004,3012
+South Africa,OralEase Gel,Oct2004,2847
+South Africa,OralEase Gel,Nov2004,2234
+South Africa,OralEase Gel,Dec2004,2204
 South Africa,FreshFusion Mouth Rinse,Jan2004,753
 South Africa,FreshFusion Mouth Rinse,Feb2004,712
 South Africa,FreshFusion Mouth Rinse,Mar2004,632
@@ -5487,18 +5633,30 @@ South Africa,SmilesSoPure Waterpik,Sep2004,232
 South Africa,SmilesSoPure Waterpik,Oct2004,226
 South Africa,SmilesSoPure Waterpik,Nov2004,213
 South Africa,SmilesSoPure Waterpik,Dec2004,185
-South Africa,SkinSational Moisturizer,Jan2004,2770
-South Africa,SkinSational Moisturizer,Feb2004,2592
-South Africa,SkinSational Moisturizer,Mar2004,2687
-South Africa,SkinSational Moisturizer,Apr2004,2604
-South Africa,SkinSational Moisturizer,May2004,2703
-South Africa,SkinSational Moisturizer,Jun2004,2765
-South Africa,SkinSational Moisturizer,Jul2004,2663
-South Africa,SkinSational Moisturizer,Aug2004,2666
-South Africa,SkinSational Moisturizer,Sep2004,2580
-South Africa,SkinSational Moisturizer,Oct2004,2549
-South Africa,SkinSational Moisturizer,Nov2004,2607
-South Africa,SkinSational Moisturizer,Dec2004,2735
+South Africa,CleanSmile Floss Picks,Jan2004,1097
+South Africa,CleanSmile Floss Picks,Feb2004,418
+South Africa,CleanSmile Floss Picks,Mar2004,456
+South Africa,CleanSmile Floss Picks,Apr2004,1247
+South Africa,CleanSmile Floss Picks,May2004,1268
+South Africa,CleanSmile Floss Picks,Jun2004,1039
+South Africa,CleanSmile Floss Picks,Jul2004,1047
+South Africa,CleanSmile Floss Picks,Aug2004,494
+South Africa,CleanSmile Floss Picks,Sep2004,859
+South Africa,CleanSmile Floss Picks,Oct2004,155
+South Africa,CleanSmile Floss Picks,Nov2004,1053
+South Africa,CleanSmile Floss Picks,Dec2004,938
+South Africa,SkinSational Moisturizer,Jan2004,1629
+South Africa,SkinSational Moisturizer,Feb2004,1537
+South Africa,SkinSational Moisturizer,Mar2004,1557
+South Africa,SkinSational Moisturizer,Apr2004,1424
+South Africa,SkinSational Moisturizer,May2004,1622
+South Africa,SkinSational Moisturizer,Jun2004,1636
+South Africa,SkinSational Moisturizer,Jul2004,1575
+South Africa,SkinSational Moisturizer,Aug2004,1613
+South Africa,SkinSational Moisturizer,Sep2004,1501
+South Africa,SkinSational Moisturizer,Oct2004,1475
+South Africa,SkinSational Moisturizer,Nov2004,1555
+South Africa,SkinSational Moisturizer,Dec2004,1611
 South Africa,GentleGlow Face Lotion,Jan2004,1431
 South Africa,GentleGlow Face Lotion,Feb2004,1362
 South Africa,GentleGlow Face Lotion,Mar2004,1298
@@ -5523,18 +5681,18 @@ South Africa,SilkSmooth Exfoliating Scrub,Sep2004,1988
 South Africa,SilkSmooth Exfoliating Scrub,Oct2004,1955
 South Africa,SilkSmooth Exfoliating Scrub,Nov2004,1911
 South Africa,SilkSmooth Exfoliating Scrub,Dec2004,2005
-South Africa,Refreshing Rose Body Oil,Jan2004,3580
-South Africa,Refreshing Rose Body Oil,Feb2004,3519
-South Africa,Refreshing Rose Body Oil,Mar2004,3674
-South Africa,Refreshing Rose Body Oil,Apr2004,3558
-South Africa,Refreshing Rose Body Oil,May2004,3820
-South Africa,Refreshing Rose Body Oil,Jun2004,3597
-South Africa,Refreshing Rose Body Oil,Jul2004,3676
-South Africa,Refreshing Rose Body Oil,Aug2004,3459
-South Africa,Refreshing Rose Body Oil,Sep2004,3603
-South Africa,Refreshing Rose Body Oil,Oct2004,3558
-South Africa,Refreshing Rose Body Oil,Nov2004,3521
-South Africa,Refreshing Rose Body Oil,Dec2004,3600
+South Africa,Refreshing Rose Body Oil,Jan2004,2406
+South Africa,Refreshing Rose Body Oil,Feb2004,2389
+South Africa,Refreshing Rose Body Oil,Mar2004,2546
+South Africa,Refreshing Rose Body Oil,Apr2004,2446
+South Africa,Refreshing Rose Body Oil,May2004,2564
+South Africa,Refreshing Rose Body Oil,Jun2004,2396
+South Africa,Refreshing Rose Body Oil,Jul2004,2535
+South Africa,Refreshing Rose Body Oil,Aug2004,2425
+South Africa,Refreshing Rose Body Oil,Sep2004,2483
+South Africa,Refreshing Rose Body Oil,Oct2004,2461
+South Africa,Refreshing Rose Body Oil,Nov2004,2425
+South Africa,Refreshing Rose Body Oil,Dec2004,2407
 South Africa,Brightening Body Wash,Jan2004,868
 South Africa,Brightening Body Wash,Feb2004,876
 South Africa,Brightening Body Wash,Mar2004,697
@@ -5547,22 +5705,28 @@ South Africa,Brightening Body Wash,Sep2004,781
 South Africa,Brightening Body Wash,Oct2004,797
 South Africa,Brightening Body Wash,Nov2004,698
 South Africa,Brightening Body Wash,Dec2004,813
-South Africa,SmoothOperator Shaving Gel,Jan2004,4895
-South Africa,SmoothOperator Shaving Gel,Feb2004,4894
-South Africa,SmoothOperator Shaving Gel,Mar2004,4515
-South Africa,SmoothOperator Shaving Gel,Apr2004,5155
-South Africa,SmoothOperator Shaving Gel,May2004,4689
-South Africa,SmoothOperator Shaving Gel,Jun2004,4401
-South Africa,SmoothOperator Shaving Gel,Jul2004,4579
-South Africa,SmoothOperator Shaving Gel,Aug2004,4377
-South Africa,SmoothOperator Shaving Gel,Sep2004,4491
-South Africa,SmoothOperator Shaving Gel,Oct2004,4743
-South Africa,SmoothOperator Shaving Gel,Nov2004,4929
-South Africa,SmoothOperator Shaving Gel,Dec2004,4637
-South Africa,FreshFusion Detergent,Feb2004,226
-South Africa,FreshFusion Detergent,Apr2004,541
-South Africa,FreshFusion Detergent,Oct2004,180
+South Africa,SmoothOperator Shaving Gel,Jan2004,2320
+South Africa,SmoothOperator Shaving Gel,Feb2004,2378
+South Africa,SmoothOperator Shaving Gel,Mar2004,2367
+South Africa,SmoothOperator Shaving Gel,Apr2004,2411
+South Africa,SmoothOperator Shaving Gel,May2004,2439
+South Africa,SmoothOperator Shaving Gel,Jun2004,2319
+South Africa,SmoothOperator Shaving Gel,Jul2004,2358
+South Africa,SmoothOperator Shaving Gel,Aug2004,2319
+South Africa,SmoothOperator Shaving Gel,Sep2004,2384
+South Africa,SmoothOperator Shaving Gel,Oct2004,2337
+South Africa,SmoothOperator Shaving Gel,Nov2004,2387
+South Africa,SmoothOperator Shaving Gel,Dec2004,2389
+South Africa,FreshFusion Detergent,Jan2004,537
+South Africa,FreshFusion Detergent,Feb2004,591
+South Africa,FreshFusion Detergent,Mar2004,608
+South Africa,FreshFusion Detergent,Apr2004,587
+South Africa,FreshFusion Detergent,Jun2004,61
+South Africa,FreshFusion Detergent,Jul2004,602
+South Africa,FreshFusion Detergent,Sep2004,296
+South Africa,FreshFusion Detergent,Oct2004,557
 South Africa,FreshFusion Detergent,Nov2004,554
+South Africa,FreshFusion Detergent,Dec2004,585
 South Africa,CleanSlate Stain Remover,Jan2004,1601
 South Africa,CleanSlate Stain Remover,Feb2004,1492
 South Africa,CleanSlate Stain Remover,Mar2004,1524
@@ -5587,18 +5751,6 @@ South Africa,FreshFold Fabric Refresher,Sep2004,1128
 South Africa,FreshFold Fabric Refresher,Oct2004,1204
 South Africa,FreshFold Fabric Refresher,Nov2004,1130
 South Africa,FreshFold Fabric Refresher,Dec2004,1157
-South Africa,EasyWash Laundry Detergent,Jan2004,529
-South Africa,EasyWash Laundry Detergent,Feb2004,464
-South Africa,EasyWash Laundry Detergent,Mar2004,554
-South Africa,EasyWash Laundry Detergent,Apr2004,479
-South Africa,EasyWash Laundry Detergent,May2004,503
-South Africa,EasyWash Laundry Detergent,Jun2004,491
-South Africa,EasyWash Laundry Detergent,Jul2004,491
-South Africa,EasyWash Laundry Detergent,Aug2004,476
-South Africa,EasyWash Laundry Detergent,Sep2004,465
-South Africa,EasyWash Laundry Detergent,Oct2004,483
-South Africa,EasyWash Laundry Detergent,Nov2004,497
-South Africa,EasyWash Laundry Detergent,Dec2004,498
 South Africa,SoothingSerenity Baby Oil,Jan2004,1958
 South Africa,SoothingSerenity Baby Oil,Feb2004,1954
 South Africa,SoothingSerenity Baby Oil,Mar2004,1733
@@ -5647,18 +5799,30 @@ South Africa,PurePore Baby Lotion,Sep2004,1025
 South Africa,PurePore Baby Lotion,Oct2004,1072
 South Africa,PurePore Baby Lotion,Nov2004,1084
 South Africa,PurePore Baby Lotion,Dec2004,1080
-South Africa,GentleGlow Baby Sunscreen,Jan2004,491
-South Africa,GentleGlow Baby Sunscreen,Feb2004,598
-South Africa,GentleGlow Baby Sunscreen,Mar2004,590
-South Africa,GentleGlow Baby Sunscreen,Apr2004,637
-South Africa,GentleGlow Baby Sunscreen,May2004,498
-South Africa,GentleGlow Baby Sunscreen,Jun2004,567
-South Africa,GentleGlow Baby Sunscreen,Jul2004,604
-South Africa,GentleGlow Baby Sunscreen,Aug2004,686
-South Africa,GentleGlow Baby Sunscreen,Sep2004,531
-South Africa,GentleGlow Baby Sunscreen,Oct2004,595
-South Africa,GentleGlow Baby Sunscreen,Nov2004,600
-South Africa,GentleGlow Baby Sunscreen,Dec2004,699
+South Africa,GentleGlow Baby Sunscreen,Jan2004,1505
+South Africa,GentleGlow Baby Sunscreen,Feb2004,1572
+South Africa,GentleGlow Baby Sunscreen,Mar2004,1504
+South Africa,GentleGlow Baby Sunscreen,Apr2004,1660
+South Africa,GentleGlow Baby Sunscreen,May2004,1567
+South Africa,GentleGlow Baby Sunscreen,Jun2004,1606
+South Africa,GentleGlow Baby Sunscreen,Jul2004,1569
+South Africa,GentleGlow Baby Sunscreen,Aug2004,1713
+South Africa,GentleGlow Baby Sunscreen,Sep2004,1519
+South Africa,GentleGlow Baby Sunscreen,Oct2004,1605
+South Africa,GentleGlow Baby Sunscreen,Nov2004,1626
+South Africa,GentleGlow Baby Sunscreen,Dec2004,1610
+South Africa,BrightBreeze Insect Repellent,Jan2004,953
+South Africa,BrightBreeze Insect Repellent,Feb2004,918
+South Africa,BrightBreeze Insect Repellent,Mar2004,849
+South Africa,BrightBreeze Insect Repellent,Apr2004,896
+South Africa,BrightBreeze Insect Repellent,May2004,905
+South Africa,BrightBreeze Insect Repellent,Jun2004,938
+South Africa,BrightBreeze Insect Repellent,Jul2004,868
+South Africa,BrightBreeze Insect Repellent,Aug2004,832
+South Africa,BrightBreeze Insect Repellent,Sep2004,901
+South Africa,BrightBreeze Insect Repellent,Oct2004,793
+South Africa,BrightBreeze Insect Repellent,Nov2004,810
+South Africa,BrightBreeze Insect Repellent,Dec2004,726
 South Africa,SoftStep Baby Shampoo,Jan2004,1938
 South Africa,SoftStep Baby Shampoo,Feb2004,1860
 South Africa,SoftStep Baby Shampoo,Mar2004,1904
@@ -5671,22 +5835,20 @@ South Africa,SoftStep Baby Shampoo,Sep2004,2020
 South Africa,SoftStep Baby Shampoo,Oct2004,1842
 South Africa,SoftStep Baby Shampoo,Nov2004,1918
 South Africa,SoftStep Baby Shampoo,Dec2004,2152
-South Africa,SoothingSerenity Baby Rub,Jan2004,3215
-South Africa,SoothingSerenity Baby Rub,Feb2004,2947
-South Africa,SoothingSerenity Baby Rub,Mar2004,2882
-South Africa,SoothingSerenity Baby Rub,Apr2004,3198
-South Africa,SoothingSerenity Baby Rub,May2004,3222
-South Africa,SoothingSerenity Baby Rub,Jun2004,3082
-South Africa,SoothingSerenity Baby Rub,Jul2004,3341
-South Africa,SoothingSerenity Baby Rub,Aug2004,2246
-South Africa,SoothingSerenity Baby Rub,Sep2004,3187
-South Africa,SoothingSerenity Baby Rub,Oct2004,2333
-South Africa,SoothingSerenity Baby Rub,Nov2004,3245
-South Africa,SoothingSerenity Baby Rub,Dec2004,3255
-South Africa,FreshFusion Baby Wipes,Apr2004,287
-South Africa,FreshFusion Baby Wipes,Jul2004,273
-South Africa,FreshFusion Baby Wipes,Sep2004,657
-South Africa,FreshFusion Baby Wipes,Dec2004,250
+South Africa,SoothingSerenity Baby Rub,Jan2004,2283
+South Africa,SoothingSerenity Baby Rub,Feb2004,2334
+South Africa,SoothingSerenity Baby Rub,Mar2004,2415
+South Africa,SoothingSerenity Baby Rub,Apr2004,2378
+South Africa,SoothingSerenity Baby Rub,May2004,2336
+South Africa,SoothingSerenity Baby Rub,Jun2004,2205
+South Africa,SoothingSerenity Baby Rub,Jul2004,2391
+South Africa,SoothingSerenity Baby Rub,Aug2004,2338
+South Africa,SoothingSerenity Baby Rub,Sep2004,2358
+South Africa,SoothingSerenity Baby Rub,Oct2004,2300
+South Africa,SoothingSerenity Baby Rub,Nov2004,2356
+South Africa,SoothingSerenity Baby Rub,Dec2004,2285
+South Africa,PurePore Baby Skincare Set,Apr2004,177
+South Africa,PurePore Baby Skincare Set,Jul2004,472
 South Africa,BrightBreeze Baby Sunscreen Stick,Jan2004,1612
 South Africa,BrightBreeze Baby Sunscreen Stick,Feb2004,1388
 South Africa,BrightBreeze Baby Sunscreen Stick,Mar2004,1502
@@ -5723,6 +5885,7 @@ South Africa,FreshFusion Hair Mask,Sep2004,1620
 South Africa,FreshFusion Hair Mask,Oct2004,1939
 South Africa,FreshFusion Hair Mask,Nov2004,1824
 South Africa,FreshFusion Hair Mask,Dec2004,1775
+South Africa,SmellSational Intimate Spray,Apr2004,166
 South Africa,FreshFusion All-Purpose Cleaner,Jan2004,1768
 South Africa,FreshFusion All-Purpose Cleaner,Feb2004,1810
 South Africa,FreshFusion All-Purpose Cleaner,Mar2004,1878
@@ -5730,7 +5893,7 @@ South Africa,FreshFusion All-Purpose Cleaner,Apr2004,1838
 South Africa,FreshFusion All-Purpose Cleaner,May2004,1927
 South Africa,FreshFusion All-Purpose Cleaner,Jun2004,1861
 South Africa,FreshFusion All-Purpose Cleaner,Jul2004,2039
-South Africa,FreshFusion All-Purpose Cleaner,Aug2004,1479
+South Africa,FreshFusion All-Purpose Cleaner,Aug2004,1933
 South Africa,FreshFusion All-Purpose Cleaner,Sep2004,1840
 South Africa,FreshFusion All-Purpose Cleaner,Oct2004,1915
 South Africa,FreshFusion All-Purpose Cleaner,Nov2004,1758
@@ -5759,6 +5922,9 @@ South Africa,SoothingSerenity Humidifier,Sep2004,806
 South Africa,SoothingSerenity Humidifier,Oct2004,742
 South Africa,SoothingSerenity Humidifier,Nov2004,713
 South Africa,SoothingSerenity Humidifier,Dec2004,672
+South Africa,PurePaw Dog Shampoo,Jan2004,105
+South Africa,PurePaw Dog Shampoo,May2004,469
+South Africa,PurePaw Dog Shampoo,Jun2004,390
 South Africa,SoothingPaws Cat Lotion,Jan2004,1357
 South Africa,SoothingPaws Cat Lotion,Feb2004,1308
 South Africa,SoothingPaws Cat Lotion,Mar2004,1265
@@ -5819,6 +5985,16 @@ United Kingdom,SmileShield Whitening Strips,Sep2004,1425
 United Kingdom,SmileShield Whitening Strips,Oct2004,1362
 United Kingdom,SmileShield Whitening Strips,Nov2004,1277
 United Kingdom,SmileShield Whitening Strips,Dec2004,1381
+United Kingdom,OralEase Gel,Jan2004,47
+United Kingdom,OralEase Gel,Feb2004,12
+United Kingdom,OralEase Gel,Mar2004,95
+United Kingdom,OralEase Gel,May2004,471
+United Kingdom,OralEase Gel,Jun2004,187
+United Kingdom,OralEase Gel,Jul2004,273
+United Kingdom,OralEase Gel,Aug2004,861
+United Kingdom,OralEase Gel,Oct2004,204
+United Kingdom,OralEase Gel,Nov2004,669
+United Kingdom,OralEase Gel,Dec2004,631
 United Kingdom,DailyDazzle Toothpaste,Jan2004,503
 United Kingdom,DailyDazzle Toothpaste,Feb2004,498
 United Kingdom,DailyDazzle Toothpaste,Mar2004,455
@@ -5851,7 +6027,7 @@ United Kingdom,SmilesSoPure Waterpik,May2004,606
 United Kingdom,SmilesSoPure Waterpik,Jun2004,608
 United Kingdom,SmilesSoPure Waterpik,Jul2004,634
 United Kingdom,SmilesSoPure Waterpik,Aug2004,632
-United Kingdom,SmilesSoPure Waterpik,Sep2004,532
+United Kingdom,SmilesSoPure Waterpik,Sep2004,608
 United Kingdom,SmilesSoPure Waterpik,Oct2004,684
 United Kingdom,SmilesSoPure Waterpik,Nov2004,611
 United Kingdom,SmilesSoPure Waterpik,Dec2004,631
@@ -5867,18 +6043,6 @@ United Kingdom,CleanSmile Floss Picks,Sep2004,983
 United Kingdom,CleanSmile Floss Picks,Oct2004,992
 United Kingdom,CleanSmile Floss Picks,Nov2004,1033
 United Kingdom,CleanSmile Floss Picks,Dec2004,802
-United Kingdom,FreshFix Mouthwash,Jan2004,722
-United Kingdom,FreshFix Mouthwash,Feb2004,817
-United Kingdom,FreshFix Mouthwash,Mar2004,805
-United Kingdom,FreshFix Mouthwash,Apr2004,816
-United Kingdom,FreshFix Mouthwash,May2004,778
-United Kingdom,FreshFix Mouthwash,Jun2004,770
-United Kingdom,FreshFix Mouthwash,Jul2004,767
-United Kingdom,FreshFix Mouthwash,Aug2004,752
-United Kingdom,FreshFix Mouthwash,Sep2004,655
-United Kingdom,FreshFix Mouthwash,Oct2004,794
-United Kingdom,FreshFix Mouthwash,Nov2004,782
-United Kingdom,FreshFix Mouthwash,Dec2004,755
 United Kingdom,Purezza Body Wash,Jan2004,630
 United Kingdom,Purezza Body Wash,Feb2004,636
 United Kingdom,Purezza Body Wash,Mar2004,718
@@ -5903,14 +6067,6 @@ United Kingdom,SkinSational Moisturizer,Sep2004,570
 United Kingdom,SkinSational Moisturizer,Oct2004,606
 United Kingdom,SkinSational Moisturizer,Nov2004,552
 United Kingdom,SkinSational Moisturizer,Dec2004,515
-United Kingdom,SoftStep Shaving Cream,Feb2004,322
-United Kingdom,SoftStep Shaving Cream,Mar2004,165
-United Kingdom,SoftStep Shaving Cream,Apr2004,290
-United Kingdom,SoftStep Shaving Cream,May2004,841
-United Kingdom,SoftStep Shaving Cream,Jun2004,634
-United Kingdom,SoftStep Shaving Cream,Jul2004,638
-United Kingdom,SoftStep Shaving Cream,Nov2004,573
-United Kingdom,SoftStep Shaving Cream,Dec2004,1093
 United Kingdom,GentleGlow Face Lotion,Jan2004,605
 United Kingdom,GentleGlow Face Lotion,Feb2004,586
 United Kingdom,GentleGlow Face Lotion,Mar2004,723
@@ -5938,12 +6094,12 @@ United Kingdom,HydraHydrate Hand Cream,Dec2004,735
 United Kingdom,SilkSmooth Exfoliating Scrub,Jan2004,591
 United Kingdom,SilkSmooth Exfoliating Scrub,Feb2004,609
 United Kingdom,SilkSmooth Exfoliating Scrub,Mar2004,662
-United Kingdom,SilkSmooth Exfoliating Scrub,Apr2004,640
+United Kingdom,SilkSmooth Exfoliating Scrub,Apr2004,526
 United Kingdom,SilkSmooth Exfoliating Scrub,May2004,641
 United Kingdom,SilkSmooth Exfoliating Scrub,Jun2004,638
 United Kingdom,SilkSmooth Exfoliating Scrub,Jul2004,602
 United Kingdom,SilkSmooth Exfoliating Scrub,Aug2004,640
-United Kingdom,SilkSmooth Exfoliating Scrub,Sep2004,632
+United Kingdom,SilkSmooth Exfoliating Scrub,Sep2004,143
 United Kingdom,SilkSmooth Exfoliating Scrub,Oct2004,612
 United Kingdom,SilkSmooth Exfoliating Scrub,Nov2004,623
 United Kingdom,SilkSmooth Exfoliating Scrub,Dec2004,608
@@ -6163,18 +6319,6 @@ United Kingdom,LittleLullaby Diaper Liners,Sep2004,743
 United Kingdom,LittleLullaby Diaper Liners,Oct2004,721
 United Kingdom,LittleLullaby Diaper Liners,Nov2004,723
 United Kingdom,LittleLullaby Diaper Liners,Dec2004,692
-United Kingdom,CalmingClean Diaper Rash Cream,Jan2004,1575
-United Kingdom,CalmingClean Diaper Rash Cream,Feb2004,1404
-United Kingdom,CalmingClean Diaper Rash Cream,Mar2004,1684
-United Kingdom,CalmingClean Diaper Rash Cream,Apr2004,1556
-United Kingdom,CalmingClean Diaper Rash Cream,May2004,1669
-United Kingdom,CalmingClean Diaper Rash Cream,Jun2004,1647
-United Kingdom,CalmingClean Diaper Rash Cream,Jul2004,1713
-United Kingdom,CalmingClean Diaper Rash Cream,Aug2004,1772
-United Kingdom,CalmingClean Diaper Rash Cream,Sep2004,1767
-United Kingdom,CalmingClean Diaper Rash Cream,Oct2004,1730
-United Kingdom,CalmingClean Diaper Rash Cream,Nov2004,1668
-United Kingdom,CalmingClean Diaper Rash Cream,Dec2004,1731
 United Kingdom,FreshFusion Baby Wipes,Jan2004,857
 United Kingdom,FreshFusion Baby Wipes,Feb2004,823
 United Kingdom,FreshFusion Baby Wipes,Mar2004,863
@@ -6199,6 +6343,18 @@ United Kingdom,PurePore Baby Skincare Set,Sep2004,1367
 United Kingdom,PurePore Baby Skincare Set,Oct2004,1462
 United Kingdom,PurePore Baby Skincare Set,Nov2004,1434
 United Kingdom,PurePore Baby Skincare Set,Dec2004,1432
+United Kingdom,GentleGlow Baby Face Wash,Jan2004,790
+United Kingdom,GentleGlow Baby Face Wash,Feb2004,765
+United Kingdom,GentleGlow Baby Face Wash,Mar2004,775
+United Kingdom,GentleGlow Baby Face Wash,Apr2004,791
+United Kingdom,GentleGlow Baby Face Wash,May2004,805
+United Kingdom,GentleGlow Baby Face Wash,Jun2004,803
+United Kingdom,GentleGlow Baby Face Wash,Jul2004,741
+United Kingdom,GentleGlow Baby Face Wash,Aug2004,720
+United Kingdom,GentleGlow Baby Face Wash,Sep2004,785
+United Kingdom,GentleGlow Baby Face Wash,Oct2004,773
+United Kingdom,GentleGlow Baby Face Wash,Nov2004,715
+United Kingdom,GentleGlow Baby Face Wash,Dec2004,785
 United Kingdom,BrightBreeze Baby Sunscreen Stick,Jan2004,1361
 United Kingdom,BrightBreeze Baby Sunscreen Stick,Feb2004,1277
 United Kingdom,BrightBreeze Baby Sunscreen Stick,Mar2004,1493
@@ -6319,6 +6475,18 @@ United Kingdom,FreshFusion All-Purpose Cleaner,Sep2004,1281
 United Kingdom,FreshFusion All-Purpose Cleaner,Oct2004,1227
 United Kingdom,FreshFusion All-Purpose Cleaner,Nov2004,1189
 United Kingdom,FreshFusion All-Purpose Cleaner,Dec2004,1216
+United Kingdom,BrightBreeze Window Cleaner,Jan2004,521
+United Kingdom,BrightBreeze Window Cleaner,Feb2004,479
+United Kingdom,BrightBreeze Window Cleaner,Mar2004,502
+United Kingdom,BrightBreeze Window Cleaner,Apr2004,526
+United Kingdom,BrightBreeze Window Cleaner,May2004,643
+United Kingdom,BrightBreeze Window Cleaner,Jun2004,608
+United Kingdom,BrightBreeze Window Cleaner,Jul2004,495
+United Kingdom,BrightBreeze Window Cleaner,Aug2004,597
+United Kingdom,BrightBreeze Window Cleaner,Sep2004,545
+United Kingdom,BrightBreeze Window Cleaner,Oct2004,550
+United Kingdom,BrightBreeze Window Cleaner,Nov2004,507
+United Kingdom,BrightBreeze Window Cleaner,Dec2004,613
 United Kingdom,PurePore Insect Repellent Spray,Jan2004,1209
 United Kingdom,PurePore Insect Repellent Spray,Feb2004,1245
 United Kingdom,PurePore Insect Repellent Spray,Mar2004,1090
@@ -6331,14 +6499,18 @@ United Kingdom,PurePore Insect Repellent Spray,Sep2004,1196
 United Kingdom,PurePore Insect Repellent Spray,Oct2004,1180
 United Kingdom,PurePore Insect Repellent Spray,Nov2004,1295
 United Kingdom,PurePore Insect Repellent Spray,Dec2004,1090
-United Kingdom,EasyWash Laundry Detergent for Delicates,Jan2004,596
-United Kingdom,EasyWash Laundry Detergent for Delicates,Feb2004,264
-United Kingdom,EasyWash Laundry Detergent for Delicates,Mar2004,206
-United Kingdom,EasyWash Laundry Detergent for Delicates,May2004,197
-United Kingdom,EasyWash Laundry Detergent for Delicates,Jun2004,90
-United Kingdom,EasyWash Laundry Detergent for Delicates,Aug2004,1093
-United Kingdom,EasyWash Laundry Detergent for Delicates,Oct2004,620
-United Kingdom,EasyWash Laundry Detergent for Delicates,Nov2004,363
+United Kingdom,EasyWash Laundry Detergent for Delicates,Jan2004,1535
+United Kingdom,EasyWash Laundry Detergent for Delicates,Feb2004,1551
+United Kingdom,EasyWash Laundry Detergent for Delicates,Mar2004,1488
+United Kingdom,EasyWash Laundry Detergent for Delicates,Apr2004,1459
+United Kingdom,EasyWash Laundry Detergent for Delicates,May2004,1566
+United Kingdom,EasyWash Laundry Detergent for Delicates,Jun2004,1543
+United Kingdom,EasyWash Laundry Detergent for Delicates,Jul2004,1609
+United Kingdom,EasyWash Laundry Detergent for Delicates,Aug2004,1439
+United Kingdom,EasyWash Laundry Detergent for Delicates,Sep2004,1505
+United Kingdom,EasyWash Laundry Detergent for Delicates,Oct2004,1617
+United Kingdom,EasyWash Laundry Detergent for Delicates,Nov2004,1495
+United Kingdom,EasyWash Laundry Detergent for Delicates,Dec2004,1550
 United Kingdom,RadiantRover Pet Conditioner,Jan2004,1953
 United Kingdom,RadiantRover Pet Conditioner,Feb2004,1817
 United Kingdom,RadiantRover Pet Conditioner,Mar2004,2047

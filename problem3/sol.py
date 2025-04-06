@@ -25,40 +25,20 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     # -----------------------------
     # 2. Create Sets and Parameters
     # -----------------------------
-    # Production facilities: from capacity file (each country is a production facility)
-    facilities = df_capacity["Country"].unique().tolist()
-
-    # Markets (destination countries) from demand file.
-    markets = df_demand["Country"].unique().tolist()
-
-    # Products and months from demand file.
-    products = df_demand["Product"].unique().tolist()
-    months = df_demand["Month"].unique().tolist()
-
-    # Create dictionaries for capacity and demand.
+    facilities = df_capacity["Country"].unique().tolist()  # Production locations
+    markets = df_demand["Country"].unique().tolist()  # Destination markets
+    products = df_demand["Product"].unique().tolist()  # Products
+    months = df_demand["Month"].unique().tolist()  # Months
     capacity = df_capacity.set_index("Country")["Monthly Capacity"].to_dict()
-
-    # Demand dictionary: key = (market, product, month)
-    demand = {}
-    for _, row in df_demand.iterrows():
-        key = (row["Country"], row["Product"], row["Month"])
-        demand[key] = row["Quantity"]
-    # Remove rows with demand 0
+    demand = df_demand.set_index(["Country", "Product", "Month"])["Quantity"].to_dict()
     demand = {k: v for k, v in demand.items() if v > 0}
+    production_cost = df_production_cost.set_index(["Country", "Product"])[
+        "Unit Cost"
+    ].to_dict()
 
-    # Constant monthly production cost dictionary: key = (facility, product)
-    production_cost = df_production_cost.set_index(["Country", "Product"])["Unit Cost"].to_dict()
-
-    # Shipment cost dictionary: key = (origin, destination)
-    shipment_cost = df_shipment_cost.set_index(["Origin", "Destination"])["Unit Cost"].to_dict()
-    # Origin and destination are given only for one way of shipment but the cost is the same for both ways so we need to add the reverse of the shipment cost
-    shipment_cost = {**shipment_cost, **{k[::-1]: v for k, v in shipment_cost.items()}}
-
-    # Penalty cost for non-local shipments
-    shipping_weights = {}
-    for i in facilities:
-        for j in markets:
-            shipping_weights[(i, j)] = 0 if i == j else 1
+    shipment_cost = df_shipment_cost.set_index(["Origin", "Destination"])[
+        "Unit Cost"
+    ].to_dict()
 
     # -----------------------------
     # 3. Define the Optimization Model
@@ -91,6 +71,7 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     # Total cost includes:
     #   - Production cost: sum_{i,p,t} [Unit Production Cost at (i,p)] * x[i,p,t]
     #   - Shipment cost: sum_{i,j,p,t} [Unit Shipment Cost from (i,j)] * y[i,j,p,t]
+
     model += (
         (
             pulp.lpSum(
@@ -100,7 +81,7 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
                 for t in months
             )
             + pulp.lpSum(
-                shipment_cost.get((i, j), 0) * y[(i, j, p, t)] * shipping_weights[(i, j)]
+                shipment_cost.get((i, j), 0) * y[(i, j, p, t)]
                 for i in facilities
                 for j in markets
                 for p in products
@@ -126,19 +107,18 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     for j in markets:
         for p in products:
             for t in months:
-                # If there is no demand entry for (j,p,t) we assume zero demand.
-                d = demand.get((j, p, t), 0)
                 model += (
-                    pulp.lpSum(y[(i, j, p, t)] for i in facilities) == d,
+                    pulp.lpSum(y[(i, j, p, t)] for i in facilities)
+                    == demand.get((j, p, t), 0),
                     f"Demand_{j}_{p}_{t}",
                 )
 
-    # (c) Production equals shipments out: for each facility, product, month.
+    # (c) Shipment doesn't exceed production: for each facility, product, month.
     for i in facilities:
         for p in products:
             for t in months:
                 model += (
-                    x[(i, p, t)] == pulp.lpSum(y[(i, j, p, t)] for j in markets),
+                    pulp.lpSum(y[(i, j, p, t)] for j in markets) <= x[(i, p, t)],
                     f"Flow_{i}_{p}_{t}",
                 )
 
@@ -166,7 +146,7 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
                 qty = x[(i, p, t)].varValue
                 if qty > 0:
                     prod_plan.append(
-                            {"Country": i, "Product": p, "Month": t, "Quantity": int(qty)}
+                        {"Country": i, "Product": p, "Month": t, "Quantity": int(qty)}
                     )
     df_prod_plan = pd.DataFrame(prod_plan)
     # Write production plan to CSV.
@@ -178,20 +158,19 @@ def main(demand_file, capacity_file, production_cost_file, shipment_cost_file):
     shipments = []
     for i in facilities:
         for j in markets:
-            if i != j:
-                for p in products:
-                    for t in months:
-                        qty = y[(i, j, p, t)].varValue
-                        if qty > 0:
-                            shipments.append(
-                                {
-                                    "Origin": i,
-                                    "Destination": j,
-                                    "Product": p,
-                                    "Month": t,
-                                    "Quantity": int(qty),
-                                }
-                            )
+            for p in products:
+                for t in months:
+                    qty = y[(i, j, p, t)].varValue
+                    if qty > 0:
+                        shipments.append(
+                            {
+                                "Origin": i,
+                                "Destination": j,
+                                "Product": p,
+                                "Month": t,
+                                "Quantity": int(qty),
+                            }
+                        )
     df_shipments = pd.DataFrame(shipments)
     # Write shipments to CSV.
     df_shipments.to_csv(
