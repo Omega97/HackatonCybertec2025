@@ -17,9 +17,6 @@ def extend_binary_array(a, n):
                     zeros of length len(a) + n if 'a' is considered aperiodic
                     (two or fewer 1s).
     """
-    print()
-    print(a.astype(int))
-
     num_ones = np.sum(a)
     if num_ones <= 1:
         return np.zeros(len(a) + n, dtype=int)
@@ -52,11 +49,13 @@ def loss(y_true: np.array, y_pred: np.array) -> float:
     return float(np.average(num / den))
 
 
-def model(y_train, n_points=12, window=100):
+def model(y_train, n_points=12, window=100, quantile=0.4, k_threshold=0.5):
     """"""
     is_zero_signal = max(y_train) == 0
     signal = 0 if is_zero_signal else np.mean(y_train[y_train > 0])
-    threshold = signal / 2
+    base_signal = np.quantile(y_train[-window:], quantile)
+
+    threshold = signal * k_threshold
 
     y_prime = y_train[1:] - y_train[:-1]
     jumps_up = y_prime > threshold
@@ -65,14 +64,13 @@ def model(y_train, n_points=12, window=100):
     predicted_jumps_up = extend_binary_array(jumps_up[-window:], n_points)
     predicted_jumps_down = extend_binary_array(jumps_down[-window:], n_points)
 
-
     y_pred = []
     value = 0 if y_train[-1] == 0 else signal
     for i in range(n_points):
         if predicted_jumps_up[i]:
             value = signal
         elif predicted_jumps_down[i]:
-            value = 0
+            value = base_signal
         y_pred.append(value)
 
     return np.array(y_pred)
@@ -107,23 +105,24 @@ def test_continuation(path='..\\..\\data\\01_input_history.csv',
             costs.append(cost)
 
             # ----- Plot -----
-            if cost > threshold:
-                print(f'mean cost = {np.mean(costs):.1f}')
-
-                if len(x) == 0:
-                    continue
-
-                plt.plot(x, y)
-                plt.plot(x_pred, y_pred)
-                plt.title(f'{product} in {country}\n'
-                          f'Loss = {cost:.1f}')
-                plt.show()
+            # if cost > threshold:
+            #     print(f'mean cost = {np.mean(costs):.1f}')
+            #
+            #     if len(x) == 0:
+            #         continue
+            #
+            #     plt.plot(x, y)
+            #     plt.plot(x_pred, y_pred)
+            #     plt.title(f'{product} in {country}\n'
+            #               f'Loss = {cost:.1f}')
+            #     plt.show()
 
     costs = np.array(costs)
     print()
     print(f'Complete misses = {np.mean(costs>threshold):.1%}')
     print(f'Loss = {np.mean(costs):.0f}')
 
+    plt.title('Score distribution')
     plt.hist(np.log10(costs+1))
     plt.show()
 
